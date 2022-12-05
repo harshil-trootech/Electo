@@ -2,7 +2,7 @@ from bill.models import Bill, Vote
 from directories.congress.models import LegislatorTerms
 from bill_prediction.constants import *
 from datetime import datetime
-from django.db.models import Count, F
+from django.db.models import Count
 import json
 import numpy as np
 import pandas as pd
@@ -24,6 +24,24 @@ class DataLoader:
         if status in PASS_STATUS_LIST:
             return 1
         elif status in FAIL_STATUS_LIST:
+            return 0
+        else:
+            return np.nan
+
+    @classmethod
+    def __convert_house_bill_status(cls, status):
+        if status in HOUSE_PASS_STATUS_LIST:
+            return 1
+        elif status in HOUSE_FAIL_STATUS_LIST:
+            return 0
+        else:
+            return np.nan
+
+    @classmethod
+    def __convert_senate_bill_status(cls, status):
+        if status in SENATE_PASS_STATUS_LIST:
+            return 1
+        elif status in SENATE_FAIL_STATUS_LIST:
             return 0
         else:
             return np.nan
@@ -89,8 +107,8 @@ class DataLoader:
         print(f"File saved at {LEGISLATOR_SUBJECTS_FILE_PATH}")
 
     @classmethod
-    def __generate_independent_policy_subjects_relation(cls):
-        bills = Bill.objects.filter(status__in=PASS_STATUS_LIST+FAIL_STATUS_LIST)\
+    def __generate_house_policy_subjects_relation(cls):
+        bills = Bill.objects.filter(status__in=HOUSE_PASS_STATUS_LIST+HOUSE_FAIL_STATUS_LIST)\
                             .values('status', 'policy_area', 'subjects')
 
         bills_df = pd.DataFrame(bills)
@@ -98,20 +116,47 @@ class DataLoader:
         bills_df.reset_index(drop=True, inplace=True)
 
         bills_df['policy_area'] = bills_df['policy_area'].apply(lambda x: x.lower())
-        bills_df['status'] = bills_df['status'].apply(cls.__convert_bill_status)
+        bills_df['status'] = bills_df['status'].apply(cls.__convert_house_bill_status)
 
         policy_area_df = bills_df[['policy_area', 'status']].groupby(['policy_area']).mean()
         policy_area_df.columns = ['ratio']
-        policy_area_df.to_csv(INDEPENDENT_POLICY_AREA_FILE_PATH)
-        print(f"File saved at {INDEPENDENT_POLICY_AREA_FILE_PATH}")
+        policy_area_df.to_csv(HOUSE_POLICY_AREA_FILE_PATH)
+        print(f"File saved at {HOUSE_POLICY_AREA_FILE_PATH}")
 
         subject_list = []
         for subjects, status in bills_df[['subjects', 'status']].values:
             for subject in subjects:
                 subject_list.append({'subject': subject.lower(), 'status': status})
         subject_df = pd.DataFrame(subject_list).groupby(['subject']).mean()
-        subject_df.to_csv(INDEPENDENT_SUBJECTS_FILE_PATH)
-        print(f"File saved at {INDEPENDENT_SUBJECTS_FILE_PATH}")
+        subject_df.rename(columns={'status': 'ratio'}, inplace=True)
+        subject_df.to_csv(HOUSE_SUBJECTS_FILE_PATH)
+        print(f"File saved at {HOUSE_SUBJECTS_FILE_PATH}")
+
+    @classmethod
+    def __generate_senate_policy_subjects_relation(cls):
+        bills = Bill.objects.filter(status__in=SENATE_PASS_STATUS_LIST+SENATE_FAIL_STATUS_LIST)\
+                            .values('status', 'policy_area', 'subjects')
+
+        bills_df = pd.DataFrame(bills)
+        bills_df.dropna(inplace=True)
+        bills_df.reset_index(drop=True, inplace=True)
+
+        bills_df['policy_area'] = bills_df['policy_area'].apply(lambda x: x.lower())
+        bills_df['status'] = bills_df['status'].apply(cls.__convert_senate_bill_status)
+
+        policy_area_df = bills_df[['policy_area', 'status']].groupby(['policy_area']).mean()
+        policy_area_df.columns = ['ratio']
+        policy_area_df.to_csv(SENATE_POLICY_AREA_FILE_PATH)
+        print(f"File saved at {SENATE_POLICY_AREA_FILE_PATH}")
+
+        subject_list = []
+        for subjects, status in bills_df[['subjects', 'status']].values:
+            for subject in subjects:
+                subject_list.append({'subject': subject.lower(), 'status': status})
+        subject_df = pd.DataFrame(subject_list).groupby(['subject']).mean()
+        subject_df.rename(columns={'status': 'ratio'}, inplace=True)
+        subject_df.to_csv(SENATE_SUBJECTS_FILE_PATH)
+        print(f"File saved at {SENATE_SUBJECTS_FILE_PATH}")
 
     @classmethod
     def generate_statistics_files(cls):
@@ -130,7 +175,6 @@ class DataLoader:
             values('legislator__bioguide', 'term_type')
         current_house_members = [leg['legislator__bioguide'] for leg in current_legs if leg['term_type'] == 'rep']
         current_senate_members = [leg['legislator__bioguide'] for leg in current_legs if leg['term_type'] == 'sen']
-        current_id = int(Bill.objects.order_by('-introduced_at').first().bill_id[-3:])
 
         current_details = {
             'government': current_government,
@@ -144,8 +188,10 @@ class DataLoader:
         cls.__generate_legislator_policy_relation(current_votes)
         print("...Generating legislator-subjects statistics...")
         cls.__generate_legislator_subject_relation(current_votes)
-        print("...Generating independent policy area and subjects statistics...")
-        cls.__generate_independent_policy_subjects_relation()
+        print("...Generating House of Representatives policy area and subjects statistics...")
+        cls.__generate_house_policy_subjects_relation()
+        print("...Generating Senate policy area and subjects statistics...")
+        cls.__generate_senate_policy_subjects_relation()
 
 
 class FeatureExtractor:
@@ -157,9 +203,10 @@ class FeatureExtractor:
             self.__current_senate_members = government_details['senate members']
             self.__legis_policy_df = pd.read_csv(LEGISLATOR_POLICY_AREA_FILE_PATH, index_col='legislator')
             self.__legis_subject_df = pd.read_csv(LEGISLATOR_SUBJECTS_FILE_PATH, index_col='legislator')
-            self.__ind_policy_df = pd.read_csv(INDEPENDENT_POLICY_AREA_FILE_PATH, index_col='policy_area')
-            self.__ind_subject_df = pd.read_csv(INDEPENDENT_SUBJECTS_FILE_PATH, index_col='subject')
-            self.__ind_subject_df.rename(columns={'status': 'ratio'}, inplace=True)
+            self.__house_policy_df = pd.read_csv(HOUSE_POLICY_AREA_FILE_PATH, index_col='policy_area')
+            self.__house_subject_df = pd.read_csv(HOUSE_SUBJECTS_FILE_PATH, index_col='subject')
+            self.__senate_policy_df = pd.read_csv(SENATE_POLICY_AREA_FILE_PATH, index_col='policy_area')
+            self.__senate_subject_df = pd.read_csv(SENATE_SUBJECTS_FILE_PATH, index_col='subject')
             self.__gov_mapper = {
                 '117': 'Democrat',
                 '116': 'Republican',
@@ -301,10 +348,6 @@ class FeatureExtractor:
                 'label': label}
 
 
-house_related_bills = Bill.objects.filter(status__in=['PASS_OVER:HOUSE', 'PASS_BACK:HOUSE', 'FAIL:ORIGINATING:HOUSE',
-                                                      'CONFERENCE:PASSED:HOUSE', 'FAIL:SECOND:HOUSE'])
-house_related_amendments = Bill.objects.filter(status__in=['pass', 'fail'], bill_id__startswith='h')
 
-senate_related_bills = Bill.objects.filter(status__in=['PASS_OVER:SENATE', 'PASS_BACK:SENATE', 'FAIL:ORIGINATING:SENATE',
-                                                      'CONFERENCE:PASSED:SENATE', 'FAIL:SECOND:SENATE'])
-senate_related_amendments = Bill.objects.filter(status__in=['pass', 'fail'], bill_id__startswith='s')
+# house_related_amendments = Bill.objects.filter(status__in=['pass', 'fail'], bill_id__startswith='h')
+# senate_related_amendments = Bill.objects.filter(status__in=['pass', 'fail'], bill_id__startswith='s')

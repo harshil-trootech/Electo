@@ -1,13 +1,11 @@
-import joblib
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from rest_framework.decorators import action
 from bill.models import *
-from directories.congress.models import *
-from bill_prediction.constants import *
+from .constants import *
+from .helper.data_loader import FeatureExtractor
 from .serializers import *
 import xgboost as xgb
-from bill_prediction.helper.data_loader import FeatureExtractor
 import pickle as pkl
 
 

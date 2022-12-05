@@ -1,0 +1,35 @@
+policy_area,ratio
+agriculture and food,0.9629629629629629
+animals,1.0
+armed forces and national security,0.9814814814814815
+"arts, culture, religion",1.0
+"civil rights and liberties, minority issues",1.0
+commemorations,0.9957983193277311
+commerce,0.99375
+congress,0.5409836065573771
+crime and law enforcement,0.9915611814345991
+economics and public finance,0.9595959595959596
+education,1.0
+emergency management,1.0
+energy,0.9928057553956835
+environmental protection,1.0
+families,0.9473684210526315
+finance and financial sector,0.9966996699669967
+foreign trade and international finance,0.96875
+government operations and politics,0.9892761394101877
+health,0.9969040247678018
+housing and community development,1.0
+immigration,0.9722222222222222
+international affairs,0.9719887955182073
+labor and employment,1.0
+law,1.0
+native americans,0.978021978021978
+private legislation,1.0
+public lands and natural resources,0.9962121212121212
+"science, technology, communications",1.0
+social sciences and history,1.0
+social welfare,1.0
+sports and recreation,0.875
+taxation,1.0
+transportation and public works,0.9877300613496932
+water resources development,0.9927536231884058
