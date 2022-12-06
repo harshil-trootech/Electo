@@ -208,17 +208,18 @@ class FeatureExtractor:
             self.__senate_policy_df = pd.read_csv(SENATE_POLICY_AREA_FILE_PATH, index_col='policy_area')
             self.__senate_subject_df = pd.read_csv(SENATE_SUBJECTS_FILE_PATH, index_col='subject')
             self.__gov_mapper = {
-                '117': 'Democrat',
-                '116': 'Republican',
-                '115': 'Democrat',
-                '114': 'Democrat',
-                '113': 'Republican',
-                '112': 'Republican',
-                '111': 'Democrat',
-                '110': 'Democrat',
-                '109': 'Republican',
+                '107': 'Republican',
                 '108': 'Republican',
-                '107': 'Republican'}
+                '109': 'Republican',
+                '110': 'Democrat',
+                '111': 'Democrat',
+                '112': 'Republican',
+                '113': 'Republican',
+                '114': 'Democrat',
+                '115': 'Democrat',
+                '116': 'Republican',
+                '117': 'Democrat',
+            }
 
         except FileNotFoundError:
             raise Exception("""At least one of the statistics file is missing. Run python manage.py train_model command without --use_cache argument""")
@@ -274,80 +275,103 @@ class FeatureExtractor:
             return np.mean(prob_values)
         return 0.5
 
-    def get_features(self, bill: Bill, get_x=False):
-        policy = bill.policy_area
-        subjects = bill.subjects
+    def get_features(self, bill: Bill, chamber, get_x=False, get_X_dict=False):
+        # policy = bill.policy_area
+        # subjects = bill.subjects
         status = bill.status
-        bill_type = bill.bill_type
+        bill_id = bill.bill_id
         sponsors = bill.sponsors.all()
         co_sponsors = bill.co_sponsors.all()
 
+        # 1: Number of amendment, for bill it will be 0
+        amendment_count = 0
         while bill.bill_type == 'amendment':
+            amendment_count += 1
             bill = bill.amendment_bill
-            policy = bill.policy_area
-            subjects = bill.subjects
+        policy = bill.policy_area
+        subjects = bill.subjects
 
-        # 1
+        if chamber == 'house':
+            policy_df = self.__house_policy_df
+            subject_df = self.__house_subject_df
+            PASS_STATUS_LIST = HOUSE_PASS_STATUS_LIST
+            FAIL_STATUS_LIST = HOUSE_FAIL_STATUS_LIST
+        elif chamber == 'senate':
+            policy_df = self.__senate_policy_df
+            subject_df = self.__senate_subject_df
+            PASS_STATUS_LIST = SENATE_PASS_STATUS_LIST
+            FAIL_STATUS_LIST = SENATE_FAIL_STATUS_LIST
+
+        # 2: Policy area probability in the chamber
         try:
-            policy_prob = self.__ind_policy_df.loc[policy.lower(), 'ratio']
+            chamber_policy_prob = policy_df.loc[policy.lower(), 'ratio']
         except (KeyError, AttributeError):
-            policy_prob = 0.5
-        # 2
+            chamber_policy_prob = 0.5
+
+        # 3: Subjects probability in the chamber
         subject_prob_list = []
-        subject_prob = 0.5
+        chamber_subject_prob = 0.5
         for subject in subjects:
             try:
-                subject_prob_list.append(self.__ind_subject_df.loc[subject.lower(), 'ratio'])
+                subject_prob_list.append(subject_df.loc[subject.lower(), 'ratio'])
             except KeyError:
                 subject_prob_list.append(0.5)
         if len(subjects) > 0:
-            subject_prob = np.mean(subject_prob_list)
+            chamber_subject_prob = np.mean(subject_prob_list)
 
-        # 3
-        house_policy_prob = self.__legislator_policy_probability('house', policy, sponsors, co_sponsors)
-        senate_policy_prob = self.__legislator_policy_probability('senate', policy, sponsors, co_sponsors)
+        # 4: Policy area based on the legislators of the chamber
+        # 5: Subjects based on the legislators of the chamber
+        if chamber == 'house':
+            legis_policy_prob = self.__legislator_policy_probability('house', policy, sponsors, co_sponsors)
+            legis_subject_prob = self.__legislator_subject_probability('house', subjects, sponsors, co_sponsors)
+        elif chamber == 'senate':
+            legis_policy_prob = self.__legislator_policy_probability('senate', policy, sponsors, co_sponsors)
+            legis_subject_prob = self.__legislator_subject_probability('senate', subjects, sponsors, co_sponsors)
 
-        # 4
-        house_subject_prob = self.__legislator_subject_probability('house', subjects, sponsors, co_sponsors)
-        senate_subject_prob = self.__legislator_subject_probability('senate', subjects, sponsors, co_sponsors)
-
-        # 5
+        # 6: Minority of the sponsor
         current_government = self.__gov_mapper[bill.bill_id[-3:]]
         sponsor_minority = False
         for sponsor in sponsors:
             sp = LegislatorTerms.objects.filter(legislator=sponsor,
                                                 start_date__lte=bill.introduced_at,
-                                                end_date__gte=bill.introduced_at).order_by('-end_date').first()
+                                                end_date__gte=bill.introduced_at).first()
             if sp and sp.party != current_government:
                 sponsor_minority = True
 
-        # 6
-        if bill_type == 'amendment':
-            bill_amendment = 1
+        # 7: Number of cosponsors count
+        co_sponsor_count = co_sponsors.count()
+
+        # 8: Whether the bill is originated from the same chamber
+        if bill_id[0] == chamber[0]:
+            origin_chamber = 1
         else:
-            bill_amendment = 0
+            origin_chamber = 0
 
         # Label
-        if status in PASS_STATUS_LIST:
+        if status in PASS_STATUS_LIST or status == 'pass':
             label = 1
-        elif status in FAIL_STATUS_LIST:
+        elif status in FAIL_STATUS_LIST or status == 'fail':
             label = 0
 
         if get_x:
-            return [policy_prob, subject_prob, house_policy_prob, senate_policy_prob, house_subject_prob,
-                    senate_subject_prob, co_sponsors.count(), sponsor_minority, bill_amendment]
-        return {'independent policy': policy_prob,
-                'independent subject': subject_prob,
-                'legislator dependent house policy': house_policy_prob,
-                'legislator dependent senate policy': senate_policy_prob,
-                'legislator dependent house subject': house_subject_prob,
-                'legislator dependent senate subject': senate_subject_prob,
-                'number of co sponsors': co_sponsors.count(),
+            return [chamber_policy_prob, chamber_subject_prob, legis_policy_prob, legis_subject_prob, sponsor_minority,
+                    co_sponsor_count, amendment_count, origin_chamber]
+        if get_X_dict:
+            return {'independent policy': chamber_policy_prob,
+                    'independent subject': chamber_subject_prob,
+                    'legislator dependent policy': legis_policy_prob,
+                    'legislator dependent subject': legis_subject_prob,
+                    'sponsor minority': sponsor_minority,
+                    'number of co sponsors': co_sponsor_count,
+                    'bill amendment count': amendment_count,
+                    'Bill origin': origin_chamber}
+
+        return {'independent policy': chamber_policy_prob,
+                'independent subject': chamber_subject_prob,
+                'legislator dependent policy': legis_policy_prob,
+                'legislator dependent subject': legis_subject_prob,
                 'sponsor minority': sponsor_minority,
-                'bill amendment': bill_amendment,
+                'number of co sponsors': co_sponsor_count,
+                'bill amendment count': amendment_count,
+                'Bill origin': origin_chamber,
                 'label': label}
-
-
-
-# house_related_amendments = Bill.objects.filter(status__in=['pass', 'fail'], bill_id__startswith='h')
-# senate_related_amendments = Bill.objects.filter(status__in=['pass', 'fail'], bill_id__startswith='s')
