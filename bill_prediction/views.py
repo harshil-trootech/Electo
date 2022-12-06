@@ -24,7 +24,7 @@ class BillViewset(viewsets.ReadOnlyModelViewSet):
         except Exception as e:
             return Response(str(e), status=400)
 
-        features = feature_extractor.get_features()
+        features = feature_extractor.get_features(bill, get_dict=True)
 
         return Response(features, status=200)
 

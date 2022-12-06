@@ -227,10 +227,11 @@ class FeatureExtractor:
             return np.mean(prob_values)
         return 0.5
 
-    def get_features(self, bill: Bill, get_x=False):
+    def get_features(self, bill: Bill, get_x=False, get_dict=False):
         policy = bill.policy_area
         subjects = bill.subjects
         status = bill.status
+        bill_type = bill.bill_type
         sponsors = bill.sponsors.all()
         co_sponsors = bill.co_sponsors.all()
 
@@ -273,11 +274,11 @@ class FeatureExtractor:
             if sp and sp.party != current_government:
                 sponsor_minority = True
                     
-        # # 6
-        # if bill_type == 'amendment':
-        #     bill_amendment = 1
-        # else:
-        #     bill_amendment = 0
+        # 6
+        if bill_type == 'amendment':
+            bill_amendment = 1
+        else:
+            bill_amendment = 0
 
         # Label
         if status in PASS_STATUS_LIST:
@@ -288,6 +289,16 @@ class FeatureExtractor:
         if get_x:
             return [policy_prob, subject_prob, house_policy_prob, senate_policy_prob, house_subject_prob,
                     senate_subject_prob, co_sponsors.count(), sponsor_minority] # , bill_amendment]
+        elif get_dict:
+            return {'independent policy': policy_prob,
+                    'independent subject': subject_prob,
+                    'legislator dependent house policy': house_policy_prob,
+                    'legislator dependent senate policy': senate_policy_prob,
+                    'legislator dependent house subject': house_subject_prob,
+                    'legislator dependent senate subject': senate_subject_prob,
+                    'number of co sponsors': co_sponsors.count(),
+                    'sponsor minority': sponsor_minority,
+                    'bill amendment': bill_amendment}
         return {'independent policy': policy_prob,
                 'independent subject': subject_prob,
                 'legislator dependent house policy': house_policy_prob,
