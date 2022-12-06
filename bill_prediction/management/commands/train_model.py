@@ -13,14 +13,15 @@ import progressbar
 
 class Command(BaseCommand):
     def add_arguments(self, parser):
-        parser.add_argument('--use_cache', action='store_true', help='Use cached statistics file to generate features')
+        parser.add_argument('--use_stats_cache', action='store_true', help='Use cached statistics file to generate features')
+        parser.add_argument('--use_feature_cache', action='store_true', help='Use cached features file to train model')
 
     def train_xgb_model(self, df, save_path):
         X = df.iloc[:, :-1].values
         y = df.iloc[:, -1].values
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y)
-        # xgb_model = XGBClassifier(booster='gbtree', n_estimators=25, learning_rate=0.1, max_depth=5)
-        xgb_model = GradientBoostingClassifier(n_estimators=150)
+        xgb_model = XGBClassifier(booster='gbtree', n_estimators=25, learning_rate=0.1, max_depth=5)
+        # xgb_model = GradientBoostingClassifier(n_estimators=151)
         xgb_model.fit(X_train, y_train)
         print("Confusion metrics")
         y_pred = xgb_model.predict_proba(X_test)[:, 1]
@@ -29,19 +30,21 @@ class Command(BaseCommand):
         self.stdout.write(self.style.SUCCESS(f"Training accuracy: {xgb_model.score(X_train, y_train)}"))
         self.stdout.write(self.style.SUCCESS(f"Testing accuracy: {xgb_model.score(X_test, y_test)}"))
         self.stdout.write(self.style.SUCCESS(f"Saving model at {save_path}"))
-        # xgb_model.save_model(save_path)
-        joblib.dump(xgb_model, save_path)
+        xgb_model.save_model(save_path)
+        # joblib.dump(xgb_model, save_path)
 
     def handle(self, *args, **options):
 
-        if options['use_cache']:
+        if options['use_stats_cache']:
             self.stdout.write(self.style.SUCCESS("...Using cached file..."))
-            house_features_df = pd.read_csv('bill_prediction/outputs/house_features.csv')
-            senate_features_df = pd.read_csv('bill_prediction/outputs/senate_features.csv')
         else:
             self.stdout.write(self.style.SUCCESS("...Generating statistics files..."))
             DataLoader.generate_statistics_files()
 
+        if options['use_feature_cache']:
+            house_features_df = pd.read_csv('bill_prediction/outputs/house_features.csv')
+            senate_features_df = pd.read_csv('bill_prediction/outputs/senate_features.csv')
+        else:
             feature_extractor = FeatureExtractor()
             # Process to collect features and train model for the house
             print("...Collecting features of the house related bills...")
@@ -61,8 +64,8 @@ class Command(BaseCommand):
 
             house_bill_df = pd.DataFrame(house_bill_features)
             house_failed_bills = house_bill_df[house_bill_df['label'] == 0]
-            # house_passed_bills = house_bill_df[house_bill_df['label'] == 1].sample(house_failed_bills.shape[0])
-            house_passed_bills = house_bill_df[house_bill_df['label'] == 1]
+            house_passed_bills = house_bill_df[house_bill_df['label'] == 1].sample(house_failed_bills.shape[0])
+            # house_passed_bills = house_bill_df[house_bill_df['label'] == 1]
             house_features_df = pd.concat([house_failed_bills, house_passed_bills])
             house_features_df = house_features_df.sample(frac=1)
             house_features_df.reset_index(drop=True, inplace=True)
@@ -77,7 +80,7 @@ class Command(BaseCommand):
             senate_bill_features = []
             count = 0
             widgets = ['Collecting features: ', progressbar.SimpleProgress()]
-            bar = progressbar.ProgressBar(max_value=house_bills.count(), widgets=widgets).start()
+            bar = progressbar.ProgressBar(max_value=senate_bills.count(), widgets=widgets).start()
             for bill in senate_bills:
                 senate_bill_features.append(feature_extractor.get_features(bill, chamber='senate'))
                 count += 1
@@ -86,17 +89,17 @@ class Command(BaseCommand):
 
             senate_bill_df = pd.DataFrame(senate_bill_features)
             senate_failed_bills = senate_bill_df[senate_bill_df['label'] == 0]
-            # senate_passed_bills = senate_bill_df[senate_bill_df['label'] == 1].sample(senate_failed_bills.shape[0])
-            senate_passed_bills = senate_bill_df[senate_bill_df['label'] == 1]
+            senate_passed_bills = senate_bill_df[senate_bill_df['label'] == 1].sample(senate_failed_bills.shape[0])
+            # senate_passed_bills = senate_bill_df[senate_bill_df['label'] == 1]
             senate_features_df = pd.concat([senate_failed_bills, senate_passed_bills])
             senate_features_df = senate_features_df.sample(frac=1)
             senate_features_df.reset_index(drop=True, inplace=True)
             senate_features_df.to_csv('bill_prediction/outputs/senate_features.csv', index=False)
 
         print("...Training XGB Classifier for house...")
-        self.train_xgb_model(house_features_df, HOUSE_RF_MODEL_PATH)
+        self.train_xgb_model(house_features_df, HOUSE_XGB_MODEL_PATH)
         print("...Training XGB Classifier for senate...")
-        self.train_xgb_model(senate_features_df, SENATE_RF_MODEL_PATH)
+        self.train_xgb_model(senate_features_df, SENATE_XGB_MODEL_PATH)
 
         # print("...Finding best parameters from the grid...")
         # n_fold = KFold(5)

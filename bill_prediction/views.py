@@ -36,12 +36,12 @@ class BillViewset(viewsets.ReadOnlyModelViewSet):
         except Exception as e:
             return Response(str(e), status=400)
         try:
-            # house_model = xgb.XGBClassifier()
-            # senate_model = xgb.XGBClassifier()
-            # house_model.load_model(HOUSE_XGB_MODEL_PATH)
-            # senate_model.load_model(SENATE_XGB_MODEL_PATH)
-            house_model = joblib.load(HOUSE_RF_MODEL_PATH)
-            senate_model = joblib.load(SENATE_RF_MODEL_PATH)
+            house_model = xgb.XGBClassifier()
+            senate_model = xgb.XGBClassifier()
+            house_model.load_model(HOUSE_XGB_MODEL_PATH)
+            senate_model.load_model(SENATE_XGB_MODEL_PATH)
+            # house_model = joblib.load(HOUSE_RF_MODEL_PATH)
+            # senate_model = joblib.load(SENATE_RF_MODEL_PATH)
         except xgb.core.XGBoostError:
             return Response("Failed to load prediction model. Make sure to run python manage.py train_model before using this API endpoint", status=400)
         # pickle_model = pkl.load(open(PICKLE_MODEL_PATH, 'rb'))
