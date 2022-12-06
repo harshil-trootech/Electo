@@ -1,2635 +1,3094 @@
 subject,ratio
-abortion,0.19047619047619047
-absentee voting,0.8
+abandonment of family,1.0
+abortion,0.7083333333333334
+absentee voting,0.8888888888888888
 academic freedom,1.0
-academic performance,0.6666666666666666
-academic performance and assessments,0.6
-access board,0.0
+academic performance,0.875
+academic performance and assessments,1.0
+access board,0.9090909090909091
 access to airports,1.0
-access to health care,0.85
-accident insurance,0.0
-accident prevention,0.6
-accidents,0.875
-accounting,0.5555555555555556
-accounting and auditing,0.6363636363636364
+access to health care,0.9473684210526315
+accident prevention,0.8571428571428571
+accidents,1.0
+accounting,0.8571428571428571
+accounting and auditing,0.9493670886075949
 accreditation (education),1.0
-accreditation (medical care),0.5
-administration of justice,0.8
-administrative conference of the u.s.,0.6666666666666666
-administrative fees,0.7647058823529411
-administrative law and regulatory procedures,0.6982758620689655
-administrative procedure,0.7352941176470589
-administrative remedies,0.7564102564102564
+accreditation (medical care),0.875
+adams administration,1.0
+administration of justice,0.9130434782608695
+administrative conference of the u.s.,0.9090909090909091
+administrative fees,0.9130434782608695
+administrative law and regulatory procedures,0.9585987261146497
+administrative law judges,1.0
+administrative procedure,0.9175824175824175
+administrative remedies,0.9514563106796117
 admission of nonimmigrants,1.0
-adoption,0.875
-adoption and foster care,0.5
-adult day care,0.7142857142857143
-adult education,0.3333333333333333
-adult education and literacy,0.5
-advanced technology and technological innovations,0.6470588235294118
-advanced weapons,0.75
+adoption,0.9523809523809523
+adoption and foster care,0.967741935483871
+adult day care,0.875
+adult education,0.625
+adult education and literacy,0.9166666666666666
+advanced technology and technological innovations,0.9464285714285714
+advanced weapons,0.875
 advertising,1.0
-advice and consent of the senate,0.75
-advisory bodies,0.765625
-aeronautics,0.5
-affiliated corporations,0.25
+advice and consent of the senate,0.9
+advisory bodies,0.9704433497536946
+aeronautics,0.6666666666666666
+aerospace industries,1.0
+affiliated corporations,0.8333333333333334
 affirmative action programs,0.0
-affordable housing,0.6666666666666666
-afghanistan,0.6976744186046512
-africa,0.7222222222222222
-africa (sub-saharan),0.75
-african development foundation,0.0
+affordable housing,1.0
+afghanistan,0.9354838709677419
+africa,0.9473684210526315
+africa (sub-saharan),0.92
+african development foundation,0.8
 africans,1.0
-age,0.6
-age discrimination,0.25
-aggression,0.75
-aging,0.75
-agribusiness,0.0
-agricultural assistance,0.0
+age,0.8181818181818182
+age and employment,1.0
+age discrimination,0.7142857142857143
+aggression,0.8333333333333334
+aging,0.9318181818181818
+agribusiness,1.0
+agricultural accidents and safety,1.0
+agricultural assistance,0.9
+agricultural colleges,1.0
 agricultural conservation,1.0
-agricultural conservation and pollution,0.4444444444444444
+agricultural conservation and pollution,0.8928571428571429
 agricultural cooperatives,1.0
 agricultural credit,1.0
+agricultural diversification,1.0
 agricultural education,1.0
+agricultural equipment and machinery,1.0
 agricultural estimating and reporting,1.0
-agricultural insurance,0.6666666666666666
-agricultural labor,0.6
-agricultural marketing and promotion,0.5
-agricultural practices and innovations,0.7142857142857143
+agricultural experiment stations,1.0
+agricultural extension work,1.0
+agricultural industries,1.0
+agricultural innovations,1.0
+agricultural insurance,1.0
+agricultural labor,0.8571428571428571
+agricultural machinery,1.0
+agricultural marketing and promotion,0.92
+agricultural pollution,1.0
+agricultural practices and innovations,1.0
 agricultural prices,1.0
-"agricultural prices, subsidies, credit",0.3333333333333333
-agricultural research,0.75
+"agricultural prices, subsidies, credit",0.9393939393939394
+agricultural production,1.0
+agricultural research,1.0
+agricultural statistics,1.0
 agricultural subsidies,1.0
+agricultural surpluses,1.0
 agricultural trade,1.0
-agricultural wastes,0.0
-agriculture and food,0.8571428571428571
-agriculture in foreign trade,0.6666666666666666
-aid to dependent children,0.3333333333333333
-aids (disease),0.25
-air cargo,0.75
-air conditioning,0.0
-air force,0.8260869565217391
+agriculture and food,0.965
+agriculture in foreign trade,0.9259259259259259
+aid to dependent children,0.9
+aids (disease),0.8125
+air cargo,0.9333333333333333
+air conditioning,0.75
+air defenses,1.0
+air force,0.9444444444444444
 air piracy,1.0
-air pollution control,0.3333333333333333
-air quality,0.3181818181818182
-air traffic,0.0
-aircraft,0.6
+air pollution control,0.8571428571428571
+air quality,0.9130434782608695
+air routes,1.0
+air traffic,0.8
+air travel,1.0
+air-to-air missiles,1.0
+aircraft,0.8181818181818182
+aircraft construction,1.0
 aircraft engines,1.0
 aircraft industry,1.0
-aircraft pilots,0.8
-airline employees,0.75
-airline passenger traffic,0.875
-airlines,0.5
-airmail service,0.0
-airports,0.375
-airspace (law),0.0
-alabama,0.72
-alaska,0.75
-alaska natives and hawaiians,0.6363636363636364
+aircraft pilots,0.8888888888888888
+airline employees,0.875
+airline passenger traffic,0.95
+airlines,0.85
+airmail service,0.6666666666666666
+airports,0.8620689655172413
+airspace (law),0.75
+alabama,0.9056603773584906
+alaska,0.9487179487179487
+alaska natives and hawaiians,0.926829268292683
 albania,1.0
 alcohol and youth,1.0
-alcohol as fuel,0.5714285714285714
-alcohol tax,0.0
-alcoholic beverages,0.25
-alcoholism,0.6
+alcohol as fuel,0.8888888888888888
+alcohol tax,1.0
+alcoholic beverages,0.9
+alcoholism,0.8333333333333334
 algae,0.0
 algal blooms,1.0
-alien labor,0.3333333333333333
-alien property,0.75
-aliens,0.7777777777777778
+algeria,1.0
+alien labor,0.9090909090909091
+alien property,0.8888888888888888
+aliens,0.9487179487179487
+alimony,1.0
 all terrain vehicles,1.0
+allegiance,1.0
 allergies,1.0
-alliances,0.8695652173913043
-allied health services,0.0
+alliances,1.0
+allied health services,0.5
 alloys,1.0
-alternative and renewable resources,0.5789473684210527
-alternative dispute resolution,0.4
-"alternative dispute resolution, mediation, arbitration",0.625
-alternative energy sources,0.4
+alternative agriculture,1.0
+alternative and renewable resources,0.9662921348314607
+alternative crops,1.0
+alternative dispute resolution,0.75
+"alternative dispute resolution, mediation, arbitration",0.9047619047619048
+alternative energy sources,0.8235294117647058
 alternative medicine,1.0
-ambulances,0.8571428571428571
-ambulatory care,0.8571428571428571
-american battle monuments commission,0.25
-american investments,0.3333333333333333
+alternative treatments,1.0
+aluminum,1.0
+alzheimer's disease,1.0
+ambulances,1.0
+ambulatory care,0.9411764705882353
+american battle monuments commission,0.8125
+american investments,0.9130434782608695
 american revolution,1.0
-american samoa,0.65
-americans in foreign countries,0.5
-ammunition,0.75
+american samoa,0.9344262295081968
+americans in foreign countries,0.9285714285714286
+ammunition,0.9166666666666666
 amphibious operations,1.0
 anadromous fishes,1.0
-anesthetics,0.6666666666666666
-animal and plant health,0.6666666666666666
+anesthetics,1.0
+angola,1.0
+animal and plant health,0.8888888888888888
+animal behavior,1.0
 animal breeding,1.0
 animal diseases,1.0
-animal protection and human-animal relationships,0.7692307692307693
-animals,0.8666666666666667
+animal protection and human-animal relationships,0.9655172413793104
+animals,0.9411764705882353
 annexation (international law),1.0
-anniversaries,0.9354838709677419
-annuities,0.8
+anniversaries,0.9591836734693877
+annuities,0.9032258064516129
+antarctic regions,1.0
 antennas,1.0
+anthrax,1.0
+anthropology,1.0
 antibiotics,1.0
-antimissile missiles,0.6666666666666666
+antigua and barbuda,1.0
+antimissile missiles,0.8
 antisemitism,1.0
-antitrust law,0.5
+antitrust law,0.9090909090909091
 anxiety,1.0
-apartment houses,0.0
-appalachia,0.25
-appalachian regional commission,0.0
-appellate courts,0.375
-appellate procedure,0.5
-apprenticeship,0.6666666666666666
-appropriations,0.45588235294117646
+apartment houses,0.8333333333333334
+appalachia,0.7142857142857143
+appalachian regional commission,0.9285714285714286
+appellate courts,0.8076923076923077
+appellate procedure,0.8
+apprenticeship,0.8181818181818182
+appropriations,0.9066666666666666
 aquaculture,1.0
+aquariums,1.0
 aquatic animals,0.0
-aquatic ecology,0.9
+aquatic ecology,0.9787234042553191
 aquatic pests,1.0
 aquatic plants,1.0
-aquifers,0.6666666666666666
-arab countries,0.5
-arab-israeli conflict,0.0
-arab-israeli relations,0.5
+aquifers,0.7777777777777778
+arab countries,0.75
+arab-israeli conflict,0.8888888888888888
+arab-israeli relations,1.0
 arabs,1.0
 archaeology,1.0
 archaeology and anthropology,1.0
-architect of the capitol,0.4
-architecture,0.875
-architecture and the disabled,0.5
-archives,0.9166666666666666
-arctic and polar regions,0.8461538461538461
-arctic ocean,0.75
+architect of the capitol,0.8846153846153846
+architecture,0.9473684210526315
+architecture and the disabled,0.6666666666666666
+archives,0.9375
+arctic and polar regions,1.0
+arctic ocean,1.0
 area studies,1.0
-area studies and international education,0.6666666666666666
+area studies and international education,0.75
 argentina,1.0
 arid regions,1.0
-arizona,0.7714285714285715
-arkansas,0.7
-armed forces abroad,0.7647058823529411
-armed forces and national security,0.8177966101694916
-armed forces reserves,0.7666666666666667
-armed forces retirement home,0.7333333333333333
-armenia,0.6666666666666666
+arizona,0.9578947368421052
+arkansas,0.9761904761904762
+armed forces abroad,0.9310344827586207
+armed forces and national security,0.958041958041958
+armed forces reserves,0.9259259259259259
+armed forces retirement home,0.9411764705882353
+armenia,0.875
+armies,1.0
 armistices,1.0
-arms control,0.7142857142857143
-arms control agreements,0.5
-arms control and nonproliferation,0.7391304347826086
-arms control negotiations,0.5
-arms control verification,0.5714285714285714
-arms sales,0.7777777777777778
-army,0.8333333333333334
-army corps of engineers,0.6666666666666666
-arrest,0.875
+arms control,0.8809523809523809
+arms control agreements,0.6666666666666666
+arms control and nonproliferation,0.9701492537313433
+arms control negotiations,0.6666666666666666
+arms control verification,0.8461538461538461
+arms sales,0.96
+army,0.9574468085106383
+army corps of engineers,0.96875
+arrest,0.9545454545454546
+arson,1.0
 art,1.0
-"art, artists, authorship",0.6
+"art, artists, authorship",0.9615384615384616
+arthritis,1.0
+artificial implants,1.0
 artificial satellites,1.0
 artillery,1.0
 artists,1.0
-arts,0.5
-"arts, culture, religion",0.8441558441558441
-asbestos,0.6666666666666666
+arts,0.7777777777777778
+"arts, culture, religion",0.9342105263157895
+asbestos,1.0
 asean countries,1.0
-asia,0.7659574468085106
+asia,0.9558823529411765
 asian american ethnic groups,1.0
-assassination,0.3333333333333333
-assault,0.6666666666666666
-assault and harassment offenses,0.5416666666666666
-"associations, institutions, etc.",0.9
+assassination,0.5
+assault,0.8571428571428571
+assault and harassment offenses,0.9454545454545454
+"associations, institutions, etc.",0.9545454545454546
+asthma,1.0
 astronautics,1.0
 astronauts,1.0
 astronomy,1.0
 astrophysics,1.0
 athletes,1.0
-athletics,0.0
+athletics,1.0
 atlantic coast (u.s.),1.0
-atlantic ocean,0.75
+atlantic ocean,1.0
 atmosphere,1.0
-atmospheric science and weather,0.7142857142857143
-attorney-client privilege,0.5
-attorneys general,0.6666666666666666
-auctions,0.6666666666666666
-auditing,0.7419354838709677
-australia,0.875
-authorization,0.8817204301075269
+atmospheric science and weather,0.9615384615384616
+attention deficit disorders,1.0
+attorney-client privilege,0.6666666666666666
+attorneys general,1.0
+auctions,0.8
+auditing,0.890625
+australia,1.0
+authoritarianism,1.0
+authorization,0.9625668449197861
 authors and authorship,1.0
-automation,0.0
-automobile engines,0.5
-automobiles,0.3333333333333333
+autism,1.0
+automated clearing houses,1.0
+automation,0.5
+automobile engines,1.0
+automobile insurance,1.0
+automobile parts,1.0
+automobile theft,1.0
+automobile tires,1.0
+automobiles,0.6666666666666666
 autopsy,1.0
 avalanches,1.0
 aviation agreements,1.0
-aviation and airports,0.7209302325581395
-aviation fuels,0.5
-aviation safety,0.8
-"awards, medals, prizes",0.7777777777777778
+aviation and airports,0.9662162162162162
+aviation fuels,1.0
+aviation insurance,1.0
+aviation safety,0.9166666666666666
+avionics,1.0
+"awards, medals, prizes",0.9285714285714286
 azerbaijan,1.0
-bahrain,0.3333333333333333
+bahrain,1.0
+bail,1.0
 ballistic missile defenses,1.0
-ballistic missiles,0.875
-ballots,0.6666666666666666
-bank accounts,0.3333333333333333
-"bank accounts, deposits, capital",0.2727272727272727
+ballistic missiles,0.9523809523809523
+ballots,1.0
+bangladesh,1.0
+bank accounts,0.875
+"bank accounts, deposits, capital",0.8484848484848485
+bank capital,1.0
 bank deposits,1.0
+bank employees,1.0
+bank examination,1.0
+bank failures,1.0
 bank fraud,1.0
-bank holding companies,0.5
+bank holding companies,1.0
+bank loans,1.0
+bank management,1.0
+bank mergers,1.0
 bank records,1.0
-banking and financial institutions regulation,0.5384615384615384
-bankruptcy,0.25
-bankruptcy courts,0.6666666666666666
+bank reserves,1.0
+banking and financial institutions regulation,0.9230769230769231
+bankruptcy,0.8536585365853658
+bankruptcy courts,0.75
+barbados,1.0
+barber and beauty shops,1.0
 barges,1.0
 barrier islands,1.0
+barter,1.0
 baseball,1.0
-beaches,0.5
+basketball,1.0
+beaches,0.8
 bearings,1.0
-bears,0.5
+bears,0.6666666666666666
+beer,1.0
+belarus,1.0
 belgium,1.0
 belize,1.0
 benin,1.0
 bering sea,1.0
 bermuda,1.0
 beryllium,1.0
-bicycles,0.5
-bikeways,0.0
+bicycles,0.8
+bikeways,0.3333333333333333
+bilingualism,1.0
 bioaccumulation,1.0
 biography,1.0
 biological and life sciences,1.0
-biological diversity,0.3333333333333333
-biological research,0.3333333333333333
-biological warfare,0.8823529411764706
+biological diversity,0.7777777777777778
+biological research,0.7777777777777778
+biological warfare,0.9459459459459459
 biology,1.0
-biomass energy,0.3333333333333333
+biomass energy,0.8888888888888888
 biomedical engineering,1.0
-birds,0.8
+biotechnology,1.0
+birds,0.9666666666666667
 birth defects,1.0
-black colleges,0.625
+black colleges,0.9
 black history,1.0
-black lung,0.5
+black lung,0.8
 blacks,1.0
-blind,0.6666666666666666
-block grants,0.7142857142857143
-blood,0.0
-blood and blood diseases,0.3333333333333333
+blind,0.8571428571428571
+block grants,0.8461538461538461
+blood and blood diseases,0.8461538461538461
+blood banks,1.0
+blood diseases,1.0
+blood transfusions,1.0
 boats and boating,1.0
 bolivia,1.0
 bomber aircraft,1.0
 bombings,1.0
-bombs,0.3333333333333333
-bonds,0.4444444444444444
-books,0.6
+bombs,1.0
+bonds,0.8947368421052632
+books,0.7692307692307693
 books and print media,1.0
-border patrols,0.9166666666666666
-border security and unlawful immigration,0.42857142857142855
-bosnia and herzegovina,0.5
-botanical gardens,0.0
-boundaries,0.8148148148148148
+border patrols,0.9615384615384616
+border security and unlawful immigration,0.9298245614035088
+bosnia and herzegovina,0.8
+botanical gardens,0.8
+botswana,1.0
+boundaries,0.9315068493150684
 bovine spongiform encephalopathy,1.0
 boxing,1.0
-boy scouts,0.6666666666666666
-boycott,0.0
-brain,0.5
+boy scouts,0.875
+boycott,0.5
+brain,0.75
 brain diseases,1.0
+branch banking,1.0
 brazil,1.0
-breast cancer,0.6666666666666666
-breast feeding,0.0
-bribery,0.75
-bridges,0.6666666666666666
-broadband,0.6
-broadcasting board of governors,0.0
-"broadcasting, cable, digital technologies",0.6666666666666666
-brownfields,0.5
-budget deficits,0.8
-budget deficits and national debt,0.10526315789473684
-budget process,0.46153846153846156
+breast cancer,0.8333333333333334
+breast feeding,0.8
+bribery,0.9166666666666666
+bridges,0.9285714285714286
+broadband,0.9090909090909091
+broadcasting,1.0
+broadcasting board of governors,0.9230769230769231
+"broadcasting, cable, digital technologies",0.9473684210526315
+brokers,1.0
+brownfields,0.8333333333333334
+buddhism,1.0
+budget deficits,0.8888888888888888
+budget deficits and national debt,0.8709677419354839
+budget process,0.9
 budget reconciliation,1.0
-budget resolutions,0.75
+budget resolutions,0.9333333333333333
 budget surpluses,1.0
-building construction,0.5517241379310345
-building laws,0.0
-building materials,0.0
-bureaucracy,0.0
-burma,0.5
+building construction,0.912621359223301
+building laws,0.6666666666666666
+building materials,0.6666666666666666
+burkina faso,1.0
+burma,0.9230769230769231
+burns,1.0
+burundi,1.0
 bus drivers,1.0
-bush (george w.) administration,0.75
-business education,0.9090909090909091
-business ethics,0.8
-business expenses,0.3333333333333333
-business investment and capital,0.5263157894736842
-business records,0.4666666666666667
-business travel,0.5
-buy american,0.45454545454545453
-buy american requirements,0.5
-cabinet officers,0.8571428571428571
-cable television,0.5
-california,0.7627118644067796
-cambodia,0.0
-camping,0.8
-canada,0.8846153846153846
-canals,0.5
-cancer,0.9
+bush (george w.) administration,1.0
+business education,1.0
+business ethics,1.0
+business expenses,0.9166666666666666
+business investment and capital,0.9375
+business records,0.9102564102564102
+business travel,0.6666666666666666
+buy american,0.8
+buy american requirements,0.8928571428571429
+cabinet officers,1.0
+cable television,0.875
+california,0.9534883720930233
+cambodia,0.8333333333333334
+cameras,1.0
+cameroon,1.0
+campaign funds,1.0
+camping,0.9
+canada,0.9565217391304348
+canals,0.8461538461538461
+cancer,0.972972972972973
 cape verde,1.0
 capital,1.0
-capital budgets,0.0
-capital cities,0.0
-capital gains tax,0.5
-capital investments,0.6923076923076923
-capital punishment,0.75
-capitation (medical care),0.5
-"capitol (washington, d.c.)",0.8888888888888888
+capital budgets,0.5
+capital cities,0.5
+capital gains tax,0.8571428571428571
+capital investments,0.8095238095238095
+capital punishment,0.9
+capitation (medical care),0.6666666666666666
+"capitol (washington, d.c.)",0.9230769230769231
 car pools,0.5
 carbon cycle,1.0
-carbon dioxide,0.0
-carbon monoxide,0.5
+carbon dioxide,0.5
+carbon monoxide,0.6666666666666666
 carcinogens,1.0
-cardiovascular and respiratory health,0.6666666666666666
+cardiovascular and respiratory health,0.9607843137254902
 cardiovascular diseases,1.0
 career education,1.0
 caregivers,1.0
-caribbean area,0.6666666666666666
-cartels,0.0
-case management,0.5
-cash welfare block grants,0.3333333333333333
+cargo preference,1.0
+caribbean area,0.9514563106796117
+case management,0.75
+case mix (medical care),1.0
+cash welfare block grants,0.9
+casualty insurance,1.0
+catastrophic health insurance,1.0
+catholic church,1.0
 cats,1.0
 cattle,1.0
+caucasus,1.0
 caves,1.0
-cell biology and embryology,0.0
-cellulose,0.0
-cemeteries and funerals,0.75
-census,0.6666666666666666
-census and government statistics,0.7692307692307693
-centers for disease control and prevention (cdc),0.3333333333333333
-central african republic,0.0
+cell biology and embryology,0.8333333333333334
+cellulose,0.5
+cemeteries and funerals,0.9240506329113924
+censorship,1.0
+census,0.8888888888888888
+census and government statistics,0.9512195121951219
+centers for disease control and prevention (cdc),0.9523809523809523
+central african republic,1.0
 central america,1.0
-central asia,0.7272727272727273
+central asia,0.8571428571428571
+central banks and banking,1.0
 central intelligence agency,1.0
-central intelligence agency (cia),0.3333333333333333
+central intelligence agency (cia),0.9166666666666666
+central valley reclamation project (california),1.0
+cervical cancer,1.0
+chad,1.0
 chambers of commerce,1.0
-charitable contributions,0.5714285714285714
-charities,0.9473684210526315
-charter schools,0.5
-checks,0.75
-chemical and biological weapons,0.6363636363636364
+charitable contributions,0.9090909090909091
+charities,0.9666666666666667
+charter airlines,1.0
+charter schools,0.9090909090909091
+checks,0.875
+chemical and biological weapons,0.975
+chemical industries,1.0
 chemical research,1.0
-chemical warfare,0.8181818181818182
-chemicals,0.75
-chemistry,0.8571428571428571
+chemical warfare,0.9245283018867925
+chemicals,0.875
+chemistry,0.9285714285714286
 chemotherapy,1.0
-chesapeake bay,0.6666666666666666
-chief executive officers,0.5
-chief financial officers,0.75
-child abuse,0.9
-child care and development,0.7142857142857143
+chesapeake bay,0.8666666666666667
+chief executive officers,0.8
+chief financial officers,0.9375
+chief information officers,1.0
+child abuse,0.96
+child care and development,0.9347826086956522
 child care workers,1.0
-child development,0.5
-child health,0.7884615384615384
-child labor,0.6666666666666666
-child nutrition,0.8
+child development,0.9090909090909091
+child health,0.9649122807017544
+child labor,0.9090909090909091
+child nutrition,0.9375
 child pornography,1.0
-child safety,0.8333333333333334
-child safety and welfare,0.6818181818181818
-child sexual abuse,0.9230769230769231
-child support,0.2
-child welfare,0.875
+child safety,0.9523809523809523
+child safety and welfare,0.9605263157894737
+child sexual abuse,0.9615384615384616
+child support,0.6
+child welfare,0.96
+child witnesses,1.0
 childbirth,1.0
 children's rights,1.0
-china,0.7391304347826086
-chiropractic and chiropractors,0.6666666666666666
+chile,1.0
+china,0.9538461538461539
+chiropractic and chiropractors,0.8333333333333334
+chlorofluorocarbons,1.0
+choice of law,1.0
+cholera,1.0
+cholesterol,1.0
+christianity,1.0
 chronically ill,1.0
-church and social problems,0.3333333333333333
+church and social problems,0.5
 church and state,1.0
-churches,0.5
-cigarettes,0.6666666666666666
+church property,1.0
+churches,0.875
+cigarettes,0.8
 citizen participation,1.0
-citizenship,0.8
-citizenship and naturalization,0.4444444444444444
-city councils,0.5
-civics education,0.6666666666666666
-civil actions and liability,0.5833333333333334
+citizenship,0.9090909090909091
+citizenship and naturalization,0.8461538461538461
+citrus fruits,1.0
+city councils,0.75
+civics education,0.9230769230769231
+civil actions and liability,0.9585492227979274
 civil commitment,1.0
 civil disturbances,1.0
-civil procedure,0.0
-"civil rights and liberties, minority issues",0.8015267175572519
-civil rights enforcement,0.4
+civil engineering,1.0
+civil procedure,1.0
+"civil rights and liberties, minority issues",0.9166666666666666
+civil rights enforcement,0.7
 civil rights movements,1.0
 civil rights workers,1.0
 civil service reform,1.0
-civil service retirement,0.6666666666666666
+civil service retirement,0.8666666666666667
 civil war,1.0
-civil-military relations,0.8333333333333334
-claims,0.7142857142857143
-class actions (civil procedure),0.0
-classified defense information,0.8571428571428571
-clergy,0.6666666666666666
+civil-military relations,0.9285714285714286
+claims,0.9444444444444444
+class size,1.0
+classified defense information,0.9375
+clergy,0.9090909090909091
 climate,1.0
-climate change and greenhouse gases,0.17391304347826086
+climate change and greenhouse gases,0.8378378378378378
 clinical trials,1.0
-clinics,0.75
-cloning,0.0
+clinics,0.9
+clocks and watches,1.0
+cloning,1.0
 closed caption television,1.0
-clothing,0.8333333333333334
-coal,0.3333333333333333
-coast guard,0.9
-coastal zone,0.8636363636363636
-cogeneration of electric power and heat,0.0
-coins and coinage,0.8571428571428571
-coinsurance,0.75
-coke industry,0.0
+clothing,0.9615384615384616
+coal,0.8478260869565217
+coast guard,0.9879518072289156
+coastal engineering,1.0
+coastal zone,0.9302325581395349
+coastwise shipping,1.0
+coffee,1.0
+cogeneration of electric power and heat,0.5
+coins and coinage,0.9444444444444444
+coinsurance,0.9333333333333333
 cold war,1.0
-collection of accounts,0.5862068965517241
-collective bargaining,0.5
-collective security,0.75
+collection of accounts,0.8695652173913043
+collective bargaining,0.8333333333333334
+collective security,0.9090909090909091
 college administration,1.0
-college costs,0.5833333333333334
+college costs,0.8947368421052632
 college libraries,1.0
 college sports,1.0
 college teachers,1.0
-colleges,0.7
-colombia,0.7692307692307693
+colleges,0.9285714285714286
+colombia,0.9761904761904762
+colon cancer,1.0
 colonial affairs,1.0
-colorado,0.8611111111111112
+colonias,1.0
+colorado,0.9787234042553191
+colorado river development,1.0
 columbia river development,1.0
 combat vehicles,1.0
-commemorations,0.9572192513368984
-commemorative events and holidays,0.8205128205128205
-commerce,0.7472527472527473
+commemorations,0.9872611464968153
+commemorative events and holidays,0.9594594594594594
+commerce,0.9355742296918768
 commercial aircraft,1.0
-commercial arbitration,0.7142857142857143
-commercial blacklisting,0.0
-commission on civil rights,0.0
-committee for purchase from people who are blind or severely disabled,0.0
-commodities markets,0.0
-commodity futures trading commission,0.0
+commercial arbitration,1.0
+commercial blacklisting,0.75
+commercialization,1.0
+commission of fine arts,1.0
+commission on civil rights,0.9090909090909091
+committee for purchase from people who are blind or severely disabled,0.875
+commodities markets,1.0
+commodity credit corporation,1.0
+commodity exchanges,1.0
+commodity futures trading commission,0.9166666666666666
 commodity tax straddles,1.0
 common carriers,1.0
 communicable diseases,1.0
-communication in medicine,0.7272727272727273
+communication in medicine,0.9047619047619048
 communication in science,1.0
 communication satellites,1.0
-community and school,0.5
+communism,1.0
+community and school,1.0
 community centers,1.0
 community colleges,1.0
-community development,0.7
-community development banking,0.75
-community facilities,0.0
+community development,0.9090909090909091
+community development banking,0.875
 community health services,1.0
-community life and organization,0.3333333333333333
+community life and organization,0.9
 community organization,1.0
-community policing,0.3333333333333333
-commuting,0.75
-compensation (law),0.5714285714285714
-compensation for victims of crime,0.8
-compensatory education,0.25
-competition,0.8
-competition and antitrust,0.8
-competitive bidding,0.625
-"competitiveness, trade promotion, trade deficits",0.75
-comprehensive health care,0.25
-compressed natural gas,0.0
-compulsory military service,0.5
+community policing,0.8
+community property,1.0
+commuting,0.9
+compensation (law),0.8611111111111112
+compensation for victims of crime,0.9090909090909091
+compensatory education,0.6
+competition,0.9166666666666666
+competition and antitrust,0.95
+competitive bidding,0.8333333333333334
+"competitiveness, trade promotion, trade deficits",1.0
+comprehensive health care,0.8888888888888888
+compressed natural gas,0.5
+compulsory military service,1.0
 computer crimes,1.0
-computer literacy,0.6666666666666666
-computer networks,0.8333333333333334
+computer hackers,1.0
+computer industry,1.0
+computer literacy,1.0
+computer matching,1.0
+computer networks,0.9090909090909091
 computer programming,1.0
-computer security and identity theft,0.8148148148148148
-computer security measures,0.6666666666666666
+computer security and identity theft,0.967032967032967
+computer security measures,0.8571428571428571
 computer simulation,1.0
-computer software,0.7142857142857143
-computers,0.5
-computers and information technology,0.6774193548387096
-concessions,0.0
-condominium (housing),0.5
-conferences,0.6
-confidential communications,0.8
+computer software,0.9032258064516129
+computer viruses,1.0
+computers,0.8148148148148148
+computers and information technology,0.9537037037037037
+concentration camps,1.0
+concessions,1.0
+condominium (housing),0.75
+condoms,1.0
+conferences,0.8076923076923077
+confidential communications,0.92
 confidential funding (federal budgets),1.0
-conflict of interests,0.6666666666666666
-conflicts and wars,0.75
-congregate housing,0.0
-congress,0.8068535825545171
-congress and foreign policy,0.6666666666666666
-congress and military policy,0.7586206896551724
-congressional agencies,0.7333333333333333
-congressional allowances,0.0
+conflict of interests,0.9375
+conflicts and wars,0.978494623655914
+congo,1.0
+congregate housing,1.0
+congress,0.9472222222222222
+congress and foreign policy,0.9402985074626866
+congress and military policy,0.9285714285714286
+congressional agencies,0.9491525423728814
+congressional allowances,0.6666666666666666
 congressional budget,1.0
-congressional budget office,0.0
-congressional budget office (cbo),0.0
-congressional chaplains,0.0
+congressional budget office,0.75
+congressional budget office (cbo),0.8666666666666667
+congressional caucuses,1.0
+congressional chaplains,0.5
 congressional committee chairmen,1.0
-congressional committees,0.7142857142857143
-congressional committees (house),0.3333333333333333
-congressional committees (senate),0.8571428571428571
+congressional committees,1.0
+congressional committees (house),0.7142857142857143
+congressional committees (senate),0.9
 congressional conference committees,1.0
-congressional delegations,0.0
+congressional delegations,0.5
+congressional districts,1.0
 congressional districts and representation,0.0
-congressional elections,0.0
-congressional employees,0.5
+congressional elections,0.75
+congressional employees,0.9
+congressional ethics,1.0
 congressional fellows,1.0
 congressional gold medals,1.0
-congressional hearings,0.75
-congressional information resources,0.0
-congressional investigations,0.7380952380952381
-congressional joint committees,0.0
-congressional leadership,0.0
-congressional mail,0.0
+congressional hearings,0.8571428571428571
+congressional information resources,0.6666666666666666
+congressional investigations,0.9042553191489362
+congressional joint committees,0.8571428571428571
+congressional leadership,0.9375
+congressional mail,0.75
 congressional medal of honor,1.0
-congressional office buildings,0.0
-congressional officers,0.0
-congressional officers and employees,0.75
-congressional operations and organization,0.75
-congressional oversight,0.8013468013468014
-congressional pages,0.0
-congressional party organization,0.0
+congressional office buildings,0.6666666666666666
+congressional officers,0.75
+congressional officers and employees,0.9555555555555556
+congressional operations and organization,0.9705882352941176
+congressional oversight,0.9643312101910828
+congressional pages,0.5
+congressional party organization,0.75
 congressional pensions,1.0
 congressional powers,0.5
-congressional publications,0.5
+congressional publications,0.75
 congressional publicity,1.0
-congressional record,0.5
-congressional reporting requirements,0.7842105263157895
-congressional research service,0.5
-congressional research service (crs),0.0
-congressional salaries,0.0
-congressional sessions,0.0
-congressional tributes,0.9565217391304348
-congressional veto,0.6666666666666666
+congressional record,0.8
+congressional reorganization,1.0
+congressional reporting requirements,0.9388297872340425
+congressional research service,0.8333333333333334
+congressional research service (crs),0.9285714285714286
+congressional salaries,0.5
+congressional sessions,0.75
+congressional travel,1.0
+congressional tributes,0.9937965260545906
+congressional veto,0.75
 congressional voting,1.0
-congressional witnesses,0.0
-congressional-executive branch relations,0.0
-congressional-executive relations,0.0
-connecticut,0.75
-conscientious objectors,0.0
-consent decrees,0.6666666666666666
-conservation easements,0.8
+congressional witnesses,0.5
+congressional-executive branch relations,0.5
+congressional-executive relations,0.6363636363636364
+connecticut,1.0
+consent decrees,1.0
+conservation easements,0.9375
 conservation of natural resources,1.0
-conspiracy,0.5
-constitution and constitutional amendments,0.375
+conspiracy,0.8888888888888888
+constitution and constitutional amendments,0.7142857142857143
 constitutional amendments,0.0
 constitutional conventions,1.0
 constitutional law,1.0
 constitutions,1.0
-construction costs,0.7333333333333333
-construction industries,0.3333333333333333
-construction workers,0.0
-consultants,0.25
-consumer affairs,0.7142857142857143
-consumer complaints,0.6666666666666666
-consumer credit,0.5
-consumer discounts,0.6666666666666666
-consumer education,0.9090909090909091
-consumer financial protection bureau,0.0
+construction costs,0.9041095890410958
+construction industries,0.7142857142857143
+construction workers,0.5
+consultants,0.8
+consumer affairs,0.9682539682539683
+consumer complaints,0.8333333333333334
+consumer credit,0.868421052631579
+consumer discounts,0.8571428571428571
+consumer education,0.9615384615384616
+consumer financial protection bureau,0.8
+consumer goods,1.0
 consumer organizations,1.0
-consumer product safety commission,0.25
-consumer protection,0.6666666666666666
+consumer product safety commission,0.875
+consumer protection,1.0
+contact lenses,1.0
 containerization,1.0
-continental shelf,0.6666666666666666
-continuing education,0.8571428571428571
-continuing resolutions,0.5
-continuum of care,0.8
-contraceptives,0.0
+contempt of court,1.0
+continental shelf,1.0
+continuing education,1.0
+continuing resolutions,0.9375
+continuum of care,0.9
+contraceptives,0.5
+contractors,1.0
 contracts,1.0
 contracts and agency,1.0
-convention facilities,0.0
+convention facilities,0.8571428571428571
 conventional weapons,1.0
+cooperative and condominium housing,1.0
 cooperative housing,1.0
-cooperative societies,0.5
+cooperative societies,0.8571428571428571
 copper,1.0
-copyright,0.9285714285714286
+copyright,0.9565217391304348
 coral reefs,1.0
+corn,1.0
 corporate accountability,1.0
 corporate corruption,1.0
-corporate finance,0.5
-corporate finance and management,0.4117647058823529
-corporate governance,0.0
+corporate debt,1.0
+corporate divestiture,1.0
+corporate finance,0.8333333333333334
+corporate finance and management,0.9411764705882353
+corporate governance,0.5
 corporate management,1.0
-corporate mergers,0.5714285714285714
-corporate reorganizations,0.3333333333333333
-corporation directors,0.0
-corporation for national and community service,0.16666666666666666
-corporation for public broadcasting,0.0
-corporation taxes,0.5
-corporations,0.75
-correctional facilities and imprisonment,0.7272727272727273
+corporate mergers,0.8333333333333334
+corporate reorganizations,0.8333333333333334
+corporation directors,1.0
+corporation for national and community service,0.8421052631578947
+corporation for public broadcasting,0.9090909090909091
+corporation taxes,0.75
+corporations,0.8333333333333334
+correctional facilities and imprisonment,0.9782608695652174
 correctional institutions,1.0
-correctional personnel,0.6666666666666666
+correctional personnel,0.875
+corrections,1.0
 correspondence schools and courses,1.0
 corrosion,1.0
 cosmetics and personal care,1.0
-cost accounting,0.7333333333333333
-cost control,0.8571428571428571
-cost effectiveness,0.6470588235294118
-cost of living adjustments,0.6666666666666666
+cost accounting,0.8928571428571429
+cost control,0.9375
+cost effectiveness,0.9069767441860465
+cost of living adjustments,0.90625
 cost overruns,1.0
-cost plus contracts,0.0
+cost plus contracts,0.6666666666666666
 costa rica,1.0
+costs,1.0
 cotton,1.0
-counseling,0.9090909090909091
+counseling,0.9444444444444444
 counterfeiting,1.0
-counterintelligence,0.875
-counterpart funds,0.0
+counterintelligence,0.9473684210526315
+counterpart funds,0.8333333333333334
 countervailing duties,1.0
-county politics and government,0.0
-coups d'etat,0.0
-court records,0.8
+county politics and government,1.0
+coups d'etat,0.8333333333333334
+court records,0.9166666666666666
 court reporting,1.0
-courthouses,0.5454545454545454
-courts of special jurisdiction,0.3333333333333333
+courthouses,0.8529411764705882
+courts of special jurisdiction,0.7857142857142857
 courts-martial and courts of inquiry,1.0
+covert operations,1.0
 credit,1.0
-credit and credit markets,0.4
-credit cards,0.8
-credit unions,0.75
-crime and law enforcement,0.8048780487804879
-crime prevention,0.7567567567567568
-crime victims,0.7714285714285715
+credit and credit markets,0.9411764705882353
+credit cards,0.9285714285714286
+credit insurance,1.0
+credit unions,0.9166666666666666
+crime and law enforcement,0.9509594882729211
+crime prevention,0.9591836734693877
+crime victims,0.9722222222222222
 crimes against animals and natural resources,1.0
-crimes against children,0.6
+crimes against children,0.9545454545454546
 crimes against humanity,1.0
 crimes against property,1.0
 crimes against the elderly,1.0
-crimes against women,0.5517241379310345
+crimes against women,0.9508196721311475
 criminal aliens,1.0
-criminal investigation,0.7297297297297297
-"criminal investigation, prosecution, interrogation",0.7076923076923077
-criminal justice information,0.8125
-criminal justice information and records,0.7
+criminal courts,1.0
+criminal investigation,0.864406779661017
+"criminal investigation, prosecution, interrogation",0.9642857142857143
+criminal justice information,0.8983050847457628
+criminal justice information and records,0.96875
 criminal liability,1.0
-criminal procedure,0.6666666666666666
-criminal procedure and sentencing,0.6923076923076923
-criminal statistics,0.75
+criminal procedure,0.8333333333333334
+criminal procedure and sentencing,0.9322033898305084
+criminal statistics,0.8823529411764706
 criminology,1.0
 crisis management,1.0
-croatia,0.75
+critically ill,1.0
+croatia,0.8333333333333334
 crop insurance,1.0
 cruise missiles,1.0
 cryptography,1.0
-cuba,0.42857142857142855
-cubans,0.5
+cuba,0.9069767441860465
+cubans,0.75
 cults,1.0
 cultural centers,1.0
-cultural exchanges and relations,0.6666666666666666
-cultural property,0.875
-cultural relations,0.6666666666666666
-currency,0.7
-curricula,0.7333333333333333
+cultural exchanges and relations,1.0
+cultural property,0.9375
+cultural relations,0.9090909090909091
+currency,0.9347826086956522
+currency devaluation,1.0
+curricula,0.9285714285714286
 custody of children,1.0
 customer service,1.0
-customs administration,0.9090909090909091
+customs administration,0.9705882352941176
 customs enforcement,1.0
 customs unions,1.0
-cyprus,0.0
-cytology,0.5
+cyprus,0.75
+cytology,1.0
 czech republic,1.0
-damages,0.6071428571428571
-dams,0.8125
-dams and canals,0.875
-data banks,0.8163265306122449
-day care,0.7692307692307693
-deaf,0.3333333333333333
+dairy industry,1.0
+dairy products,1.0
+damages,0.9487179487179487
+dams,0.90625
+dams and canals,1.0
+data banks,0.9222222222222223
+day care,0.8928571428571429
+deaf,0.75
 death,1.0
-debit cards,0.0
+debit cards,0.6666666666666666
 debt,1.0
-debt agreements,0.0
-debt collection,0.5
+debt agreements,0.6666666666666666
+debt collection,0.95
 debt limit,1.0
-debt relief,0.5
+debt relief,0.875
 debtor and creditor,1.0
-deceptive advertising,0.5
+deceptive advertising,0.8333333333333334
 decision making,1.0
 declaration of war,1.0
 defective products,1.0
-defense budgets,0.7714285714285715
-defense burdensharing,0.75
-defense contracts,0.9166666666666666
-defense industries,0.9090909090909091
-defense nuclear facilities safety board,0.875
-defense procurement,0.8235294117647058
-defense spending,0.4
-defined benefit pension plans,0.75
-defined contribution plans,0.75
-delaware,0.9285714285714286
+defectors,1.0
+defense budgets,0.9354838709677419
+defense burdensharing,0.9
+defense contracts,0.9615384615384616
+defense industries,1.0
+defense nuclear facilities safety board,1.0
+defense procurement,0.9666666666666667
+defense spending,0.918918918918919
+defined benefit pension plans,0.8571428571428571
+defined contribution plans,0.8
+delaware,0.972972972972973
 delegation of powers,1.0
-delta regional authority,0.5
-democracy,0.9375
-democratic republic of congo,0.0
-democratic republic of the congo,0.6666666666666666
-denali commission,0.0
+delta regional authority,0.9285714285714286
+democracy,0.9772727272727273
+democratic republic of congo,0.8
+democratic republic of the congo,0.9
+demography,1.0
+denali commission,0.9375
 denmark,1.0
-dental care,0.9090909090909091
-dentists,0.8
-department of agriculture,0.7
-department of commerce,0.7857142857142857
-department of defense,0.66
-department of education,0.3333333333333333
-department of energy,0.7878787878787878
-department of health and human services,0.7272727272727273
-department of homeland security,0.8367346938775511
-department of housing and urban development,0.2
-department of justice,0.7714285714285715
-department of labor,0.4166666666666667
-department of state,0.8181818181818182
-department of the interior,0.7674418604651163
-department of the treasury,0.6052631578947368
-department of transportation,0.75
-department of veterans affairs,0.7666666666666667
-depletion allowances,0.0
-deportation,0.7777777777777778
-deposit insurance,0.5
+dental care,0.967741935483871
+dentistry,1.0
+dentists,0.875
+department of agriculture,0.9466666666666667
+department of commerce,0.9509803921568627
+department of defense,0.9416058394160584
+department of education,0.8809523809523809
+department of energy,0.9659090909090909
+department of health and human services,0.9419354838709677
+department of homeland security,0.9732620320855615
+department of housing and urban development,0.9047619047619048
+department of justice,0.9444444444444444
+department of labor,0.8709677419354839
+department of state,0.9620253164556962
+department of the interior,0.9421487603305785
+department of the treasury,0.8936170212765957
+department of transportation,0.9557522123893806
+department of veterans affairs,0.9662162162162162
+depletion allowances,1.0
+deportation,1.0
+deposit insurance,0.8
 depositions,1.0
-depreciation and amortization,0.5
-depressed areas,0.5714285714285714
-derivative securities,0.0
-desegregation in education,0.6666666666666666
+depreciation and amortization,0.875
+depressed areas,1.0
+desegregation in education,0.8333333333333334
 destruction of property,1.0
-detention of persons,0.696969696969697
+detention of persons,0.9506172839506173
 developed countries,1.0
-developing countries,0.6666666666666666
-development credit institutions,0.75
-diabetes,0.3333333333333333
-diesel motor,0.2
+developing countries,0.9210526315789473
+development credit institutions,0.9375
+diabetes,0.6666666666666666
+diamonds,1.0
+dictators,1.0
+diego garcia,1.0
+diesel motor,0.8
 diet,1.0
-digestive and metabolic diseases,0.6666666666666666
+dietary supplements,1.0
+digestive and metabolic diseases,0.9523809523809523
+digestive diseases,1.0
 digital media,1.0
 dikes (engineering),1.0
-diplomacy,0.6363636363636364
-"diplomacy, foreign officials, americans abroad",0.8809523809523809
+diplomacy,0.875
+"diplomacy, foreign officials, americans abroad",0.9745762711864406
 diplomats,1.0
+direct broadcast satellites,1.0
 direct mail advertising,1.0
 director of national intelligence,1.0
-directories,0.5
-disability and health-based discrimination,0.75
-disability and paralysis,0.7777777777777778
-disability assistance,0.5
-disability evaluation,0.25
-disability insurance,0.0
-disability retirement,0.5
-disabled,0.631578947368421
-disaster insurance,0.75
+directories,0.782608695652174
+disability and health-based discrimination,0.875
+disability and paralysis,0.9741379310344828
+disability assistance,0.9777777777777777
+disability evaluation,0.75
+disability insurance,1.0
+disability retirement,0.8333333333333334
+disabled,0.8928571428571429
+disaster insurance,0.9333333333333333
 disaster loans,1.0
-disaster relief,0.6764705882352942
-disaster relief and insurance,0.6111111111111112
-disasters,0.5
-disciplining of employees,0.6363636363636364
-discovery (law),0.0
+disaster relief,0.873015873015873
+disaster relief and insurance,0.9464285714285714
+disasters,0.7272727272727273
+disciplining of employees,0.8125
+discovery (law),0.6666666666666666
 discrimination,1.0
-discrimination against the disabled,0.0
+discrimination against the disabled,1.0
 discrimination in consumer credit,1.0
 discrimination in education,1.0
-discrimination in employment,0.3333333333333333
-discrimination in insurance,0.5
-discrimination in medical care,0.4
+discrimination in employment,0.625
+discrimination in insurance,0.8333333333333334
+discrimination in medical care,0.8333333333333334
 diseases,1.0
-dislocated workers,0.5
-dismissal of employees,0.6363636363636364
-displaced persons,0.7142857142857143
+dislocated workers,0.7272727272727273
+dismissal of employees,0.75
+displaced persons,0.9375
 dispute settlement,1.0
 dissenters,1.0
-distance education,0.8571428571428571
-district courts,0.625
-district of columbia,0.7017543859649122
-dividends,0.5
-divorce,0.5
+distance education,1.0
+district courts,0.8947368421052632
+district of columbia,0.9378531073446328
+diversification in industry,1.0
+dividends,1.0
+divorce,0.8181818181818182
 djibouti,1.0
 dna,1.0
-dogs,0.75
-domestic partners,0.5
-domestic violence and child abuse,0.7777777777777778
+dogs,0.875
+domestic partners,0.8
+domestic violence and child abuse,0.9772727272727273
 dominican republic,1.0
 "donation of organs, tissues, etc.",1.0
-draft registration,0.0
-drainage,0.3333333333333333
-dredging,0.0
+drainage,0.9090909090909091
+dredging,0.875
+driftnet fishing,1.0
 driver education,1.0
-driver licenses,0.75
+driver licenses,0.95
 drone aircraft,1.0
-dropouts,0.25
-droughts,0.8571428571428571
-drug abuse,0.7555555555555555
-drug abuse prevention,0.6666666666666666
-drug abuse treatment,0.75
+dropouts,0.6
+droughts,0.9375
+drug abuse,0.9270833333333334
+drug abuse prevention,0.8823529411764706
+drug abuse treatment,0.9523809523809523
 drug addiction,1.0
-drug adulteration,0.6666666666666666
-drug approvals,0.5
-drug enforcement administration (dea),0.75
-drug industry,0.5
+drug adulteration,0.8333333333333334
+drug advertising,1.0
+drug approvals,1.0
+drug courts,1.0
+drug enforcement administration (dea),0.9473684210526315
+drug industry,0.9285714285714286
 drug interactions,1.0
-drug law enforcement,0.7916666666666666
-drug legalization,0.0
-"drug safety, medical device, and laboratory regulation",0.875
-drug testing,0.5
-drug therapy,0.8181818181818182
-drug traffic,0.7692307692307693
-drug trafficking and controlled substances,0.7407407407407407
+drug law enforcement,0.9272727272727272
+drug legalization,0.6
+drug resistance in microorganisms,1.0
+"drug safety, medical device, and laboratory regulation",0.975609756097561
+drug testing,0.75
+drug therapy,0.9772727272727273
+drug traffic,0.9
+drug trafficking and controlled substances,0.9666666666666667
 drug utilization,1.0
-"drug, alcohol, tobacco use",0.8076923076923077
-drugs,0.7222222222222222
-drugs and athletes,0.0
-drugs and employment,0.5
-drugs and youth,0.8333333333333334
-drunk driving,0.7142857142857143
+"drug, alcohol, tobacco use",0.9625
+drugs,0.9285714285714286
+drugs and athletes,0.8
+drugs and employment,0.7142857142857143
+drugs and youth,0.9444444444444444
+drunk driving,0.9
 dubai ports world aftermath legislation,1.0
-due process and equal protection,0.8
-due process of law,0.8333333333333334
+due process and equal protection,0.9166666666666666
+due process of law,0.9333333333333333
 dumping,1.0
+dyes and dyeing,1.0
 dyslexia,0.0
+eagles,1.0
 early retirement,1.0
-earned income tax credit,0.0
-earnings,0.0
+earned income tax credit,0.625
+earnings,0.8
+earth movements and building,1.0
 earth resources satellites,1.0
-earth sciences,0.8333333333333334
-earthquakes,0.8
-easements,0.9411764705882353
-east asia,0.7272727272727273
-eastern europe,0.0
+earth sciences,1.0
+earthquakes,0.9166666666666666
+easements,0.9761904761904762
+east asia,0.8813559322033898
+east timor,1.0
+eastern europe,0.5
 eating disorders,1.0
 ebb terrorism,1.0
-ecological research,0.6
-ecology,0.5
-economic assistance,0.9
+ecological research,0.8
+ecological surveys,1.0
+ecology,0.9166666666666666
+economic assistance,0.9666666666666667
 economic concentration,1.0
-economic development,0.7297297297297297
-economic growth,0.6666666666666666
+economic development,0.946236559139785
+economic forecasting,1.0
+economic growth,0.8571428571428571
 economic impact statements,1.0
-economic performance and conditions,0.6666666666666666
+economic integration,1.0
+economic performance and conditions,0.9333333333333333
 economic research,1.0
-economic stabilization,0.5
-economic theory,0.0
-economics and public finance,0.7750865051903114
-ecosystem management,0.8
+economic stabilization,1.0
+economic statistics,1.0
+economic theory,1.0
+economics and public finance,0.9433656957928802
+economists,1.0
+ecosystem management,0.9230769230769231
+ecotourism,1.0
 ecuador,1.0
 ecumenical movement,1.0
-education,0.7973856209150327
-education of the disadvantaged,0.5333333333333333
-education programs funding,0.675
-education savings accounts,0.5
-educational accountability,0.5
+education,0.9358974358974359
+education of the disadvantaged,0.9411764705882353
+education programs funding,0.926605504587156
+education savings accounts,0.75
+educational accountability,0.7777777777777778
 educational counseling,1.0
-educational exchanges,0.7142857142857143
-educational facilities,0.75
-educational facilities and institutions,0.5
-educational innovations,0.5
+educational exchanges,0.875
+educational facilities,0.9166666666666666
+educational facilities and institutions,0.9210526315789473
+educational guidance,1.0
+educational innovations,1.0
 educational planning,1.0
 educational research,1.0
 educational statistics,1.0
-educational technology,0.7777777777777778
-educational technology and distance education,0.3333333333333333
+educational technology,0.9333333333333333
+educational technology and distance education,0.9047619047619048
 educational television,1.0
 educational tests,1.0
-educational vouchers,0.0
-egypt,0.5
+educational vouchers,0.5
+egypt,0.8823529411764706
 eisenhower administration,1.0
-el salvador,0.6
+el salvador,0.9285714285714286
 elder abuse,1.0
-election administration,0.8
-election assistance commission,0.0
+election administration,1.0
+election assistance commission,0.8181818181818182
 election candidates,1.0
 election fraud,1.0
-"elections, voting, political campaign regulation",0.5
-electric appliances,0.0
+"elections, voting, political campaign regulation",0.8947368421052632
+electric appliances,0.6666666666666666
 electric batteries,1.0
-electric power distribution,0.6666666666666666
-electric power generation and transmission,0.6875
-electric power production,0.4
+electric power,1.0
+electric power distribution,1.0
+electric power generation and transmission,0.9565217391304348
+electric power production,0.8181818181818182
 electric power transmission,1.0
-electric utilities,0.75
-electric vehicles,0.0
-electronic commerce,0.6
-electronic data interchange,0.5882352941176471
-electronic government information,0.6764705882352942
-electronic mail systems,0.5
-electronic surveillance,0.8
-elementary and secondary education,0.7403846153846154
-elementary education,0.5833333333333334
+electric utilities,1.0
+electric utility rates,1.0
+electric vehicles,0.6666666666666666
+electricity,1.0
+electrification,1.0
+electronic benefits transfers,1.0
+electronic commerce,0.8333333333333334
+electronic data interchange,0.8387096774193549
+electronic funds transfers,1.0
+electronic government information,0.875
+electronic mail systems,0.8
+electronic surveillance,0.9444444444444444
+electronics,1.0
+electronics industry,1.0
+elementary and secondary education,0.9372549019607843
+elementary education,0.8857142857142857
+elephants,1.0
+elk,1.0
 embargo,1.0
-embassies,0.8
+embassies,1.0
 embezzlement,1.0
 emblems,1.0
-emergency communication systems,0.7777777777777778
-emergency communications systems,0.76
-emergency housing,0.75
-emergency management,0.7338709677419355
-emergency medical services and trauma care,0.8125
-emergency medicine,0.75
-emergency planning and evacuation,0.8333333333333334
+emergency communication systems,0.92
+emergency communications systems,0.9574468085106383
+emergency housing,1.0
+emergency management,0.9208333333333333
+emergency medical services and trauma care,0.9724770642201835
+emergency medicine,0.9722222222222222
+emergency planning and evacuation,0.9701492537313433
 emigration,1.0
 eminent domain,1.0
-employee benefit plans,0.5
-employee benefits and pensions,0.5555555555555556
-employee crimes,0.0
-employee health benefits,0.6666666666666666
-employee hiring,0.5
-employee leave,0.6923076923076923
+employee benefit plans,0.75
+employee benefits and pensions,0.9682539682539683
+employee crimes,0.75
+employee health benefits,1.0
+employee hiring,0.9574468085106383
+employee leave,0.9310344827586207
 employee ownership,1.0
-employee performance,0.7
-employee rights,0.6
-employee selection,0.8823529411764706
-employee stock options,0.0
-employee training,0.7272727272727273
-employee-management relations in government,0.25
-employers' liability,0.5
-employment agencies,0.6
-employment and training programs,0.6842105263157895
-employment discrimination and employee rights,0.6470588235294118
-employment of the disabled,0.5555555555555556
+employee performance,0.9583333333333334
+employee rights,0.782608695652174
+employee selection,0.9714285714285714
+employee stock options,0.6666666666666666
+employee training,0.9117647058823529
+employee-management relations in government,0.75
+employers' liability,1.0
+employment agencies,0.7142857142857143
+employment and training programs,0.9655172413793104
+employment discrimination and employee rights,0.9466666666666667
+employment of the disabled,0.7777777777777778
+employment of the disadvantaged,1.0
 employment subsidies,0.0
-employment taxes,0.0
+employment taxes,0.8181818181818182
 employment tests,1.0
 encryption,1.0
-endangered and threatened species,0.5454545454545454
-endangered species,0.8181818181818182
-energy,0.7047619047619048
-energy assistance for the poor,0.3333333333333333
-energy assistance for the poor and aged,0.5
-energy conservation,0.6666666666666666
-energy crops,0.5
-energy development,0.4
-energy efficiency,0.5555555555555556
-energy efficiency and conservation,0.6
-energy industries,0.5
+endangered and threatened species,0.9354838709677419
+endangered species,0.9230769230769231
+endorsements in advertising,1.0
+energy,0.9239130434782609
+energy assistance for the poor,0.75
+energy assistance for the poor and aged,0.9
+energy conservation,0.88
+energy consumption,1.0
+energy crops,1.0
+energy demand,1.0
+energy development,0.75
+energy efficiency,0.8823529411764706
+energy efficiency and conservation,0.9482758620689655
+energy facilities,1.0
+energy industries,0.6666666666666666
 energy policy,1.0
-energy prices,0.45454545454545453
-energy research,0.6666666666666666
-energy revenues and royalties,0.0
-energy security,0.25
-energy shortages,0.0
-"energy storage, supplies, demand",0.6842105263157895
-energy supplies,0.5
-engineering,0.8823529411764706
+energy prices,1.0
+energy research,1.0
+energy revenues and royalties,0.875
+energy security,0.5
+"energy storage, supplies, demand",0.9777777777777777
+energy supplies,1.0
+engineering,0.9655172413793104
 engineers,1.0
-english language,0.5714285714285714
+engines,1.0
+english language,0.8125
 enlisted personnel,1.0
-enterprise zones,0.0
+enterprise zones,0.6
 entertainers,1.0
-entitlements,0.5
-entrepreneurs,0.8571428571428571
-environmental assessment,0.6470588235294118
-"environmental assessment, monitoring, research",0.7419354838709677
-environmental education,0.875
+entitlements,0.9090909090909091
+entomology,1.0
+entrepreneurs,1.0
+environmental assessment,0.9285714285714286
+"environmental assessment, monitoring, research",0.972972972972973
+environmental degradation,1.0
+environmental education,0.9310344827586207
 environmental engineering,1.0
 environmental estrogens,1.0
-environmental health,0.7
+environmental health,0.8837209302325582
 environmental justice,1.0
-environmental law enforcement,0.8571428571428571
-environmental monitoring,0.9
-environmental protection,0.7672955974842768
-environmental protection agency,0.6
-environmental protection agency (epa),0.2222222222222222
-environmental regulatory procedures,0.09090909090909091
-environmental research,0.6363636363636364
-environmental technology,0.8
+environmental law enforcement,1.0
+environmental monitoring,0.9545454545454546
+environmental protection,0.9266666666666666
+environmental protection agency,0.8235294117647058
+environmental protection agency (epa),0.9
+environmental protection groups,1.0
+environmental regulatory procedures,0.92
+environmental research,0.875
+environmental technology,1.0
 environmentally induced diseases,1.0
 epidemics,1.0
-epidemiology,0.9
-equal employment opportunity commission,0.75
+epidemiology,0.95
+equal employment opportunity commission,0.875
+equal employment opportunity commission (eeoc),1.0
 equality before the law,1.0
-equipment and supplies,0.7777777777777778
+equatorial guinea,1.0
+equipment and supplies,0.9166666666666666
+eritrea,1.0
 eskimos,0.0
 espionage,1.0
 espionage and treason,1.0
-estate tax,0.0
-estates (law),0.3333333333333333
-estonia,0.625
-estuaries,0.8
+estate tax,1.0
+estates (law),0.75
+estonia,0.8181818181818182
+estuaries,0.9411764705882353
 ethics,1.0
 ethiopia,1.0
 ethnic groups,1.0
-ethnic relations,0.6363636363636364
-europe,0.8395061728395061
+ethnic relations,0.9473684210526315
+europe,0.9629629629629629
 european american ethnic groups,1.0
-european union,0.8666666666666667
+european union,0.96
 eutrophication,0.0
 evacuation of civilians,1.0
-evaluation research (social action programs),0.5
-everglades,0.5
-evidence (law),0.7
-evidence and witnesses,0.65
-ex-members of congress,0.875
-ex-offenders,0.8
-ex-presidents,0.5
+evaluation research (social action programs),0.8
+everglades,0.8888888888888888
+eviction,1.0
+evidence (law),0.975609756097561
+evidence and witnesses,0.95
+ex-members of congress,0.9787234042553191
+ex-offenders,1.0
+ex-presidents,0.7777777777777778
 ex-prisoners of war,1.0
 excavation,1.0
-excess profits tax,0.0
 exchange of persons programs,1.0
-excise tax,0.6
-executive agency funding and structure,0.7087378640776699
-executive compensation,0.8333333333333334
-executive office of the president,0.45454545454545453
+excise tax,0.8571428571428571
+executive agency funding and structure,0.9642857142857143
+executive compensation,0.9090909090909091
+executive office of the president,0.9038461538461539
 executive orders,1.0
-executive reorganization,0.864406779661017
+executive reorganization,0.95
 executives,1.0
-exercise,0.5
-exhibitions,0.8333333333333334
+exercise,0.6666666666666666
+exhibitions,0.9375
 exotic animals,1.0
 exotic plants,1.0
-expatriation,0.6666666666666666
+expatriation,1.0
 expedited congressional procedure,1.0
 expense accounts,1.0
-expert witnesses,0.0
-explosives,0.8
-export controls,0.6666666666666666
-export finance,0.0
-export subsidies,0.5
-export-import bank of the united states,0.0
-exports,0.625
+expert witnesses,1.0
+explosions,1.0
+explosives,1.0
+export controls,0.918918918918919
+export finance,0.9230769230769231
+export subsidies,0.75
+export-import bank of the united states,0.9411764705882353
+exports,0.9411764705882353
 express service,0.5
-expropriation,0.0
+expropriation,0.75
 extortion,1.0
 extradition,1.0
 extraterritoriality,1.0
 extremist movements in politics,1.0
+eye banks,1.0
 eye care,1.0
 eye diseases,1.0
-facsimile transmission,0.5
-families,0.7698412698412699
+eyeglasses,1.0
+facsimile transmission,0.6666666666666666
+families,0.9236947791164659
 family enterprises,0.0
+family farms,1.0
 family leave,1.0
 family medicine,1.0
-family planning and birth control,0.0
+family planning and birth control,0.7727272727272727
 family relationships,1.0
-family services,0.7058823529411765
+family services,0.9298245614035088
 family violence,1.0
-famines,0.0
+famines,0.8333333333333334
+farm credit administration,1.0
 farm income,1.0
-farm lands,0.5
+farm lands,0.8571428571428571
+farm manure,1.0
+farm produce,1.0
+farm production quotas,1.0
 farmers,1.0
-farmland,0.8333333333333334
-federal advisory bodies,0.7910447761194029
-federal aid programs,0.5
-federal aid to air pollution control,0.0
+farmland,1.0
+farms,1.0
+fathers,1.0
+federal advisory bodies,0.9133858267716536
+federal aid programs,0.6666666666666666
+federal aid to air pollution control,0.8181818181818182
 federal aid to child health services,1.0
-federal aid to education,0.7333333333333333
-federal aid to health facilities,0.7142857142857143
-federal aid to housing,0.5714285714285714
-federal aid to indians,0.8571428571428571
-federal aid to law enforcement,0.8181818181818182
-federal aid to research,0.7941176470588235
+federal aid to education,0.9074074074074074
+federal aid to health facilities,0.9743589743589743
+federal aid to housing,0.9333333333333333
+federal aid to indians,0.9322033898305084
+federal aid to law enforcement,0.9047619047619048
+federal aid to research,0.92
 federal aid to the aged,1.0
-federal aid to the arts and humanities,0.75
-federal aid to transportation,0.6111111111111112
-federal aid to water pollution control,0.6666666666666666
-federal aid to water resources development,0.9130434782608695
-federal appellate courts,0.3333333333333333
+federal aid to the arts and humanities,0.9285714285714286
+federal aid to transportation,0.875
+federal aid to water pollution control,0.9032258064516129
+federal aid to water resources development,0.9591836734693877
+federal appellate courts,0.9230769230769231
 federal budget process,1.0
-federal budgets,0.6
-federal bureau of investigation (fbi),0.8571428571428571
+federal budgets,0.9047619047619048
+federal bureau of investigation (fbi),0.972972972972973
 federal communications commission,1.0
-federal communications commission (fcc),0.7894736842105263
-federal deposit insurance corporation,0.0
-federal deposit insurance corporation (fdic),0.0
-federal district courts,0.5555555555555556
-federal election commission,0.0
-federal election commission (fec),0.0
-federal emergency management agency,0.6666666666666666
-federal emergency management agency (fema),0.5
-federal employees,0.7627118644067796
+federal communications commission (fcc),0.9473684210526315
+federal crop insurance corporation,1.0
+federal deposit insurance corporation,0.8333333333333334
+federal deposit insurance corporation (fdic),0.8181818181818182
+federal district courts,0.90625
+federal election commission,0.6666666666666666
+federal election commission (fec),0.875
+federal emergency management agency,0.9375
+federal emergency management agency (fema),0.9142857142857143
+federal employees,0.9142857142857143
+federal energy regulatory commission,1.0
 federal energy regulatory commission (ferc),1.0
+federal housing finance board,1.0
 federal incorporation,1.0
-federal installations,0.75
-federal labor relations authority,0.0
-federal law enforcement officers,0.45454545454545453
-federal libraries,0.75
-federal mandates,0.5
-federal maritime commission,0.5
-federal mediation and conciliation service,0.0
-federal mine safety and health review commission,0.0
-federal office buildings,0.6
-federal officials,0.7361111111111112
-federal preemption,0.38095238095238093
-federal reserve system,0.2
+federal installations,0.9090909090909091
+federal labor relations authority,0.8
+federal law enforcement officers,0.8285714285714286
+federal libraries,0.8571428571428571
+federal mandates,0.8
+federal maritime commission,0.9411764705882353
+federal mediation and conciliation service,0.875
+federal mine safety and health review commission,0.9
+federal office buildings,0.9166666666666666
+federal officials,0.927461139896373
+federal preemption,1.0
+"federal prison industries, inc.",1.0
+federal reserve system,0.8461538461538461
+federal retirement thrift investment board,1.0
 federal trade commission,1.0
-federal trade commission (ftc),0.5714285714285714
-federal-city relations,0.5
-federal-indian relations,0.8771929824561403
-federal-local relations,0.90625
-federal-state relations,0.9361702127659575
-federal-territorial relations,0.0
+federal trade commission (ftc),0.8888888888888888
+federal-city relations,0.8333333333333334
+federal-indian relations,0.9782608695652174
+federal-local relations,0.9672131147540983
+federal-state relations,0.9797979797979798
+federal-territorial relations,0.8571428571428571
+federally chartered organizations,1.0
 federally-assisted loans,0.5
-federally-guaranteed loans,0.6363636363636364
+federally-guaranteed loans,0.8933333333333333
 feeds,1.0
-fees,0.6666666666666666
+feedstock,1.0
+fees,0.9375
 fertilizers,1.0
-fetus,0.0
+fetal alcohol syndrome,1.0
+fetus,1.0
+fiber optics,1.0
 fibers,1.0
 fighter aircraft,1.0
+fiji,1.0
 filipino americans,0.0
-finance and financial sector,0.7254901960784313
-financial crises and stabilization,0.14285714285714285
-financial disclosure,0.6
-financial literacy,0.0
-financial planning,0.5
-financial services,0.7142857142857143
-financial services and investments,0.625
-financial statements,0.75
-fines (penalties),0.5454545454545454
-fingerprints,0.875
+finance and financial sector,0.9355742296918768
+financial crises,1.0
+financial crises and stabilization,0.8333333333333334
+financial disclosure,0.8
+financial institutions,1.0
+financial literacy,1.0
+financial planning,0.8
+financial services,0.9285714285714286
+financial services and investments,0.9130434782608695
+financial stability oversight council,1.0
+financial statements,0.88
+fines (penalties),0.8636363636363636
+fingerprints,1.0
 finland,1.0
-fire departments,0.8333333333333334
-fire fighters,0.7058823529411765
-fire prevention,0.8333333333333334
-firearms,0.6
-firearms and explosives,0.5
-firearms control,0.6666666666666666
+fire departments,0.9166666666666666
+fire fighters,0.925
+fire prevention,0.9411764705882353
+firearms,0.8518518518518519
+firearms and explosives,1.0
+firearms control,0.8888888888888888
 firearms injuries,0.0
-fires,0.7037037037037037
-first amendment rights,0.6666666666666666
-first responders and emergency personnel,0.8260869565217391
+fires,0.9436619718309859
+first amendment rights,0.75
+first responders and emergency personnel,0.9836065573770492
+fiscal year,1.0
+fish culture,1.0
 fish kills,1.0
-fisheries,0.8
+fisheries,0.9090909090909091
 fishery agreements,1.0
-fishery management,0.8125
-fishes,0.6666666666666666
-fishing,0.875
-fishing boats,0.8
+fishery management,0.9142857142857143
+fishery products,1.0
+fishes,0.9444444444444444
+fishing,0.9565217391304348
+fishing boats,0.95
 fissionable materials,1.0
-flags,0.875
+flags,0.9090909090909091
+flags of convenience,1.0
+flammable materials,1.0
+flexible benefit plans,1.0
 flight crews,1.0
 flight training,1.0
-flood control,0.6666666666666666
-flood damage prevention,0.3333333333333333
-floods,0.8666666666666667
-floods and storm protection,0.6666666666666666
-florida,0.7941176470588235
+flood control,0.8947368421052632
+flood damage prevention,0.8181818181818182
+floodplains,1.0
+floods,0.96875
+floods and storm protection,0.96875
+florida,0.9612403100775194
 food additives,1.0
-food and drug administration (fda),0.6666666666666666
-food assistance and relief,0.5384615384615384
+food and drug administration (fda),0.9512195121951219
+food as a weapon,1.0
+food assistance and relief,0.9615384615384616
 food industry,1.0
-food industry and services,0.6666666666666666
+food industry and services,0.9473684210526315
+food irradiation,1.0
 food preservation,1.0
-food relief,0.875
+food prices,1.0
+food relief,0.967741935483871
 food safety,1.0
-food service,0.8
-food stamps,0.3333333333333333
+food service,0.9
+food stamps,0.9411764705882353
 food supply,1.0
 food supply insurance,1.0
-"food supply, safety, and labeling",0.7647058823529411
+"food supply, safety, and labeling",0.9761904761904762
 foodborne diseases,1.0
 football,1.0
-forced labor,0.75
+forced labor,0.9285714285714286
 foreclosure,1.0
-foreign agents,0.75
-foreign aid and international relief,0.8301886792452831
-foreign and international banking,0.875
-foreign and international corporations,0.25
-foreign banks and banking,0.5
-foreign corporations,0.4166666666666667
-foreign exchange,0.6
+foreign agents,1.0
+foreign aid and international relief,0.9659863945578231
+foreign and international banking,1.0
+foreign and international corporations,0.9333333333333333
+foreign banks and banking,0.9166666666666666
+foreign corporations,0.7727272727272727
+foreign exchange,0.8461538461538461
 foreign fishing,1.0
-foreign investments,0.7777777777777778
-foreign labor,0.36363636363636365
-foreign language and bilingual programs,0.7142857142857143
-foreign leaders,0.8666666666666667
-foreign loans,0.6666666666666666
-foreign loans and debt,0.5714285714285714
+foreign investments,0.8666666666666667
+foreign labor,0.8787878787878788
+foreign language and bilingual programs,0.9047619047619048
+foreign leaders,0.9310344827586207
+foreign loans,0.9545454545454546
+foreign loans and debt,0.9230769230769231
 foreign property,1.0
-foreign service,0.875
+foreign service,0.9375
 foreign students,1.0
-foreign tax credit,0.3333333333333333
-foreign trade and international finance,0.7375
-foreign trade promotion,0.5
+foreign tax credit,0.8
+foreign trade and international finance,0.9239130434782609
+foreign trade promotion,0.8888888888888888
 foreign-trained physicians,1.0
-forensic chemistry,0.0
+forensic chemistry,0.6666666666666666
 forensic medicine,1.0
-forest conservation,0.6
-forest fires,0.7142857142857143
+forensic scientists,1.0
+forest conservation,0.8947368421052632
+forest ecology,1.0
+forest fires,0.9166666666666666
+forest health,1.0
 forest management,1.0
-forest products,0.5
-forest roads,0.5
-forestry,0.5
+forest products,0.6666666666666666
+forest roads,0.8571428571428571
+forestry,0.8
 forestry research,1.0
-"forests, forestry, trees",0.65
-forfeiture,0.8888888888888888
+"forests, forestry, trees",0.9493670886075949
+forfeiture,0.9642857142857143
 forgery,1.0
-former soviet states,0.7
+former soviet states,0.8636363636363636
+fossil fuels,1.0
 fossils,1.0
-foster home care,0.75
-foundations,0.9130434782608695
-france,0.8571428571428571
-franking privilege,0.0
-fraud,0.6410256410256411
-fraud offenses and financial crimes,0.7619047619047619
-free enterprise,0.8
+foster home care,0.9565217391304348
+foundations,0.9772727272727273
+france,0.9333333333333333
+franchises (retail trade),1.0
+franking privilege,0.6666666666666666
+fraternal organizations,1.0
+fraud,0.8529411764705882
+fraud offenses and financial crimes,0.9411764705882353
+free enterprise,0.9166666666666666
+free ports and zones,1.0
 free trade,1.0
 free trade and trade barriers,1.0
 freedom of association,1.0
-freedom of information,0.7727272727272727
-freedom of speech,0.75
+freedom of information,0.8809523809523809
+freedom of speech,0.9285714285714286
 freedom of the press,1.0
-freight,0.75
-freight forwarders,0.75
+freight,0.9090909090909091
+freight forwarders,0.8333333333333334
 freshwater resources conservation,1.0
-fringe benefits,0.6666666666666666
-frivolous lawsuits,0.0
-fruit and vegetables,0.0
-fuel cells,0.0
-fuel consumption,0.0
-fugitives from justice,0.5
+fringe benefits,0.8928571428571429
+frozen food,1.0
+fruit,1.0
+fruit and vegetables,0.8571428571428571
+fuel,1.0
+fuel cells,0.75
+fuel consumption,0.8
+fugitives from justice,0.8181818181818182
 functional literacy,0.0
-fund raising,0.75
+fund raising,0.9090909090909091
 fungi,1.0
-futures trading,0.5
+fungicides,1.0
+fur trade,1.0
+futures trading,1.0
+gabon,1.0
 gambia,1.0
-gambling,0.6363636363636364
-gangs,0.5
+gambling,0.9259259259259259
+games and hobbies,1.0
+gangs,0.8333333333333334
 gardening,1.0
+garnishment,1.0
 gas companies,1.0
-gas in submerged lands,0.5
-gas industry,0.0
+gas in submerged lands,1.0
+gas industry,1.0
 gas pipelines,1.0
-gasoline,0.2
-gaza strip,0.0
+gasoline,0.75
+gaza strip,0.875
 genealogy,1.0
-general accounting office,0.6666666666666666
+general accounting office,0.8571428571428571
 general agriculture matters,1.0
-general public lands matters,0.0
-general services administration,0.3333333333333333
+general energy matters,1.0
+general public lands matters,1.0
+general services administration,0.8666666666666667
+general taxation matters,1.0
 generic drugs,1.0
 genetic counseling,1.0
 genetic engineering,1.0
-genetic research,0.5
-genetics,0.9166666666666666
-genocide,0.8333333333333334
+genetic research,0.75
+genetics,0.9736842105263158
+genocide,0.9285714285714286
 geodesy,1.0
-geographic information systems,0.875
-geography and mapping,0.8
+geographic information systems,0.9230769230769231
+geography and mapping,0.95
 geology,1.0
 geophysical prediction,1.0
-georgia,0.7647058823529411
-georgia (republic),0.6666666666666666
-geothermal resources,0.25
+georgia,0.9682539682539683
+georgia (republic),0.9444444444444444
+geothermal resources,0.75
 geriatrics,1.0
-germany,0.8571428571428571
+germany,0.9629629629629629
+gerontology,1.0
 ghana,1.0
-gift tax,0.0
-gifts,0.75
+gift tax,1.0
+gifts,0.9111111111111111
+girl scouts,1.0
+glass and glass industry,1.0
+gold,1.0
+golden parachutes,1.0
 golf,1.0
-government accountability office (gao),0.5
-government and business,0.0
-government and the press,0.0
-government attorneys,0.6
-"government buildings, facilities, and property",0.8727272727272727
-government contractors,0.65625
-government corporations,0.2727272727272727
-government corporations and government-sponsored enterprises,0.5
-government downsizing,0.7142857142857143
-"government employee pay, benefits, personnel management",0.7752808988764045
-government employees' health insurance,0.375
-government employees' life insurance,0.5
-government ethics,0.42857142857142855
-"government ethics and transparency, public corruption",0.8181818181818182
-government information and archives,0.8321678321678322
-government insurance,0.25
-government internships,0.8
-government lending,0.5789473684210527
-government lending and loan guarantees,0.45714285714285713
-government liability,0.6111111111111112
-government liability (international law),0.8
-government life insurance,0.75
-government national mortgage association,0.0
+government accountability office (gao),0.8857142857142857
+government aircraft,1.0
+government and business,0.7142857142857143
+government and the press,0.6666666666666666
+government attorneys,0.7777777777777778
+"government buildings, facilities, and property",0.992
+government contractors,0.8571428571428571
+government corporations,0.7586206896551724
+government corporations and government-sponsored enterprises,0.9473684210526315
+government downsizing,0.8333333333333334
+"government employee pay, benefits, personnel management",0.9731800766283525
+government employee unions,1.0
+government employees' health insurance,0.8095238095238095
+government employees' life insurance,0.6666666666666666
+government employees' political activities,1.0
+government ethics,0.75
+"government ethics and transparency, public corruption",0.9859154929577465
+government information and archives,0.9829683698296837
+government insurance,0.5714285714285714
+government internships,0.8888888888888888
+government lending,0.8852459016393442
+government lending and loan guarantees,0.9272727272727272
+government liability,0.8823529411764706
+government liability (international law),1.0
+government life insurance,1.0
+government national mortgage association,0.6666666666666666
+government national mortgage association (ginnie mae),1.0
 government officials,1.0
-government operations and politics,0.8307984790874525
+government operations and politics,0.9776119402985075
 government ownership,1.0
-government paperwork,0.7474747474747475
-government procurement,0.5294117647058824
+government paperwork,0.9264705882352942
+government procurement,0.8727272727272727
 government property,1.0
-government publications,0.6153846153846154
-government publicity,0.7647058823529411
-government publishing office (gpo),0.6
-government regulation,0.0
-government securities,0.5
-government service contracts,0.6363636363636364
-government spending reductions,0.75
-government statistics,0.6
-government studies and investigations,0.8125
-government travel,0.375
-government trust funds,0.5952380952380952
-government vehicles,0.2
-governmental investigations,0.8160919540229885
+government publications,0.85
+government publicity,0.9216867469879518
+government publishing office (gpo),0.8947368421052632
+government regulation,1.0
+government securities,0.8888888888888888
+government service contracts,0.875
+government spending reductions,0.8333333333333334
+government statistics,0.8888888888888888
+government studies and investigations,0.9789473684210527
+government travel,0.8214285714285714
+government trust funds,0.9186046511627907
+government vehicles,0.7894736842105263
+governmental investigations,0.9293478260869565
 governors,1.0
-graduate education,0.8571428571428571
+graduate education,0.9523809523809523
 grain,1.0
-grandparents,0.0
-grants-in-aid,0.75
-grassland ecology,0.0
-grazing,0.75
-great lakes,0.8571428571428571
+grand jury,1.0
+grandparents,1.0
+grants-in-aid,0.9176470588235294
+grassland ecology,0.5
+grazing,0.9375
+great lakes,0.9629629629629629
 great plains,1.0
 greece,1.0
 greenland,0.0
+greenways,1.0
 grenades,1.0
-grievance procedures,0.6
+grievance procedures,0.875
 grocery trade,1.0
-groundwater,0.8888888888888888
+groundwater,0.9583333333333334
 group homes,1.0
 group medical practice,1.0
-guam,0.782608695652174
+guam,0.9428571428571428
 guardian and ward,1.0
-guatemala,0.6666666666666666
-guerrilla warfare,0.0
-guided missiles,0.8333333333333334
-guinea,0.5
-gulf of mexico,0.6666666666666666
-gynecology,0.0
-habeas corpus,0.5
-habitat conservation,0.8695652173913043
-haiti,0.6
-haiti compilation,0.5
+guatemala,0.9444444444444444
+guerrilla warfare,0.8
+guided missiles,1.0
+guinea,0.75
+gulf of mexico,0.967741935483871
+gulf states,1.0
+gulf war syndrome,1.0
+guyana,1.0
+gynecology,1.0
+habeas corpus,0.8333333333333334
+habitat conservation,0.9375
+haiti,0.9523809523809523
+haiti compilation,0.8571428571428571
 haitians,1.0
-halfway houses,0.5
-handicraft,0.5
-harbors,0.8
-hate crimes,0.7142857142857143
-hawaii,0.75
-hawaiians,0.6
-hazardous wastes,0.6666666666666666
-hazardous wastes and toxic substances,0.6756756756756757
-head injuries,0.5
-health,0.7699530516431925
-health care costs and insurance,0.3076923076923077
-health care coverage and access,0.5925925925925926
+halfway houses,0.6666666666666666
+handicraft,0.6666666666666666
+harbors,0.9130434782608695
+hate crimes,0.9090909090909091
+hawaii,0.9142857142857143
+hawaiians,0.7777777777777778
+hazardous wastes,0.8717948717948718
+hazardous wastes and toxic substances,0.967741935483871
+head injuries,0.6666666666666666
+health,0.9473684210526315
+health care costs and insurance,0.927710843373494
+health care coverage and access,0.946236559139785
 health care fraud,1.0
-health care quality,0.7272727272727273
-health counseling,0.75
-health education,0.8571428571428571
+health care quality,0.98
+health counseling,0.9333333333333333
+health education,0.975609756097561
 health facilities,1.0
-health facilities and institutions,0.7419354838709677
-health information and medical records,0.7419354838709677
-health information systems,0.8333333333333334
-health insurance,0.5172413793103449
+health facilities and institutions,0.9797297297297297
+health information and medical records,0.9827586206896551
+health information systems,0.896551724137931
+health insurance,0.8809523809523809
 health insurance continuation,1.0
-health maintenance organizations,0.0
-health personnel,0.7317073170731707
-health planning,0.8
-health programs administration and funding,0.6451612903225806
-health promotion and preventive care,0.8518518518518519
+health maintenance organizations,0.6666666666666666
+health personnel,0.9907407407407407
+health planning,0.9166666666666666
+health programs administration and funding,0.9545454545454546
+health promotion,1.0
+health promotion and preventive care,0.9809523809523809
 health services administration,1.0
-health surveys,0.9
-"health technology, devices, supplies",0.6428571428571429
+health surveys,0.9583333333333334
+"health technology, devices, supplies",0.9482758620689655
 health warnings,1.0
 hearing disorders,1.0
 "hearing, speech, and vision care",1.0
+hearsay evidence,1.0
+heart diseases,1.0
 heat pumps,1.0
-heating,0.5
+heating,0.9
 helicopters,1.0
+helium,1.0
+hemophilia,1.0
 hepatitis,1.0
-herbicides,0.6666666666666666
+herbicides,0.9
 herbs,1.0
 hereditary and development disorders,1.0
 hereditary diseases,1.0
+heroin,1.0
 high technology,0.75
-higher education,0.7469879518072289
-highspeed ground transportation,0.5
-highway finance,0.5833333333333334
-highway maintenance,0.75
+higher education,0.9335180055401662
+highspeed ground transportation,0.8
+highway finance,0.875
+highway maintenance,0.9
 highway planning,0.5
-highway use tax,0.3333333333333333
-hispanic americans,0.8
-historic sites,0.9534883720930233
-historic sites and heritage areas,0.5789473684210527
-historical and cultural resources,0.7692307692307693
-history,0.945054945054945
-hiv/aids,0.3333333333333333
+highway use tax,0.8181818181818182
+hispanic americans,1.0
+historians,1.0
+historic sites,0.9803921568627451
+historic sites and heritage areas,0.9696969696969697
+historical and cultural resources,1.0
+history,0.9787234042553191
+hiv/aids,0.9583333333333334
 holding companies,1.0
-home and outpatient care,0.6666666666666666
+home and outpatient care,0.971830985915493
 home care services,1.0
 home equity conversion,1.0
-home ownership,0.375
-home repair and improvement,0.4
+home ownership,0.7857142857142857
+home repair and improvement,0.7692307692307693
 home schooling,1.0
 homeland security,1.0
-homeless,0.5
-homelessness and emergency shelter,0.5
+homeless,0.782608695652174
+homelessness and emergency shelter,0.9714285714285714
+homeowners' associations,1.0
 homestead law,1.0
-homicide,0.7142857142857143
-homosexuality,0.0
-honduras,0.75
+homicide,0.8461538461538461
+homosexuality,0.5
+honduras,1.0
 hong kong,1.0
 honoraria,1.0
 hormones,1.0
-horses,0.5
+horse racing,1.0
+horses,0.8333333333333334
 horticulture,1.0
-horticulture and plants,0.3333333333333333
-hospital care,0.631578947368421
+horticulture and plants,1.0
+hospital care,0.9264705882352942
 hospital personnel,1.0
 hospital rates,1.0
-hospitals,0.7692307692307693
-hostages,0.6666666666666666
-hours of labor,0.7777777777777778
+hospitals,0.9545454545454546
+hostages,0.8571428571428571
+hours of labor,0.9047619047619048
 house administration,0.0
-house appropriations,0.5
+house appropriations,0.75
+house committee on appropriations,1.0
 house committee on ethics,1.0
-house committee on house administration,0.0
-house of representatives,0.6666666666666666
-house rules and procedure,0.6666666666666666
-household moving,0.75
-housing and community development,0.7230769230769231
-housing and community development funding,0.5789473684210527
-housing authorities,0.6666666666666666
-housing discrimination,0.0
-housing finance,0.6
-housing finance and home ownership,0.2
-housing for the aged,0.75
-housing for the disabled,0.0
-housing for the elderly and disabled,0.6666666666666666
+house committee on the budget,1.0
+house committee on ways and means,1.0
+house intelligence,1.0
+house of representatives,0.9540229885057471
+house rules and procedure,0.75
+household moving,0.8
+household workers,1.0
+housing and community development,0.9240506329113924
+housing and community development funding,0.9259259259259259
+housing authorities,0.75
+housing discrimination,0.8181818181818182
+housing finance,0.8888888888888888
+housing finance and home ownership,0.8958333333333334
+housing for the aged,0.8888888888888888
+housing for the disabled,0.8571428571428571
+housing for the elderly and disabled,0.9523809523809523
 housing industry and standards,1.0
-housing subsidies,0.5
-housing supply and affordability,0.3333333333333333
+housing management,1.0
+housing subsidies,0.8666666666666667
+housing supply and affordability,0.8888888888888888
 human behavior,1.0
-human embryology,0.3333333333333333
+human embryology,0.8
 human engineering,1.0
-human experimentation in medicine,0.0
-human immunodeficiency viruses,0.25
-human rights,0.8676470588235294
-human trafficking,0.8181818181818182
+human experimentation in medicine,0.3333333333333333
+human immunodeficiency viruses,0.8235294117647058
+human rights,0.9764705882352941
+human trafficking,0.9821428571428571
 human-animal relationships,1.0
-humanities programs funding,0.3333333333333333
+humanities programs funding,0.8333333333333334
 hungary,1.0
-hunger,0.6666666666666666
-hunting,0.8571428571428571
-hunting and fishing,0.5714285714285714
-hurricane aftermath legislation,0.8235294117647058
-hurricanes,0.7142857142857143
-"hybrid, electric, and advanced technology vehicles",0.75
-hydroelectric power,0.8571428571428571
-hydrogen,0.3333333333333333
-hydrology,0.875
+hunger,1.0
+hunting,0.9333333333333333
+hunting and fishing,0.9655172413793104
+hurricane aftermath legislation,0.9130434782608695
+hurricanes,0.8666666666666667
+"hybrid, electric, and advanced technology vehicles",1.0
+hydroelectric power,0.9545454545454546
+hydrogen,0.6
+hydrology,0.9285714285714286
 hydrology and hydrography,1.0
+hypertension,1.0
+ice breaking operations,1.0
 iceland,1.0
-idaho,0.7857142857142857
-identification devices,0.76
-identification of criminals,0.8571428571428571
+idaho,0.9852941176470589
+identification devices,0.92
+identification of criminals,0.9411764705882353
 identity theft,1.0
-illegal aliens,0.6923076923076923
-illinois,0.8666666666666667
-illiteracy,0.0
+illegal aliens,0.9545454545454546
+illinois,0.97
+illiteracy,1.0
 imaging systems in medicine,1.0
-immigrant education,0.5
-immigrant health,0.75
-immigrant health and welfare,0.6666666666666666
-immigrants,0.8571428571428571
-immigration,0.75
-immigration status and procedures,0.3888888888888889
-immunology and vaccination,0.6666666666666666
-impact aid,0.8461538461538461
+immigrant education,0.6666666666666666
+immigrant health,1.0
+immigrant health and welfare,1.0
+immigrants,0.9411764705882353
+immigration,0.946969696969697
+immigration status and procedures,0.9130434782608695
+immunology and vaccination,0.9629629629629629
+impact aid,0.9
 import relief,1.0
-import restrictions,0.8333333333333334
-imports,0.7857142857142857
+import restrictions,0.9615384615384616
+imports,0.90625
 imprisonment,1.0
-incest,0.5
+incest,0.8
 incineration,0.0
-income,0.6666666666666666
-income tax,0.5757575757575758
-income tax credits,0.25
-income tax deductions,0.29411764705882354
-income tax deferral,0.75
-income tax exclusion,0.42857142857142855
-income tax rates,0.16666666666666666
-indemnity,0.6666666666666666
-independent regulatory commissions,0.7142857142857143
-indexing (economic policy),0.6666666666666666
+income,0.8888888888888888
+income tax,0.84
+income tax credits,0.88
+income tax deductions,0.8846153846153846
+income tax deferral,0.9
+income tax exclusion,0.9354838709677419
+income tax rates,0.625
+incorporation,1.0
+indemnity,1.0
+independent regulatory commissions,0.9166666666666666
+indexing (economic policy),0.9444444444444444
 india,1.0
-indian children,0.7777777777777778
-indian claims,0.9444444444444444
+indian children,0.875
+indian claims,0.9803921568627451
 indian courts,1.0
-indian economic development,0.9
-indian education,0.875
-indian housing,0.8571428571428571
-indian lands,0.868421052631579
-indian lands and resources rights,0.7297297297297297
-indian law enforcement,0.9285714285714286
-indian medical care,0.9230769230769231
-indian social and development programs,0.7083333333333334
+indian economic development,1.0
+indian education,0.967741935483871
+indian housing,0.9411764705882353
+indian lands,0.9615384615384616
+indian lands and resources rights,0.970873786407767
+indian law enforcement,0.9545454545454546
+indian medical care,0.96
+indian social and development programs,0.9425287356321839
 indian water rights,1.0
 indian women,1.0
-indiana,0.7857142857142857
-indictments,0.6666666666666666
-indigenous peoples,0.9166666666666666
-individual retirement accounts,0.45454545454545453
-indonesia,0.0
-indoor air pollution,0.0
-industrial arbitration,0.0
+indiana,0.9230769230769231
+indictments,0.8571428571428571
+indigenous peoples,0.9523809523809523
+individual retirement accounts,0.6666666666666666
+indonesia,0.8333333333333334
+indoor air pollution,0.6666666666666666
+industrial arbitration,0.6
 industrial buildings,1.0
+industrial capacity,1.0
 industrial engineering,0.5
-industrial facilities,0.6666666666666666
-industrial relations,0.0
+industrial facilities,0.9565217391304348
+industrial parks,1.0
+industrial policy and productivity,1.0
+industrial production,1.0
+industrial relations,0.3333333333333333
+industrial standards,1.0
 industrialization,1.0
+industry-university relations,1.0
+infant formulas,1.0
 infant mortality,1.0
 infantry,1.0
 infants,1.0
-infectious and parasitic diseases,0.75
+infectious and parasitic diseases,0.9726027397260274
 inflation,1.0
-inflation and prices,0.2857142857142857
-influenza,0.5
-information networks,0.75
-information technology,0.5789473684210527
-informed consent (medical law),0.4
-informers,0.875
+inflation and prices,0.9142857142857143
+influenza,0.8571428571428571
+information disclosure (securities law),1.0
+information leaking,1.0
+information networks,0.9
+information services,1.0
+information technology,0.8048780487804879
+informed consent (medical law),0.8571428571428571
+informers,0.9583333333333334
 infrared technology,1.0
-infrastructure,0.8461538461538461
-infrastructure (economics),0.6153846153846154
-infrastructure development,0.6818181818181818
-inheritance tax,0.0
-injunctions,0.7368421052631579
-inland water transportation,0.5
+infrastructure,0.9464285714285714
+infrastructure (economics),0.9285714285714286
+infrastructure development,0.9574468085106383
+injunctions,0.9117647058823529
+inland water transportation,0.8333333333333334
+insect control,1.0
 insects,1.0
-inspectors general,0.47619047619047616
-insulin,0.0
+insider trading in securities,1.0
+inspectors general,0.7872340425531915
+insulin,0.6666666666666666
 insurance,1.0
-insurance agents,0.0
-insurance companies,0.3333333333333333
-insurance industry and regulation,0.3333333333333333
-insurance premiums,0.7272727272727273
-insurgency,0.5
-intellectual property,0.8571428571428571
-"intelligence activities, surveillance, classified information",0.7058823529411765
-intelligence community staff,0.6666666666666666
-intelligence officers,0.8571428571428571
-inter-american foundation,0.0
+insurance agents,0.6666666666666666
+insurance companies,0.9230769230769231
+insurance industry and regulation,0.9411764705882353
+insurance premiums,0.8947368421052632
+insurgency,0.9375
+intangible property,1.0
+intellectual property,0.9541284403669725
+"intelligence activities, surveillance, classified information",0.9680851063829787
+intelligence community staff,1.0
+intelligence officers,1.0
+inter-american foundation,0.7777777777777778
 interactive media,1.0
-interagency council on the homeless,0.0
+interagency council on homelessness,1.0
+interagency council on the homeless,0.5
 intercontinental ballistic missiles,1.0
-interest,0.6
-interest rates,0.7142857142857143
-"interest, dividends, interest rates",0.35714285714285715
-intergovernmental fiscal relations,0.75
-intergovernmental relations,0.7941176470588235
-intermodal transportation,0.8
-internal revenue service (irs),0.2727272727272727
-international affairs,0.8577981651376146
-international agencies,0.9
+interest,0.8518518518518519
+interest rates,0.8666666666666667
+"interest, dividends, interest rates",0.9
+intergovernmental fiscal relations,0.9354838709677419
+intergovernmental relations,0.9680851063829787
+intermodal transportation,0.9285714285714286
+internal revenue law,1.0
+internal revenue service (irs),0.7586206896551724
+international affairs,0.950354609929078
+international agencies,0.9555555555555556
+international arbitration,1.0
+international banking,1.0
 international broadcasting,1.0
 international claims,1.0
-international competitiveness,0.8571428571428571
-international control of nuclear power,0.7777777777777778
-international cooperation,0.7435897435897436
+international competitiveness,1.0
+international control of nuclear power,0.8666666666666667
+international cooperation,0.9032258064516129
 international cooperation in astronautics,0.0
-international cooperation in science,0.8333333333333334
+international cooperation in science,1.0
 international corporations,1.0
-international courts,0.5
-international education,0.3333333333333333
-international environmental cooperation,0.8333333333333334
-international exchange and broadcasting,0.8
+international courts,0.8333333333333334
+international education,0.75
+international employees,1.0
+international environmental cooperation,0.92
+international exchange and broadcasting,1.0
 international labor activities,1.0
 international law,1.0
-international law and treaties,0.6666666666666666
+international law and treaties,0.9857142857142858
 international military forces,1.0
-international monetary system and foreign exchange,0.6
-international organizations and cooperation,0.8484848484848485
-international propaganda,0.0
-international relief,0.7857142857142857
-international scientific cooperation,0.6666666666666666
-internet,0.7906976744186046
-internet and video services,0.7142857142857143
-interstate commerce,0.8
-interstate compacts,0.0
-interstate highway system,0.3333333333333333
+international monetary system,1.0
+international monetary system and foreign exchange,0.9444444444444444
+international organizations and cooperation,0.9914529914529915
+international propaganda,0.8
+international relief,0.9428571428571428
+international scientific cooperation,1.0
+internet,0.9078947368421053
+internet and video services,0.9519230769230769
+interoceanic canals,1.0
+interstate commerce,0.8333333333333334
+interstate compacts,0.75
+interstate highway system,0.8181818181818182
 interstate relations,1.0
+intracoastal waterways,1.0
 intranets,1.0
-inventions,0.6666666666666666
-inventories,0.6
+intravenous drug abuse,1.0
+inventions,1.0
+inventories,0.8
 inventors,1.0
-investment advisers,0.5
-investment guaranty insurance,0.0
-investment of public funds,0.5
-investment tax credit,0.0
-investments,0.6666666666666666
+investment advisers,0.8
+investment guaranty insurance,0.8888888888888888
+investment of public funds,0.8571428571428571
+investment tax credit,0.5
+investments,0.9
 investors,1.0
-iowa,0.9
-iran,0.6363636363636364
+iowa,0.9642857142857143
+iran,0.9090909090909091
+iran hostage crisis,1.0
 iranians,1.0
-iraq,0.6122448979591837
-iraq compilation,0.7142857142857143
-ireland,0.5
+iraq,0.9223300970873787
+iraq compilation,0.9259259259259259
+ireland,0.8
 iron,0.0
-iron and steel industry,0.4
-irrigation,0.8125
+iron and steel industry,0.7692307692307693
+irrigation,0.9523809523809523
+irrigation districts,1.0
+islam,1.0
 islamic countries,1.0
 islamic fundamentalism,1.0
-islands,0.6
-israel,0.5882352941176471
-italy,0.8571428571428571
+islands,0.9
+israel,0.94
+italy,1.0
 item veto,1.0
 ivory,0.0
 ivory coast,1.0
-jamaica,0.5
-japan,0.7142857142857143
-japanese americans,0.0
+jamaica,0.8
+japan,0.9354838709677419
+japanese americans,0.5
 jefferson administration,1.0
+jewelry trade,1.0
 jewish holocaust (1939-1945),1.0
 jews,1.0
-job creation,0.75
-job hunting,0.5714285714285714
-joint economic,0.0
-joint taxation,0.0
-joint ventures,0.3333333333333333
-jordan,0.3333333333333333
+job creation,1.0
+job hunting,0.7272727272727273
+joint committee on taxation,1.0
+joint committee on the library,1.0
+joint economic,0.6666666666666666
+joint economic committee,1.0
+joint taxation,0.8
+joint ventures,0.8
+jordan,0.9130434782608695
 journalism,1.0
-judges,0.6818181818181818
-judicial compensation,0.6666666666666666
-judicial districts,0.6666666666666666
+journalistic ethics,1.0
+judges,0.926829268292683
+judicial compensation,0.8666666666666667
+judicial districts,0.8333333333333334
 judicial ethics,0.5
-judicial officers,0.7
-judicial opinions,0.6666666666666666
-judicial procedure and administration,0.6818181818181818
-judicial review,0.625
-judicial review and appeals,0.5
+judicial officers,0.8888888888888888
+judicial opinions,1.0
+judicial procedure and administration,0.9230769230769231
+judicial review,0.9142857142857143
+judicial review and appeals,0.925
 judicial statistics,1.0
 judicial tenure,0.0
 junior colleges,1.0
-juries,0.6
-jurisdiction,0.5454545454545454
-jurisdiction and venue,0.75
-juvenile crime and gang violence,0.8
-juvenile delinquency,0.7777777777777778
-kansas,0.8333333333333334
+junk bonds,1.0
+juries,0.9230769230769231
+jurisdiction,0.8695652173913043
+jurisdiction and venue,0.9565217391304348
+juvenile crime and gang violence,0.9523809523809523
+juvenile delinquency,0.9473684210526315
+kansas,0.9803921568627451
 kazakhstan,1.0
-kentucky,0.8
-kenya,0.5
-kidnapping,0.75
+kentucky,0.9642857142857143
+kenya,1.0
+kidnapping,0.9230769230769231
 kidney diseases,1.0
 "korean war, 1950-1953",1.0
-kosovo,0.6666666666666666
-kuwait,0.0
+kosovo,0.8
+kuwait,0.9333333333333333
 kyrgyzstan,1.0
-labeling,0.6470588235294118
-labor and employment,0.6586826347305389
-labor contracts,0.5
-labor standards,0.5714285714285714
-labor statistics,0.6666666666666666
+labeling,0.9090909090909091
+labor and employment,0.9238410596026491
+labor contracts,0.9090909090909091
+labor disputes,1.0
+labor productivity,1.0
+labor standards,0.9714285714285714
+labor statistics,0.875
 labor supply,1.0
-labor unions,0.5714285714285714
+labor unions,0.8461538461538461
 labor-management committees,1.0
-labor-management relations,0.2
-laboratories,0.8125
+labor-management relations,0.9090909090909091
+laboratories,0.9285714285714286
 laboratory animals,1.0
-lakes,0.8
-lakes and rivers,0.6875
+lakes,0.9411764705882353
+lakes and rivers,0.9811320754716981
 land banking,1.0
-land mines,0.8333333333333334
+land mines,0.9090909090909091
 land subdivision,1.0
-land transfers,0.8429752066115702
-land use,0.9047619047619048
-land use and conservation,0.7272727272727273
-landfills,0.0
-landlord and tenant,0.5
+land subsidence,1.0
+land transfers,0.9740634005763689
+land use,0.9565217391304348
+land use and conservation,0.967391304347826
+landfills,0.8
+landlord and tenant,0.9
 landowners,1.0
-landscape architecture,0.5
+landscape architecture,0.8
 landscape protection,1.0
-language and languages,0.8461538461538461
+landslides,1.0
+language and languages,0.9565217391304348
 language arts,1.0
-laos,0.0
-larceny,0.8
-lasers,0.8333333333333334
-latin america,0.7872340425531915
-latvia,0.6666666666666666
+laos,0.6666666666666666
+larceny,0.9
+lasers,0.8888888888888888
+latin america,0.9552238805970149
+latvia,0.8461538461538461
 launch vehicles,1.0
-law,0.74609375
-law enforcement administration and funding,0.6764705882352942
-law enforcement officers,0.7619047619047619
-lawyers,0.6666666666666666
-lawyers and legal services,0.6153846153846154
-layoffs,0.7777777777777778
-lead,0.0
-lead poisoning,0.0
-leadership,0.6
-learning,0.5
+law,0.9393939393939394
+law and legislation,1.0
+law enforcement administration and funding,0.9741379310344828
+law enforcement officers,0.9788732394366197
+lawyers,0.8571428571428571
+lawyers and legal services,0.9512195121951219
+layoffs,0.8666666666666667
+lead,0.6666666666666666
+lead poisoning,0.6666666666666666
+leadership,0.9166666666666666
+learning,1.0
 learning disabilities,1.0
-lease and rental services,0.0
-leases,0.7096774193548387
-leave of absence,0.75
-lebanon,0.4
-legal aid,0.8
-legal education,0.9
-legal ethics,0.5
-legal fees,0.42857142857142855
-legal fees and court costs,0.6363636363636364
-legal services,0.75
-legal services corporation,0.0
-legislation,0.775
+lease and rental services,0.875
+leases,0.9054054054054054
+leather industry,1.0
+leave of absence,0.8823529411764706
+lebanon,0.9473684210526315
+legal aid,0.9166666666666666
+legal education,0.9444444444444444
+legal ethics,0.9
+legal fees,0.9024390243902439
+legal fees and court costs,1.0
+legal services,0.9090909090909091
+legal services corporation,0.75
+legislation,0.9154929577464789
 legislative amendments,1.0
 legislative bodies,0.5
 legislative resolutions,1.0
-legislative rules and procedure,0.19047619047619047
-liability (law),0.46153846153846156
-liability for environmental damages,0.7333333333333333
+legislative rules and procedure,0.696969696969697
+legislators,1.0
+legumes,1.0
+leprosy,1.0
+liability (law),0.8863636363636364
+liability for environmental damages,0.9117647058823529
 liability for nuclear damages,1.0
-liability insurance,0.5
+liability insurance,0.8
 libel and slander,1.0
-liberia,0.5
-libraries,0.5555555555555556
-libraries and archives,0.6666666666666666
-library of congress,0.7692307692307693
-libya,0.6
-licenses,0.7551020408163265
-licensing and registrations,0.75
-liens,0.3333333333333333
-life care communities,0.5
+liberia,0.875
+libraries,0.7894736842105263
+libraries and archives,0.9375
+library of congress,0.9302325581395349
+libya,0.88
+license agreements,1.0
+licenses,0.9387755102040817
+licensing and registrations,0.9747474747474747
+liens,0.8
+life care communities,0.6666666666666666
 life imprisonment,1.0
-life insurance,0.6666666666666666
-"life, casualty, property insurance",0.5
-lifestyle,0.5
-light rail transit,0.3333333333333333
-lighting,0.6
+life insurance,0.875
+"life, casualty, property insurance",0.9166666666666666
+lifestyle,0.7142857142857143
+light rail transit,0.8
+lighthouses and lightships,1.0
+lighting,0.8181818181818182
 lighting and heating,1.0
-"lighting, heating, cooling",0.7142857142857143
-limitation of actions,0.47619047619047616
-limited access highways,0.6666666666666666
-lincoln administration,0.6666666666666666
+"lighting, heating, cooling",0.967741935483871
+limitation of actions,0.8709677419354839
+limited access highways,0.8333333333333334
+lincoln administration,0.8571428571428571
 lions,1.0
-liquefied natural gas,0.3333333333333333
-literacy programs,0.375
+liquefied natural gas,0.6666666666666666
+literacy programs,0.7142857142857143
 literature,1.0
-lithuania,0.6666666666666666
-livestock,0.75
+lithuania,0.8333333333333334
+liver diseases,1.0
+livestock,0.9534883720930233
 living wills,1.0
-loan defaults,0.5
-loans,0.8
-lobbying,0.5
-local budgets,0.5
-local employees,0.42857142857142855
-local finance,0.2
-local laws,0.7272727272727273
-local officials,0.7142857142857143
-local taxation,0.2
-location of industries,0.0
-logging,0.0
-logistics,0.9090909090909091
+loan defaults,0.9285714285714286
+loans,0.9230769230769231
+lobbying,0.7692307692307693
+local budgets,0.8888888888888888
+local employees,0.8181818181818182
+local finance,0.75
+local laws,0.8846153846153846
+local officials,0.9333333333333333
+local taxation,0.8181818181818182
+location of industries,0.6
+logging,1.0
+logistics,1.0
 long island sound,1.0
-long-term care,0.5
+long-term care,0.8571428571428571
 long-term care insurance,1.0
-"long-term, rehabilitative, and terminal care",0.7777777777777778
-losses,0.375
-lotteries,0.0
-louisiana,0.7
-low- and moderate-income housing,0.8
-low-income housing,0.25
-lumber trade,0.6666666666666666
-lung cancer,0.5
-lung diseases,0.6666666666666666
+"long-term, rehabilitative, and terminal care",0.96
+longshoremen,1.0
+losses,0.75
+lotteries,0.8
+louisiana,0.9027777777777778
+low birth weight,1.0
+low- and moderate-income housing,0.967741935483871
+low-income housing,0.8333333333333334
+loyalty-security program,1.0
+lumber trade,1.0
+lung cancer,1.0
+lung diseases,1.0
 luxembourg,1.0
 macedonia,1.0
-magistrates,0.5
+machinery,1.0
+magistrates,0.5714285714285714
 magnet schools,1.0
-magnetic levitation vehicles,0.0
+magnetic levitation vehicles,0.5
 mail-order business,1.0
-maine,0.7142857142857143
-maintenance and repair,0.7931034482758621
-malaria,0.0
-malawi,0.0
-malaysia,0.3333333333333333
-mali,0.0
-mammals,0.75
+maine,1.0
+maintenance and repair,0.9242424242424242
+malaria,0.8
+malawi,1.0
+malaysia,0.6666666666666666
+mali,0.6666666666666666
+malnutrition,1.0
+malta,1.0
+mammals,0.9705882352941176
 mammography,1.0
-managed care,0.875
+managed care,0.9444444444444444
 management,1.0
-management information systems,0.5
-mandatory retirement,0.6666666666666666
-mandatory sentences,0.5
+management information systems,0.8
+mandatory retirement,0.8333333333333334
+mandatory sentences,0.75
 manganese,1.0
-manufacturing,0.6
-manufacturing industries,0.75
-maps,0.8275862068965517
-margins (security trading),0.0
-marijuana,0.5
-"marine and coastal resources, fisheries",0.7586206896551724
-marine and inland water transportation,0.8275862068965517
-marine biology,0.6666666666666666
-marine ecology,0.875
+manned space flight,1.0
+manufacturing,0.9491525423728814
+manufacturing industries,0.9375
+maps,0.9193548387096774
+marijuana,0.8
+"marine and coastal resources, fisheries",0.95260663507109
+marine and inland water transportation,0.9759036144578314
+marine biology,0.8333333333333334
+marine ecology,0.9230769230769231
+marine engines,1.0
 marine insurance,1.0
-marine mammal commission,0.0
-marine mammals,0.5
-marine pollution,0.9285714285714286
+marine mammal commission,0.8181818181818182
+marine mammals,0.75
+marine parks and reserves,1.0
+marine pollution,1.0
 marine resources conservation,1.0
-marine safety,0.9166666666666666
-marine terminals,0.5555555555555556
-marine transportation,0.7142857142857143
-marines,0.8
-marketing,0.8571428571428571
-marketing and advertising,0.7
+marine safety,0.9714285714285714
+marine terminals,0.896551724137931
+marine transportation,0.9090909090909091
+marines,0.9411764705882353
+marketing,0.9333333333333333
+marketing and advertising,0.92
 marketing of farm produce,1.0
-marketing orders,0.5
-marriage,0.6666666666666666
-marriage and family status,0.8
+marketing orders,0.8571428571428571
+marriage,1.0
+marriage and family status,0.9473684210526315
 marriage counseling,1.0
-married people,0.7142857142857143
-marshall islands,0.5454545454545454
-maryland,0.7777777777777778
-mass media,0.8
-mass rapid transit,0.5833333333333334
-massachusetts,0.8333333333333334
-materials,0.875
+married people,0.9444444444444444
+marshall islands,0.8837209302325582
+maryland,0.9473684210526315
+mass media,0.8571428571428571
+mass rapid transit,0.8709677419354839
+massachusetts,1.0
+materials,1.0
+materials research,1.0
 maternal and infant welfare,0.0
-maternal health services,0.6666666666666666
-mathematics,0.7272727272727273
+maternal health services,0.9230769230769231
+mathematics,0.8888888888888888
 mauritania,1.0
-mayors,0.6666666666666666
-meat,0.75
+mayors,0.9090909090909091
+mckinley administration,1.0
+meat,0.9444444444444444
 meat inspection,1.0
-mediation,0.3333333333333333
-medicaid,0.7142857142857143
-medical associations,0.0
-medical centers,0.0
-medical economics,0.6
-medical education,0.8372093023255814
-medical ethics,0.42857142857142855
+meat packing industry,1.0
+mediation,0.7
+medicaid,0.9444444444444444
+medical centers,0.75
+medical economics,0.875
+medical education,0.9553571428571429
+medical ethics,0.8666666666666667
 medical fees,1.0
-medical laboratories,0.8
-medical libraries,0.0
-medical malpractice,0.0
-medical personnel,0.7727272727272727
-medical records,0.7142857142857143
-medical research,0.7538461538461538
+medical laboratories,0.9090909090909091
+medical libraries,0.6666666666666666
+medical malpractice,0.8333333333333334
+medical personnel,0.9354838709677419
+medical records,0.896551724137931
+medical research,0.9388888888888889
 medical residents,1.0
-medical savings accounts,0.0
-medical screening,0.9090909090909091
-medical statistics,0.8888888888888888
-medical supplies,0.6
-medical technology,0.6
+medical savings accounts,1.0
+medical screening,1.0
+medical statistics,0.9411764705882353
+medical supplies,0.9655172413793104
+medical technology,0.9
 medical tests,1.0
-medical tests and diagnostic methods,0.7333333333333333
-medically uninsured,0.8333333333333334
-medicare,0.7666666666666667
-medicare payment advisory commission,0.3333333333333333
-medicinal plants,0.3333333333333333
+medical tests and diagnostic methods,0.9772727272727273
+medical wastes,1.0
+medically uninsured,0.9444444444444444
+medicare,0.9655172413793104
+medicare payment advisory commission,0.9090909090909091
+medication abuse,1.0
+medicinal plants,0.6
 medigap,1.0
-meditation,0.0
-members of congress,0.8181818181818182
-mental care facilities,0.0
+meditation,0.5
+members of congress,0.9626168224299065
+mental care facilities,0.6666666666666666
 mental depression,1.0
-mental health,0.8387096774193549
-mental health services,0.8
-mental illness,0.75
+mental health,0.9826086956521739
+mental health services,0.9411764705882353
+mental illness,1.0
 mentally disabled,1.0
-mentoring,0.6666666666666666
-merchant marine,0.0
+mentoring,1.0
+merchant marine,0.875
 merchant seamen,1.0
-merchant ships,0.6666666666666666
+merchant ships,0.9090909090909091
 mercury,1.0
-merit systems protection board,0.3333333333333333
-metals,0.5833333333333334
+merit systems protection board,0.8823529411764706
+metals,0.9722222222222222
 meteorological research,1.0
 meteorology,1.0
-methamphetamine,0.6666666666666666
+methamphetamine,0.8461538461538461
 methane,0.0
 methanol,1.0
-metropolitan areas,0.8333333333333334
+methyl bromide,1.0
+metric system,1.0
+metropolitan areas,0.95
 mexicans,1.0
-mexico,0.76
-michigan,0.6875
+mexico,0.9552238805970149
+michigan,0.9272727272727272
 microbiology,1.0
-micronesia,0.5
+microelectronics,1.0
+micrographics,1.0
+micronesia,0.8857142857142857
 microprocessors,0.0
-middle east,0.7678571428571429
-middle east and north africa,0.7441860465116279
+middle east,0.9454545454545454
+middle east and north africa,0.922077922077922
 migrant education,1.0
 migrant labor,1.0
-"migrant, seasonal, agricultural labor",0.75
+"migrant, seasonal, agricultural labor",0.9
 migratory bird conservation,1.0
-military advisers,0.0
-military agreements,0.75
-military aircraft,0.8181818181818182
+military advisers,1.0
+military agreements,0.9
+military aircraft,1.0
 military airlift,1.0
-military and naval offenses,0.0
-military and naval supplies,0.8
-military assistance,0.8181818181818182
-"military assistance, sales, and agreements",0.8717948717948718
+military and naval offenses,0.8571428571428571
+military and naval supplies,0.9629629629629629
+military assistance,0.9696969696969697
+"military assistance, sales, and agreements",0.9876543209876543
+military attaches,1.0
 military aviation,1.0
-military base closures,0.7894736842105263
-military bases,0.8421052631578947
+military base closures,0.896551724137931
+military bases,0.9555555555555556
 military chaplains,1.0
-military civic action,0.9166666666666666
-military civil functions,0.5714285714285714
-military command and control,0.8333333333333334
-military command and structure,0.6363636363636364
+military civic action,0.9523809523809523
+military civil functions,0.8666666666666667
+military command and control,1.0
+military command and structure,0.9629629629629629
 military communications,1.0
-military construction operations,0.9230769230769231
-military dependents,0.8529411764705882
-military discharges,0.6
-military education,0.75
-military education and training,0.7
+military construction operations,0.9642857142857143
+military dependents,0.9264705882352942
+military discharges,0.8
+military education,0.9090909090909091
+military education and training,0.9814814814814815
 military electronics,1.0
-military facilities and property,0.6086956521739131
-military helicopters,0.8333333333333334
-military history,0.7804878048780488
-military hospitals,0.8
-military housing,0.8
+military facilities and property,0.9558823529411765
+military helicopters,0.9090909090909091
+military history,0.9390243902439024
+military hospitals,0.9090909090909091
+military housing,0.9354838709677419
 military intelligence,1.0
 military intervention,1.0
-military law,0.7857142857142857
+military law,1.0
 military leave,1.0
-military maneuvers,0.0
+military maneuvers,0.8
 "military medals, decorations, etc.",1.0
-military medicine,0.6470588235294118
-military occupation,0.6470588235294118
-military operations,0.71875
-military operations and strategy,0.5769230769230769
+military medicine,0.926829268292683
+military occupation,0.9523809523809523
+military operations,0.94
+military operations and strategy,0.9130434782608695
 military parks,1.0
-military pay,0.6470588235294118
-military pensions,0.6666666666666666
-military personnel,0.8108108108108109
-military personnel and dependents,0.7777777777777778
+military pay,0.9047619047619048
+military pensions,0.8846153846153846
+military personnel,0.9428571428571428
+military personnel and dependents,0.9795221843003413
 military posture,1.0
-"military procurement, research, weapons development",0.5789473684210527
+"military procurement, research, weapons development",0.9482758620689655
 military promotions,1.0
-military readiness,0.7142857142857143
-military regimes,0.5
-military research,0.8421052631578947
+military readiness,0.9574468085106383
+military regimes,0.75
+military research,0.9696969696969697
 military sealift,1.0
-military strategy,0.7
+military strategy,1.0
 military surveillance,1.0
 military technology,1.0
-military training,0.625
-military transportation,0.8
-military vehicles,0.8
+military training,0.9
+military transportation,0.9375
+military vehicles,1.0
 military weapons,1.0
-military withdrawal,0.2
+military withdrawal,0.6
+militias and paramilitary groups,1.0
 milk,1.0
-mine safety,0.4
-mine wastes,0.0
-mineral reserves,0.6666666666666666
-miners,0.25
+mine safety,0.875
+mine wastes,1.0
+mineral reserves,0.8333333333333334
+minerals,1.0
+miners,0.7142857142857143
 mines (ordnance),1.0
-mines and mineral resources,0.75
-minesweeping,0.8571428571428571
-minimum tax,0.3333333333333333
-minimum wages,0.3333333333333333
-mining,0.375
-mining equipment,0.0
-mining leases,0.5
-minnesota,0.6875
-minorities,0.84251968503937
-minorities in government,0.6666666666666666
-minority and disadvantaged businesses,0.6
-minority business enterprises,0.6
-minority education,0.6190476190476191
-minority employment,0.7272727272727273
-minority health,0.6666666666666666
-minors,0.0
-misconduct in office,0.5714285714285714
+mines and mineral resources,0.9090909090909091
+minesweeping,0.9285714285714286
+minimum tax,0.8571428571428571
+minimum wages,0.8
+mining,0.9473684210526315
+mining claims,1.0
+mining engineering,1.0
+mining leases,0.9
+mining royalties,1.0
+minnesota,0.9642857142857143
+minorities,0.943089430894309
+minorities in government,0.8571428571428571
+minority and disadvantaged businesses,0.9736842105263158
+minority business enterprises,0.8461538461538461
+minority children,1.0
+minority education,0.9122807017543859
+minority employment,0.9583333333333334
+minority health,0.9166666666666666
+minors,1.0
+misconduct in office,0.8181818181818182
 missile bases,1.0
 missile warheads,1.0
 missing children,1.0
+missing in action,1.0
 missing persons,1.0
-mississippi,0.71875
-mississippi river,0.5
-missouri,0.8125
+missionaries,1.0
+mississippi,0.9041095890410958
+mississippi river,0.8888888888888888
+missouri,0.9863013698630136
 missouri river,1.0
-missouri river development,0.8333333333333334
-mobile homes,0.6666666666666666
-moderate income housing,0.0
+missouri river development,0.9090909090909091
+mobile homes,0.8
+moderate income housing,1.0
 moldova,1.0
-money,0.0
-money laundering,0.75
+monetary policy,1.0
+money,0.8
+money laundering,0.9090909090909091
+mongolia,1.0
 monopolies,1.0
-montana,0.7222222222222222
-montenegro,0.0
-monuments and memorials,0.8333333333333334
+montana,0.9838709677419355
+montenegro,0.75
+monuments and memorials,0.9642857142857143
 morale,1.0
 mormons,1.0
-morocco,0.5
-mortality,0.6666666666666666
-mortgage banks,0.6666666666666666
-mortgage guaranty insurance,0.5
-mortgages,0.6
-most favored nation principle,0.5
-motion pictures,0.6666666666666666
-motor buses,0.6
-motor carriers,0.8571428571428571
-motor fuels,0.5833333333333334
-motor vehicle pollution control,0.25
-motor vehicle registration,0.0
-motor vehicle safety,0.25
-motor vehicles,0.6
-motorcycles,0.5
+morocco,1.0
+mortality,0.8
+mortgage banks,0.8333333333333334
+mortgage guaranty insurance,0.8695652173913043
+mortgage interest rates,1.0
+mortgages,0.875
+mosquitoes,1.0
+most favored nation principle,1.0
+mothers,1.0
+motion pictures,0.8571428571428571
+motor buses,0.8571428571428571
+motor carriers,0.9767441860465116
+motor fuels,0.9705882352941176
+motor vehicle pollution control,0.8461538461538461
+motor vehicle registration,0.75
+motor vehicle safety,0.8333333333333334
+motor vehicles,0.9482758620689655
+motorcycles,0.75
 mountains,1.0
-multilateral development programs,0.6666666666666666
+mozambique,1.0
+multilateral development programs,0.9655172413793104
+multiple sclerosis,1.0
 multipurpose projects,0.0
-municipal home rule,0.5
-municipal services,0.6666666666666666
+municipal home rule,0.75
+municipal services,0.8333333333333334
 municipal solid waste,1.0
-murder,0.8
-museums,0.85
-"museums, exhibitions, cultural centers",0.7142857142857143
-music,0.7
-muslims,0.3333333333333333
-mutual funds,0.0
-names,0.9459459459459459
-national aeronautics and space administration,0.6666666666666666
-national and community service,0.8
-national archives and records administration,0.4
-national capital planning commission,0.0
-national commission on libraries and information science,0.0
-national council on disability,0.0
-national credit union administration,0.0
-national forests,0.6842105263157895
-national foundation on the arts and the humanities,0.0
-national guard,0.7931034482758621
-national guard and reserves,0.5555555555555556
+murder,0.9090909090909091
+musculoskeletal and skin diseases,1.0
+museums,0.9318181818181818
+"museums, exhibitions, cultural centers",0.963963963963964
+music,0.967741935483871
+muslims,1.0
+mutual funds,0.8571428571428571
+mycotoxins,1.0
+names,0.995475113122172
+namibia,1.0
+nanotechnology,1.0
+national aeronautics and space administration,0.9545454545454546
+national and community service,0.9473684210526315
+national archives and records administration,0.88
+national capital planning commission,0.75
+national commission on libraries and information science,0.75
+national council on disability,0.8571428571428571
+national credit union administration,0.75
+national forests,0.9444444444444444
+national foundation on the arts and the humanities,0.7
+national guard,0.9183673469387755
+national guard and reserves,0.9384615384615385
 national indian gaming commission,1.0
-national institutes of health (nih),0.7142857142857143
-national labor relations board,0.0
-national labor relations board (nlrb),0.0
+national institutes of health (nih),0.96875
+national labor relations board,0.5
+national labor relations board (nlrb),1.0
 national lakeshores,1.0
-national mediation board,0.0
-national monuments,0.8571428571428571
-national parks,0.9393939393939394
-national railroad passenger corporation (amtrak),0.4
-national recreation areas,0.9090909090909091
-national science foundation,0.42857142857142855
+national liberation movements,1.0
+national mediation board,0.8571428571428571
+national monuments,0.9375
+national parks,0.974025974025974
+national railroad passenger corporation (amtrak),0.9047619047619048
+national recreation areas,0.95
+national science foundation,0.875
 national sea grant program,1.0
-national security agency,0.0
-national service,0.0
-national symbols,0.7777777777777778
-national transportation safety board,0.5
+national seashores,1.0
+national security agency,0.875
+national self-determination,1.0
+national service,0.6
+national symbols,0.9565217391304348
+national transportation safety board,0.75
 national transportation safety board (ntsb),1.0
-native americans,0.8508771929824561
-nato countries,0.6666666666666666
-nato military forces,0.9166666666666666
+native americans,0.9469026548672567
+nato countries,0.8666666666666667
+nato military forces,0.9523809523809523
 natural areas,1.0
-natural disasters,0.5333333333333333
-natural gas,0.25
+natural disasters,0.9038461538461539
+natural gas,1.0
 natural gas reserves,1.0
-natural gas vehicles,0.0
-naturalization,0.5
-nature conservation,0.8461538461538461
+natural gas vehicles,0.5
+natural monuments,1.0
+naturalization,1.0
+nature centers,1.0
+nature conservation,0.9629629629629629
+nauru,1.0
 naval operations,1.0
-navigation,0.7777777777777778
+navigation,0.875
+navigation (aeronautics),1.0
 navigation satellites,1.0
-"navigation, waterways, harbors",0.7777777777777778
-navigational aids,0.5
-navy,0.85
+"navigation, waterways, harbors",1.0
+navigational aids,0.8571428571428571
+navigational aids (aeronautics),1.0
+navy,0.9705882352941176
 nazism,1.0
-nebraska,0.8571428571428571
-needle exchange programs,0.0
-negligence,0.2
-negotiations,0.75
-neighborhood reinvestment corporation,0.0
+nebraska,0.9428571428571428
+needle exchange programs,0.6666666666666666
+negligence,1.0
+negotiations,0.9333333333333333
+neighborhood reinvestment corporation,0.8
+nepal,1.0
 nervous system diseases,1.0
 netherlands,1.0
-neurological disorders,0.6666666666666666
-nevada,0.7352941176470589
+neurological disorders,0.9555555555555556
+neurology,1.0
+nevada,0.9425287356321839
 new england,1.0
-new hampshire,0.6
-new jersey,0.5333333333333333
-new mexico,0.8723404255319149
-new products,0.6666666666666666
-new york city,0.6666666666666666
-new york state,0.8333333333333334
-new zealand,0.6666666666666666
-news media and reporting,0.8333333333333334
-newspapers,0.6
-nicaragua,0.75
+new hampshire,0.95
+new jersey,0.92
+new mexico,0.979381443298969
+new products,0.8333333333333334
+new york city,0.9459459459459459
+new york state,0.9621212121212122
+new zealand,1.0
+news media and reporting,0.9459459459459459
+newspapers,0.7142857142857143
+nicaragua,1.0
 nicotine,1.0
-nigeria,0.5
+niger,1.0
+nigeria,0.9090909090909091
+night vision devices,1.0
 nightclubs and cabarets,1.0
-noise,0.5
+noise,0.75
 noise pollution,1.0
 non-native species,1.0
-nongovernmental organizations,0.9090909090909091
-nonprofit organizations,0.8571428571428571
-nontariff trade barriers,0.6666666666666666
+nongovernmental organizations,0.9629629629629629
+nonprescription drugs,1.0
+nonprofit organizations,0.9625
+nontariff trade barriers,1.0
 nonviolence,1.0
-normal trade relations,0.5
+normal trade relations,1.0
+"normal trade relations, most-favored-nation treatment",1.0
 north america,1.0
-north carolina,0.75
-north dakota,0.5
-north korea,0.45454545454545453
-northern ireland,0.5
-northern mariana islands,0.64
+north carolina,0.96
+north dakota,0.9666666666666667
+north korea,0.9333333333333333
+northeastern states,1.0
+northern ireland,0.8333333333333334
+northern mariana islands,0.8870967741935484
 norway,1.0
-nuclear energy,0.6666666666666666
+nuclear energy,0.8
 nuclear energy research,1.0
 nuclear engineering,1.0
-nuclear exports,0.5
-nuclear facilities,0.75
-nuclear fuels,0.625
-nuclear nonproliferation,0.8421052631578947
-nuclear power,0.6666666666666666
+nuclear exports,0.875
+nuclear facilities,0.8666666666666667
+nuclear fuels,0.7
+nuclear fusion,1.0
+nuclear nonproliferation,0.9166666666666666
+nuclear power,0.9736842105263158
 nuclear power plants,1.0
-nuclear reactors,0.8333333333333334
+nuclear reactors,0.9
+nuclear regulatory commission,1.0
 nuclear regulatory commission (nrc),1.0
-nuclear research,0.6
+nuclear research,0.7142857142857143
 nuclear security measures,1.0
 nuclear ships,1.0
-nuclear terrorism,0.9090909090909091
-nuclear weapons,0.7692307692307693
+nuclear terrorism,0.9583333333333334
+nuclear warfare,1.0
+nuclear waste technical review board,1.0
+nuclear weapons,0.95
 nurse practitioners,1.0
-nurses,0.875
-nursing,0.8
+nurses,0.9333333333333333
+nursing,0.9565217391304348
 nursing education,1.0
-nursing homes,0.8181818181818182
-nutrition,0.75
-nutrition and diet,0.6666666666666666
+nursing homes,0.8823529411764706
+nutrition,0.9285714285714286
+nutrition and diet,0.9411764705882353
+nuts,1.0
 oaths,1.0
 obesity,1.0
-obstetrics,0.0
-obstruction of justice,0.5
-occupational health and safety,0.8421052631578947
-occupational safety and health review commission,0.0
-ocean,0.8
+obstetrics,1.0
+obstruction of justice,0.875
+occupational health and safety,0.9259259259259259
+occupational safety and health review commission,0.8571428571428571
+occupational therapy,1.0
+ocean,1.0
 ocean currents,1.0
 ocean energy resources,0.0
 ocean floor,1.0
 ocean mining,1.0
-oceania,0.6666666666666666
-oceanographic research,0.9230769230769231
-oceanography,0.875
-office of government ethics,0.3333333333333333
+oceania,0.9166666666666666
+oceanographic research,0.9565217391304348
+oceanography,0.9
+off-budget expenditures,1.0
+office of government ethics,0.8333333333333334
 office of management and budget,1.0
-office of management and budget (omb),0.875
-office of personnel management,0.8
-office of personnel management (opm),0.7272727272727273
+office of management and budget (omb),1.0
+office of personnel management,0.9166666666666666
+office of personnel management (opm),0.9285714285714286
 office of science and technology policy,0.0
-office of special counsel,0.3333333333333333
-office of the u.s. trade representative,0.0
-officer personnel,0.8666666666666667
-official secrets,0.75
+office of special counsel,0.8461538461538461
+office of the u.s. trade representative,0.9333333333333333
+officer personnel,0.9591836734693877
+offices,1.0
+official secrets,0.8333333333333334
 offshore structures,1.0
-ohio,0.8125
-oil and gas,0.5428571428571428
-oil and gas leases,0.25
-oil and gas royalties,0.3333333333333333
-oil fields,0.5
-oil pollution,0.25
+ohio,0.9830508474576272
+oil and gas,0.9591836734693877
+oil and gas leases,1.0
+oil and gas royalties,1.0
+oil fields,0.6666666666666666
+oil pollution,0.8333333333333334
 oil shales,1.0
-oil well drilling,0.6666666666666666
-oils and fats,0.0
-oklahoma,0.6842105263157895
+oil spills and wildlife,1.0
+oil well drilling,1.0
+oils and fats,1.0
+oilseeds,1.0
+oklahoma,0.92
 old age assistance,1.0
-"old age, survivors and disability insurance",0.7142857142857143
-older workers,0.0
-olympic games,0.75
+"old age, survivors and disability insurance",0.8666666666666667
+old growth forests,1.0
+older workers,0.6666666666666666
+olympic games,0.8888888888888888
 oman,1.0
-ombudsman,0.75
+ombudsman,0.875
 open space lands,1.0
+opium,1.0
 opposition (political science),1.0
-ordnance,0.9090909090909091
-oregon,0.8333333333333334
-organ and tissue donation and transplantation,0.5
+optical instruments,1.0
+optics,1.0
+options (contract),1.0
+optometry,1.0
+ordnance,0.9444444444444444
+oregon,0.9767441860465116
+organ and tissue donation and transplantation,0.875
 organic farming,1.0
-organized crime,0.75
+organized crime,0.9666666666666667
 orphan drugs,1.0
-orphans,0.5
+orphans,0.8
 osteopathy and osteopaths,1.0
-outdoor recreation,0.8571428571428571
-overfishing,0.3333333333333333
-overseas private investment corporation,0.0
+osteoporosis,1.0
+outdoor recreation,0.9855072463768116
+ovarian cancer,1.0
+overfishing,0.6666666666666666
+overhead costs,1.0
+overseas private investment corporation,0.8333333333333334
+overseas private investment corporation (opic),1.0
 oxygen,1.0
 oxygenates,1.0
-ozone,0.5
-pacific area,0.8
+ozone,0.6666666666666666
+pacific area,0.9230769230769231
 pacific islanders,1.0
-pacific ocean,0.42857142857142855
-packaging,0.6153846153846154
-pain,0.0
-paints and varnishes,0.0
-pakistan,0.55
-palau,0.5
+pacific ocean,0.9375
+packaging,0.8666666666666667
+pain,1.0
+paints and varnishes,0.6666666666666666
+pakistan,0.9215686274509803
+palau,0.8695652173913043
 palau islands,1.0
 paleontology,1.0
-palestinians,0.0
-panama,0.0
-paper and paper products,0.0
+palestinians,0.8888888888888888
+panama,1.0
+panama canal,1.0
+panama canal commission,1.0
+paper and paper products,1.0
+papua new guinea,1.0
 paraguay,1.0
-paramedical personnel,0.5555555555555556
-paramilitary forces,0.0
+paralysis,1.0
+paramedical personnel,0.8125
+paramilitary forces,0.75
 paraprofessional school personnel,1.0
 paraprofessionals in social service,1.0
 parasitic diseases,1.0
-pardons,0.0
-parent and child,0.9090909090909091
-parent-school relationships,0.5
-parents,0.8
-parking facilities,0.16666666666666666
+pardons,0.5
+parent and child,1.0
+parent-school relationships,0.8333333333333334
+parents,1.0
+park rangers,1.0
+parking facilities,0.5454545454545454
+parkinson's disease,1.0
 parks,1.0
-"parks, recreation areas, trails",0.6818181818181818
-parliamentary government,0.0
-parole,0.7777777777777778
-parties to actions,0.6363636363636364
-partnerships,0.5
-passenger ships,0.5
+"parks, recreation areas, trails",0.9629629629629629
+parliamentary government,0.75
+parole,0.875
+part-time employment,1.0
+parties to actions,0.9230769230769231
+partnerships,0.8333333333333334
+passenger ships,0.8461538461538461
 passports,1.0
 patent infringement,1.0
-patents,0.75
-patient satisfaction,0.3333333333333333
-patients' rights,0.5
+patents,0.9166666666666666
+paternity,1.0
+patient satisfaction,0.5
+patients' rights,0.7142857142857143
 patriotism,0.6666666666666666
 patrol aircraft,1.0
 patrol ships,1.0
 pay equity,1.0
-payments in lieu of taxes,0.0
-payroll deductions,0.0
-peace,0.7
-peace corps,0.4
-peace negotiations,0.5
-peace treaties,0.8
-peacekeeping forces,0.8571428571428571
-pedestrians,0.3333333333333333
-pedestrians and bicycling,0.75
-peer review organizations (medicine),0.0
-pennsylvania,0.7058823529411765
-pension benefit guaranty corporation,0.25
-pension funds,0.7
+payments in lieu of taxes,1.0
+payroll deductions,0.75
+peace,0.9333333333333333
+peace corps,0.9333333333333333
+peace negotiations,0.9
+peace treaties,0.9090909090909091
+peacekeeping forces,0.95
+peanuts,1.0
+pedestrians,0.6666666666666666
+pedestrians and bicycling,0.8888888888888888
+peer review organizations (medicine),0.6666666666666666
+pennsylvania,0.96
+pension benefit guaranty corporation,0.7777777777777778
+pension funds,0.85
 pension portability,0.0
-pension trust guaranty insurance,0.5
-performance measurement,0.7538461538461538
-performing arts,0.5
-periodicals,0.0
-persian gulf states,0.5
-persian gulf war,0.0
-personal budgets,0.5
-personnel management,0.7
-personnel records,0.7407407407407407
-peru,0.5
-pest control,0.6
-pest management,0.625
-pesticide regulation,0.0
+pension trust guaranty insurance,0.6666666666666666
+performance measurement,0.9421965317919075
+performing arts,0.8888888888888888
+periodicals,0.5
+perjury,1.0
+persian gulf states,0.8
+persian gulf war,0.6666666666666666
+personal budgets,0.75
+personnel management,0.8823529411764706
+personnel records,0.9591836734693877
+peru,0.9
+pest control,0.9047619047619048
+pest management,0.9047619047619048
+pesticide pollution,1.0
+pesticide regulation,0.9166666666666666
 pesticide residues,1.0
-pesticides,0.5
-pests,0.5
-petroleum,0.4
-petroleum engineering,0.5
-petroleum in submerged lands,0.5
-petroleum industry,0.5
-petroleum pipelines,0.75
-petroleum reserves,0.6666666666666666
+pesticides,0.8571428571428571
+pests,0.8181818181818182
+petroleum,0.8571428571428571
+petroleum engineering,0.6666666666666666
+petroleum in submerged lands,1.0
+petroleum industry,1.0
+petroleum pipelines,0.9
+petroleum refineries,1.0
+petroleum reserves,1.0
 petroleum storage,1.0
 pets,1.0
-pharmaceutical research,0.6666666666666666
-pharmacies,0.6666666666666666
-pharmacists,0.75
-philippines,0.3333333333333333
+pharmaceutical research,0.9166666666666666
+pharmacies,0.8
+pharmacists,0.9
+philippines,0.7931034482758621
 photography,1.0
-photography and imaging,0.75
+photography and imaging,1.0
 physical education and training,1.0
-physical examinations,0.8
-physical fitness,0.6666666666666666
+physical examinations,0.92
+physical fitness,0.75
 physical fitness and lifestyle,1.0
 physical therapy,1.0
-physicians,0.6190476190476191
-physicians' assistants,0.3333333333333333
+physicians,0.8787878787878788
+physicians' assistants,0.5
 physics,1.0
-pipelines,0.6923076923076923
-planning,0.8235294117647058
+picketing,1.0
+pipeline siting,1.0
+pipelines,0.9545454545454546
+planning,0.9210526315789473
 planning-programming-budgeting,1.0
 plant breeding,1.0
 plant diseases,1.0
-plant shutdowns,0.0
+plant protection,1.0
+plant shutdowns,0.25
+plants,1.0
 plastics,1.0
+platinum,1.0
 playgrounds,0.0
 pleas (criminal procedure),1.0
 pluralism (social sciences),1.0
-plutonium,0.8333333333333334
+plutonium,0.9
 pneumonia,1.0
 poaching,1.0
-poland,0.875
-police,0.5652173913043478
+poisons,1.0
+poland,0.9230769230769231
+police,0.8444444444444444
 police communication systems,1.0
 police questioning,1.0
-police training,0.7333333333333333
-police-community relations,0.6666666666666666
-policy sciences,0.5454545454545454
-poliomyelitis,0.0
-political advertising,0.2
-political movements and philosophies,0.5714285714285714
+police training,0.9375
+police-community relations,0.75
+policy sciences,0.8846153846153846
+poliomyelitis,0.5
+political advertising,0.5
+political movements and philosophies,0.9333333333333333
+political participation,1.0
 political parties,1.0
-political parties and affiliation,0.5
+political parties and affiliation,1.0
 political persecution,1.0
-political prisoners,0.6666666666666666
+political prisoners,0.8333333333333334
+political representation,1.0
 political rights,1.0
-political violence,0.4
+political violence,0.8333333333333334
+politicians,1.0
+politicians' families,1.0
 pollution control,0.6666666666666666
-pollution liability,0.8
-pollution measurement,0.8
+pollution liability,1.0
+pollution measurement,0.8571428571428571
+pollution taxes,1.0
 polychlorinated biphenyls,1.0
 polygraphs,1.0
-poor children,0.75
-population,0.0
-pornography,0.42857142857142855
-port authorities,0.6666666666666666
-portugal,0.6
+polymers,1.0
+poor children,0.8666666666666667
+population,0.6666666666666666
+pornography,0.9333333333333333
+port authorities,1.0
+portugal,1.0
 position classification,1.0
 post exchanges,1.0
-post-traumatic stress disorder,0.75
+post-traumatic stress disorder,0.8571428571428571
 postage stamps,1.0
-postal facilities,0.8421052631578947
-postal rate commission,0.0
-postal regulatory commission,0.0
-postal service,0.85
-potable water,0.9
+postal facilities,0.9867549668874173
+postal rate commission,0.5
+postal regulatory commission,0.8333333333333334
+postal service,0.9864864864864865
+posters,1.0
+potable water,0.9473684210526315
+potash,1.0
 poultry,1.0
-poverty,0.7857142857142857
-poverty and welfare assistance,0.38461538461538464
+poverty,0.92
+poverty and welfare assistance,0.9375
 power marketing administrations,1.0
+power of attorney,1.0
 preferred provider organizations (medical care),1.0
-pregnant women,0.6666666666666666
+pregnancy,1.0
+pregnant women,0.9090909090909091
 prejudice,1.0
-preschool education,0.7777777777777778
-prescription drugs,0.6666666666666666
-prescription pricing,0.6666666666666666
-president and foreign policy,0.64
-presidential administrations,0.0
-presidential appointments,0.7647058823529411
-presidential commissions,0.5
+preschool education,1.0
+prescription drugs,0.9795918367346939
+prescription pricing,0.8888888888888888
+president and foreign policy,0.92
+presidential administrations,1.0
+presidential appointments,0.90625
+presidential commissions,0.8333333333333334
 presidential compensation,0.0
-presidential elections,0.3333333333333333
+presidential elections,1.0
+presidential inaugurations,1.0
 presidential libraries,1.0
 presidential messages,1.0
+presidential powers,1.0
+presidential records,1.0
 presidential residences,1.0
 presidential succession,1.0
-"presidents and presidential powers, vice presidents",0.6666666666666666
+presidential transitions,1.0
+"presidents and presidential powers, vice presidents",0.9577464788732394
 press and politics,1.0
-preventive medicine,0.6363636363636364
-price fixing,0.0
+pretrial procedure,1.0
+preventive medicine,0.8666666666666667
+price fixing,1.0
 price regulation,1.0
 prices,1.0
+primaries,1.0
 primates,1.0
-printing,0.3333333333333333
-prison labor,0.0
-prisoners,0.5
-prisoners of war,0.6666666666666666
-prisons,0.75
-privacy and civil liberties oversight board,0.0
+printing,0.7142857142857143
+prison administration,1.0
+prison alternatives,1.0
+prison labor,0.6666666666666666
+prison violence,1.0
+prisoners,0.7857142857142857
+prisoners of war,0.9
+prisoners' rights,1.0
+prisons,0.9230769230769231
+privacy and civil liberties oversight board,0.7777777777777778
+private aviation,1.0
+private forests,1.0
 private legislation,1.0
 private police,1.0
 private schools,1.0
-privatization,0.6363636363636364
-privileges and immunities,0.0
+privatization,0.8260869565217391
+privileges and immunities,1.0
 probate law and practice,1.0
-probation,0.9
+probation,0.9333333333333333
+problem children,1.0
 produce trade,1.0
-product coding,0.0
+product coding,0.3333333333333333
 product counterfeiting,1.0
-product development,0.5
-product development and innovation,0.6666666666666666
-product safety,0.25
-product safety and quality,0.5
-productivity in government,0.5
-products liability,0.0
+product development,0.8333333333333334
+product development and innovation,0.8333333333333334
+product safety,0.8333333333333334
+product safety and quality,0.8888888888888888
+productivity in government,0.8
+products liability,0.3333333333333333
+professional associations,1.0
 professional education,1.0
-professional sports,0.75
-profit,0.625
+professional sports,1.0
+profit,1.0
 promotions,1.0
 propane,1.0
-property rights,0.6666666666666666
-property tax,0.0
-prosecution,0.8787878787878788
-prospecting,0.6
-prosthesis,0.3333333333333333
+property insurance,1.0
+property rights,1.0
+property tax,0.8
+prosecution,0.9482758620689655
+prospecting,1.0
+prosthesis,0.7142857142857143
 prostitution,1.0
-protection of animals,0.8571428571428571
-protection of officials,0.5
-protest and dissent,0.7777777777777778
+protection of animals,0.9285714285714286
+protection of officials,0.8636363636363636
+protest and dissent,0.9629629629629629
+psychiatric hospitals,1.0
 psychiatric personnel,1.0
+psychiatrists,1.0
 psychiatry,1.0
 psychological warfare,1.0
 psychologists,1.0
 psychology,1.0
 psychotherapy,1.0
 psychotropic drugs,1.0
-public broadcasting,0.6666666666666666
-public contracts and procurement,0.7702702702702703
+public broadcasting,0.75
+public contracts and procurement,0.9695431472081218
 public corruption,1.0
-public debt,0.6
-public defenders,0.5
-public health,0.8571428571428571
+public debt,0.75
+public defenders,0.8571428571428571
+public demonstrations,1.0
+public health,1.0
 public health administration,1.0
-public health personnel,0.6
-public housing,0.5
-public lands and natural resources,0.8917748917748918
-public meetings,0.6
-public participation and lobbying,0.2
-public prosecutors,0.8888888888888888
-public records,0.7142857142857143
+public health personnel,0.9333333333333333
+public hospitals,1.0
+public housing,0.9259259259259259
+public lands and natural resources,0.982078853046595
+public meetings,0.9285714285714286
+public participation and lobbying,0.9565217391304348
+public prosecutors,0.9375
+public records,0.8333333333333334
 public schools,1.0
-public service advertising,0.5714285714285714
+public service advertising,0.8461538461538461
+public service employment,1.0
 public speaking,1.0
-public transit,0.6666666666666666
+public transit,0.975609756097561
 public utilities,1.0
-public utilities and utility rates,0.8181818181818182
-public-private cooperation,0.8148148148148148
-public-private partnerships,0.7894736842105263
-puerto rico,0.7083333333333334
-punitive damages,0.35714285714285715
-qatar,0.5
+public utilities and utility rates,0.9354838709677419
+public-private cooperation,0.9743589743589743
+public-private partnerships,0.8918918918918919
+puerto ricans,1.0
+puerto rico,0.95
+puget sound,1.0
+punishment,1.0
+punitive damages,0.8461538461538461
+qatar,1.0
 quality control,1.0
-quality of care,0.8571428571428571
-quality of life,0.75
+quality of care,0.9130434782608695
+quality of life,0.8571428571428571
 quality of products,1.0
-racial and ethnic relations,0.7333333333333333
-racial discrimination,0.6666666666666666
+racial and ethnic relations,0.9841269841269841
+racial discrimination,0.9
+racial violence,1.0
 racism,0.6666666666666666
-radar,0.5
+radar,0.75
 radar defense networks,1.0
-radiation,0.6
+radiation,0.9285714285714286
 radiation safety,1.0
-radiation victims,0.8333333333333334
+radiation victims,0.9166666666666666
 radio,1.0
-radio broadcasting,0.75
+radio broadcasting,1.0
 radio programs,1.0
-radio spectrum allocation,0.75
-radio stations,0.6666666666666666
-radioactive wastes,0.9
-radioactive wastes and releases,0.8
+radio spectrum allocation,0.875
+radio stations,0.75
+radioactive pollution,1.0
+radioactive wastes,0.9411764705882353
+radioactive wastes and releases,0.9583333333333334
+radioactivity,1.0
+radioisotopes in medicine,1.0
 radiotherapy,1.0
-railroad commuting traffic,0.4
-railroad employees,0.6666666666666666
-railroad engineering,0.25
+railroad commuting traffic,0.5
+railroad employees,1.0
+railroad engineering,0.7777777777777778
 railroad equipment,1.0
 railroad finance,1.0
 railroad freight operations,1.0
-railroad land grants,0.0
-railroad mergers,0.0
-railroad passenger traffic,0.7142857142857143
-railroad retirement board,0.0
-railroad retirement plans,0.3333333333333333
-railroad safety,0.625
+railroad land grants,1.0
+railroad passenger traffic,0.9230769230769231
+railroad retirement board,0.8
+railroad retirement plans,0.75
+railroad safety,0.8888888888888888
 railroad terminals,0.5
-railroads,0.5294117647058824
+railroads,0.9433962264150944
 range management,1.0
-rape,0.9375
-rating of employees,0.75
-rating of teachers,0.0
+rape,0.9722222222222222
+rating of employees,0.8888888888888888
+rating of teachers,0.6666666666666666
 raw materials,1.0
-reactor fuel reprocessing,0.8
-reading,0.5
-real estate appraisal,0.7142857142857143
-real estate business,0.3333333333333333
+reactor fuel reprocessing,0.8571428571428571
+reading,0.8181818181818182
+reagan administration,1.0
+real estate appraisal,0.8888888888888888
+real estate business,0.8333333333333334
 real estate development,1.0
 real estate investment,1.0
 real property,1.0
-rebates,0.0
-recidivists,0.7777777777777778
-reclamation of land,0.0
-recognition (international law),0.5
+rebates,0.75
+recidivists,0.9166666666666666
+reciprocity,1.0
+reclamation of land,1.0
+recognition (international law),0.8333333333333334
 reconnaissance aircraft,1.0
 reconnaissance satellites,1.0
-reconstruction and stabilization,0.6666666666666666
-recreation,0.8571428571428571
-recreation areas,0.7142857142857143
+reconstruction and stabilization,1.0
+recreation,0.9
+recreation areas,0.7777777777777778
 recreation centers,1.0
-recruiting and enlistment,0.75
-recruiting of employees,0.5238095238095238
-recycling of waste products,0.6666666666666666
+recruiting and enlistment,0.95
+recruiting of employees,0.8367346938775511
+recycling of waste products,0.8461538461538461
 red tide,1.0
 reefs,1.0
-referendum,0.0
+referendum,0.8
 reforestation,1.0
-reformulated gasoline,0.5
-refugees,0.6666666666666666
-"refugees, asylum, displaced persons",0.7272727272727273
-refuse and refuse disposal,0.45454545454545453
-refuse as fuel,0.0
+reformulated gasoline,1.0
+refugees,0.85
+"refugees, asylum, displaced persons",1.0
+refuse and refuse disposal,0.8181818181818182
+refuse as fuel,0.6666666666666666
 regional and metropolitan planning,1.0
-regional economic development,0.0
-regional planning,0.5
-regionalism (international organization),0.8
+regional economic development,0.6666666666666666
+regional planning,0.7272727272727273
+regionalism (international organization),1.0
 regulatory impact statements,0.0
-rehabilitation of criminals,0.42857142857142855
-rehabilitation of the disabled,0.6666666666666666
-reinsurance,0.75
-religion,0.7121212121212122
-religion in the public schools,0.0
+rehabilitation of criminals,0.7
+rehabilitation of the disabled,0.75
+reinsurance,1.0
+religion,0.9124087591240876
+religion and politics,1.0
+religion in the public schools,0.5
 religion in the workplace,0.0
 religious education,0.0
-religious liberty,0.625
-relocation,0.6111111111111112
-remote sensing,0.9090909090909091
+religious liberty,0.8148148148148148
+relocation,0.8409090909090909
+remote sensing,0.9444444444444444
 removal of officials,1.0
 renewable natural resources,1.0
-rent,0.6666666666666666
-rental housing,0.3333333333333333
+rent,0.8823529411764706
+rental housing,0.9285714285714286
 reparations,0.0
 repatriation,1.0
+replacement workers,1.0
 reporters and reporting,1.0
 reproduction,1.0
-reprogramming of appropriated funds,0.5
+reprogramming of appropriated funds,0.813953488372093
 reptiles,1.0
 republican party,1.0
-rescission of appropriated funds,0.2857142857142857
-rescue work,0.6363636363636364
+rescission of appropriated funds,0.7727272727272727
+rescue work,0.9047619047619048
 research,1.0
-research administration and funding,0.660377358490566
-research and development,0.7105263157894737
-research and development facilities,0.9285714285714286
-research and development tax credit,0.25
-research centers,0.8421052631578947
-research ethics,0.0
-research grants,0.7142857142857143
+research administration and funding,0.9620253164556962
+research and development,0.9516129032258065
+research and development facilities,0.9642857142857143
+research and development tax credit,0.8
+research centers,0.9423076923076923
+research ethics,0.8
+research grants,0.875
 research natural areas,1.0
-reservoirs,0.7777777777777778
-residence requirements,0.5
-residential rehabilitation,0.75
-residential rehabilitation and home repair,0.8333333333333334
+reservoirs,0.9166666666666666
+residence requirements,0.8461538461538461
+residential mobility,1.0
+residential rehabilitation,0.9090909090909091
+residential rehabilitation and home repair,1.0
 respiratory diseases,1.0
 respite care,1.0
-restaurants,0.25
-restoration ecology,0.8333333333333334
-restrictive trade practices,0.6666666666666666
-retail and wholesale trades,0.5555555555555556
-retail trade,0.25
-retired military personnel,0.75
-retiree health benefits,0.25
+restaurants,0.8333333333333334
+restoration ecology,0.9285714285714286
+restrictive trade practices,0.9047619047619048
+retail and wholesale trades,0.8947368421052632
+retail trade,0.8
+retired military personnel,0.8888888888888888
+retiree health benefits,0.9047619047619048
 retirement,1.0
+retirement age,1.0
 retirement income,1.0
 revegetation,1.0
 revenue sharing,1.0
-revolving funds,0.5555555555555556
-rhode island,0.6666666666666666
+revolving funds,0.90625
+rhinoceroses,1.0
+rhode island,0.96
 right of assembly,1.0
-right of asylum,0.75
-right of petition,0.0
-right of privacy,0.7536231884057971
+right of asylum,0.8571428571428571
+right of petition,0.6666666666666666
+right of privacy,0.9117647058823529
 right of property,1.0
 right to counsel,1.0
 right to die,1.0
 right to travel,1.0
-right-of-way,0.7142857142857143
+right-of-way,0.8888888888888888
 riot control agents,1.0
 riparian ecology,1.0
-risk,0.8
-rivers,0.8461538461538461
-road construction,0.6470588235294118
-roads and highways,0.7272727272727273
+risk,0.8666666666666667
+rivers,0.9047619047619048
+road construction,0.8780487804878049
+roads and highways,0.9545454545454546
 robots,1.0
+rockets (aeronautics),1.0
 rockets (ordnance),1.0
 romania,1.0
 roosevelt (theodore) administration,1.0
-rule of law,0.8333333333333334
+rule of law,0.9411764705882353
 rule of law and government transparency,1.0
 runaway children,1.0
-rural conditions and development,0.7352941176470589
+runoff elections,1.0
+rural conditions,1.0
+rural conditions and development,0.9553571428571429
 rural crime,1.0
-rural economic development,0.3333333333333333
-rural education,0.6666666666666666
-rural health,0.5
-rural housing,0.0
-russia,0.6571428571428571
-rwanda,0.0
+rural economic development,0.75
+rural education,1.0
+rural health,0.8666666666666667
+rural housing,0.8333333333333334
+rural telephone bank,1.0
+russia,0.9146341463414634
+rwanda,0.8
 sabotage,1.0
 safety appliances,0.0
-safety measures,0.5
-saint lawrence seaway,0.0
-saint lawrence seaway development corporation,0.0
-salaries,0.6521739130434783
-sales and excise taxes,0.5454545454545454
+safety measures,1.0
+saint kitts and nevis,1.0
+saint lawrence seaway,0.875
+saint lawrence seaway development corporation,0.5
+saint lucia,1.0
+saint vincent and the grenadines,1.0
+salaries,0.8823529411764706
+sales and excise taxes,0.9545454545454546
 sales promotion,1.0
-sales tax,0.3333333333333333
-saline waters,0.6666666666666666
-salmon,0.8571428571428571
+sales tax,1.0
+saline waters,0.9090909090909091
+salmon,0.9230769230769231
 salmonella,1.0
 salvage,1.0
-same-sex marriage,0.0
-sanctions,0.8125
-sanctions (international law),0.7692307692307693
-saudi arabia,0.9230769230769231
-saving and investment,0.8
+sanctions,0.9821428571428571
+sanctions (international law),0.9459459459459459
+sao tome and principe,1.0
+saudi arabia,1.0
+saving and investment,1.0
 savings and loan associations,1.0
-scenic byways,0.75
-scholarships,0.7804878048780488
-school administration,0.6666666666666666
+scenic byways,0.9090909090909091
+scholarships,0.9012345679012346
+school administration,0.9411764705882353
 school athletics,1.0
 school boards,1.0
-school buildings,0.5555555555555556
-school buses,0.0
-school choice,0.0
+school buildings,0.875
+school buses,0.6666666666666666
+school choice,0.6666666666666666
 school discipline,1.0
-school districts,0.6
+school districts,0.8461538461538461
 school health programs,1.0
 school libraries,1.0
-school lunch program,0.75
-school personnel,0.5555555555555556
-school security,0.75
-school-age child care,0.6
-science and engineering education,0.75
-"science, technology, communications",0.8125
-scientific communication,0.3333333333333333
-scientific education,0.9230769230769231
-scientific instruments and apparatus,0.0
+school lunch program,0.9333333333333333
+school personnel,0.7894736842105263
+school security,0.875
+school-age child care,0.8
+science and engineering education,0.972972972972973
+"science, technology, communications",0.9486607142857143
+scientific communication,0.8
+scientific education,1.0
+scientific instruments and apparatus,1.0
 scientists,1.0
 scientists in government,1.0
 scotland,1.0
 sculpture,1.0
-seafood,0.9090909090909091
+seafood,0.9629629629629629
 seals (animals),0.0
-searches and seizures,0.9
-seashores and lakeshores,0.6666666666666666
+searches and seizures,0.9565217391304348
+seashores and lakeshores,0.9333333333333333
 seasonal labor,1.0
-seat belts,0.5
-secondary education,0.4666666666666667
+seat belts,0.8888888888888888
+secondary education,0.8604651162790697
 secondary mortgage market,0.75
-securities,0.5714285714285714
-securities and exchange commission (sec),0.5
+secret service,1.0
+securities,0.9615384615384616
+securities and exchange commission,1.0
+securities and exchange commission (sec),0.9565217391304348
 securities fraud,1.0
-security classification (government documents),0.8333333333333334
+securities industry,1.0
+securities regulation,1.0
+security classification (government documents),0.9090909090909091
 security clearances,1.0
-security measures,0.7894736842105263
-sediment control,0.0
+security measures,0.9
+sedatives,1.0
+sediment control,0.6666666666666666
+sedimentation,1.0
+seeds,1.0
 segregation,1.0
 seismology,1.0
-selective service system,0.0
-self-employed,0.2
-self-help devices for the disabled,0.0
+selective service system,0.7777777777777778
+selenium,1.0
+self-care,1.0
+self-employed,0.8333333333333334
+self-help devices for the disabled,1.0
 self-incrimination,1.0
+self-insurance,1.0
 semiconductors,1.0
-senate,0.55
+senate,0.9117647058823529
 senate appropriations,1.0
 "senate banking, housing, and urban affairs",1.0
 senate budget,1.0
 senate committee on appropriations,1.0
+senate committee on finance,1.0
+senate committee on the budget,1.0
 senate energy and natural resources,1.0
 senate finance,1.0
 "senate health, education, labor, and pensions",1.0
@@ -2638,44 +3097,54 @@ senate intelligence,1.0
 senate judiciary,1.0
 senate rules and procedure,1.0
 senate select committee on ethics,1.0
-sentences (criminal procedure),0.8333333333333334
-sentencing guidelines,0.9
+senior centers,1.0
+seniority in employment,1.0
+sentences (criminal procedure),0.8947368421052632
+sentencing guidelines,1.0
 separation (law),1.0
-"separation, divorce, custody, support",0.6666666666666666
-"september 11, 2001",0.8333333333333334
-serbia,0.5
+separation of powers,1.0
+"separation, divorce, custody, support",0.8823529411764706
+"september 11, 2001",0.9375
+serbia,0.8333333333333334
 serbia and montenegro,0.0
-service academies,0.8461538461538461
-service animals,0.5
-service industries,0.6666666666666666
-service learning,0.6666666666666666
-service stations,0.0
+service academies,0.8947368421052632
+service animals,1.0
+service industries,0.8333333333333334
+service learning,1.0
+service stations,0.3333333333333333
 settlement costs,1.0
-severance pay,0.8
-sewage disposal,0.5
-sewage treatment,0.5
-sewerage,0.5
+severance pay,0.8888888888888888
+sewage disposal,0.75
+sewage sludge,1.0
+sewage treatment,0.8888888888888888
+sewerage,0.8181818181818182
 sex,1.0
-sex and reproductive health,0.3333333333333333
-sex crimes,0.8
-sex discrimination,0.0
+sex and reproductive health,1.0
+sex crimes,0.9166666666666666
+sex discrimination,0.5
 sex education,1.0
-sex offenders,0.8571428571428571
-sex offenses,0.6451612903225806
-"sex, gender, sexual orientation discrimination",0.35714285714285715
+sex offenders,0.9090909090909091
+sex offenses,0.9767441860465116
+"sex, gender, sexual orientation discrimination",0.9523809523809523
 sex-oriented businesses,1.0
-sexual abstinence,0.5
+sexual abstinence,0.9090909090909091
 sexual harassment,1.0
+sexually transmitted diseases,1.0
 sharks,1.0
-shellfish,0.75
-shelters for the homeless,0.75
-shipbuilding,0.9333333333333333
-ships,0.6666666666666666
-shore protection,0.8
+sheep,1.0
+shellfish,0.8888888888888888
+sheltered workshops,1.0
+shelters for the homeless,0.9
+shipbuilding,0.967741935483871
+shipping rates,1.0
+ships,0.9411764705882353
+shoe industry,1.0
+shore protection,0.9
 siblings,1.0
 sick leave,1.0
+sickle cell anemia,1.0
 sierra leone,1.0
-signs and signboards,0.8
+signs and signboards,0.9333333333333333
 signs and symbols,1.0
 silver,1.0
 simulation methods,1.0
@@ -2686,541 +3155,612 @@ skiing,1.0
 skilled labor,1.0
 skin cancer,1.0
 skin diseases,1.0
-slavery,0.8181818181818182
+slavery,0.9047619047619048
 sleep disorders,1.0
 slovakia,1.0
 slovenia,1.0
-small business,0.581081081081081
-small business administration,0.6666666666666666
-small towns,0.5
-smallpox,0.25
-smithsonian institution,0.7777777777777778
+small business,0.9251336898395722
+small business administration,0.9428571428571428
+small towns,0.9
+smallpox,1.0
+smithsonian institution,0.9696969696969697
 smog,0.5
-smokeless tobacco,0.6666666666666666
-smoking,0.5
-smoking and youth,0.5
-smuggling,0.9090909090909091
+smoke,1.0
+smokeless tobacco,0.8
+smoking,1.0
+smoking and youth,0.6666666666666666
+smuggling,0.96
 smuggling and trafficking,1.0
 snakes,1.0
 snowmobiles,1.0
 social life and customs,1.0
-social security administration,0.3333333333333333
-social security and elderly assistance,0.3333333333333333
-social security finance,0.0
-social security numbers,0.75
+social science research,1.0
+social sciences and history,1.0
+social security administration,0.875
+social security and elderly assistance,0.8846153846153846
+social security beneficiaries,1.0
+social security eligibility,1.0
+social security finance,0.6666666666666666
+social security numbers,0.9
 social security taxes,1.0
-social welfare,0.7608695652173914
+social surveys,1.0
+social welfare,0.9304029304029304
 social work,1.0
-"social work, volunteer service, charitable organizations",0.6666666666666666
+"social work, volunteer service, charitable organizations",0.963963963963964
 soil conservation,1.0
+soil erosion,1.0
 soil pollution,1.0
-solar energy,0.3333333333333333
+solar energy,0.75
 soldier voting,1.0
-soldiers' homes,0.7857142857142857
-solid waste and recycling,0.6470588235294118
-somalia,0.3333333333333333
+soldiers' homes,0.8636363636363636
+solid waste and recycling,0.9642857142857143
+somalia,1.0
+sonar,1.0
 sound recording,1.0
-sound recording and reproducing,0.7777777777777778
+sound recording and reproducing,0.8666666666666667
 south africa,1.0
-south asia,0.7692307692307693
-south carolina,0.6190476190476191
-south dakota,0.7058823529411765
-south korea,0.8181818181818182
-south sudan,0.6666666666666666
+south asia,0.9130434782608695
+south atlantic states,1.0
+south carolina,0.9259259259259259
+south dakota,0.9487179487179487
+south korea,0.9375
+south sudan,1.0
 southwest (u.s.),0.0
-sovereignty,0.42857142857142855
-"sovereignty, recognition, national governance and status",0.875
-space activities,0.8333333333333334
-space commercialization,0.0
-space exploration,0.5
-space flight,0.5
-space flight and exploration,0.7692307692307693
-space shuttles,0.6
+sovereignty,0.8571428571428571
+"sovereignty, recognition, national governance and status",1.0
+soybeans,1.0
+space activities,0.9183673469387755
+space commercialization,0.75
+space exploration,0.6666666666666666
+space flight,0.8333333333333334
+space flight and exploration,1.0
+space sciences,1.0
+space shuttles,0.8
 space stations,0.0
 space warfare,1.0
-spacecraft and satellites,0.6875
+spacecraft,1.0
+spacecraft and satellites,0.9722222222222222
 spain,1.0
 special days,1.0
-special education,0.6923076923076923
+special education,0.9056603773584906
 special forces (military science),1.0
 special months,1.0
 special weeks,1.0
 special years,1.0
-specialized courts,0.4444444444444444
+specialized courts,0.9047619047619048
 speech disorders,1.0
 speedy trial,1.0
 spices,1.0
+spinal cord injuries,1.0
 sports agents,1.0
-sports and recreation,0.8311688311688312
+sports and recreation,0.9361702127659575
 sports and recreation facilities,1.0
-sports facilities,0.0
+sports facilities,0.625
 sports personnel,1.0
-sri lanka,0.0
-st. lawrence seaway,0.0
-stadiums,0.0
+sri lanka,1.0
+st. lawrence seaway,0.5
+stadiums,0.5
 stalking,1.0
-standards,0.8055555555555556
-state and local courts,0.5
-state and local finance,0.6
-state and local government operations,0.6595744680851063
-state and local taxation,0.5714285714285714
-state constitutions,0.0
-state courts,0.5833333333333334
-state employees,0.16666666666666666
-state finance,0.0
-state government-indian relations,0.5
-state laws,0.4722222222222222
+standards,0.9090909090909091
+state and local courts,0.8947368421052632
+state and local finance,0.9591836734693877
+state and local government operations,0.9673202614379085
+state and local taxation,0.8333333333333334
+state budgets,1.0
+state courts,0.875
+state employees,0.5
+state finance,0.5
+state government-indian relations,1.0
+state laws,0.8870967741935484
 state legislators,1.0
-state officials,0.6666666666666666
+state officials,0.8181818181818182
 state parks,1.0
-state taxation,0.5
-state-sponsored terrorism,0.8
-statehood (american politics),0.0
-statistics,0.6666666666666666
+state taxation,0.8571428571428571
+state-local relations,1.0
+state-sponsored terrorism,0.9473684210526315
+statehood (american politics),0.5
+statistics,0.75
 stealth aircraft,1.0
-steel,0.3333333333333333
+steel,0.8
+stereophonic sound systems,1.0
 sterilization (birth control),0.0
 steroids,1.0
-stock exchanges,0.0
-stockholders,0.5
-stocks,0.5714285714285714
+stock exchanges,0.5
+stockholders,0.8333333333333334
+stocks,0.8181818181818182
 storage,1.0
-storm drains,0.0
-storms,0.3333333333333333
+storm drains,0.5
+storms,0.75
 strategic forces,1.0
-strategic materials,0.8
-strategic materials and reserves,0.625
-strategic planning,0.7894736842105263
-stream conservation,0.5
-streets,0.0
-stress (psychology),0.5
-strip mining,0.0
+strategic materials,1.0
+strategic materials and reserves,0.9696969696969697
+strategic planning,0.9
+stream conservation,0.8
+streets,0.75
+stress (psychology),0.6666666666666666
+strip mining,1.0
 stroke,1.0
 student activities,1.0
-student aid,0.8571428571428571
-student aid and college costs,0.5263157894736842
-student employment,0.5
+student aid,0.9285714285714286
+student aid and college costs,0.9183673469387755
+student employment,1.0
 student enrollment,1.0
-student housing,0.6666666666666666
-student loan funds,0.6666666666666666
+student housing,0.8
+student loan funds,0.9444444444444444
 student records,1.0
-students,0.7692307692307693
+students,0.96
 students' rights,1.0
-subcontractors,0.7333333333333333
+subcontractors,0.875
 submarine cables,1.0
 submarine oil well drilling,1.0
 submarines,1.0
-subpoena,0.625
-subsidiary corporations,0.2
-subsidies,0.5714285714285714
+subpoena,0.7
+subsidiary corporations,0.875
+subsidies,0.7857142857142857
 subversive activities,1.0
-subways,0.0
-sudan,0.6666666666666666
-suicide,0.75
-summer employment,0.0
+subways,0.6666666666666666
+sudan,0.9375
+sugar,1.0
+suicide,0.8333333333333334
+sulphur,1.0
+sulphur dioxide,1.0
+summer employment,1.0
 summit diplomacy,1.0
-sunset legislation,0.625
+sunset legislation,1.0
+supercomputers,1.0
+superconductivity,1.0
 supersonic aircraft,1.0
 supervisors,1.0
-supplemental appropriations,0.6363636363636364
-supplemental security income program,0.6666666666666666
-supreme court,0.375
+supplemental appropriations,0.9285714285714286
+supplemental security income program,0.75
+support of dependents,1.0
+supreme court,0.8461538461538461
 supreme court decisions,1.0
-supreme court justices,0.8
-surety and fidelity,0.9230769230769231
-surface transportation board,0.0
+supreme court justices,0.8888888888888888
+surety and fidelity,0.9473684210526315
+surface transportation board,0.8888888888888888
 surface-to-air missiles,1.0
-surgery and anesthesia,0.6666666666666666
-surplus government property,0.6
-surveying,0.8
-surveys,0.8
-survivors' benefits,0.5625
-sustainable development,0.8
-sustainable fisheries,0.5
+surgery,1.0
+surgery and anesthesia,1.0
+surplus government property,0.8181818181818182
+surveying,0.9166666666666666
+surveys,0.8888888888888888
+survivors' benefits,0.8947368421052632
+suspects' rights,1.0
+sustainable agriculture,1.0
+sustainable development,0.9
+sustainable fisheries,0.6666666666666666
+sustainable forestry,1.0
 swaps (finance),1.0
 sweden,1.0
 swimming,1.0
-swimming pools,0.0
+swine,1.0
 switzerland,1.0
+synagogues,1.0
 syndromes,1.0
+synthetic fabrics,1.0
+synthetic fibers,1.0
 synthetic fuel,1.0
-syria,0.5
+syria,0.9333333333333333
 tactical nuclear weapons,1.0
-tactics,0.0
-taiwan,0.8571428571428571
+taiwan,1.0
 tajikistan,1.0
 tanker aircraft,1.0
-tankers,0.5
-tanks (combat vehicles),0.8571428571428571
-tanzania,0.0
-tariff,0.7142857142857143
+tankers,1.0
+tanks (combat vehicles),1.0
+tanzania,1.0
+tariff,1.0
 tariff preferences,1.0
 tariffs,1.0
-tax administration,0.6666666666666666
-"tax administration and collection, taxpayers",0.5454545454545454
-tax auditing,0.3333333333333333
+tax administration,0.7777777777777778
+"tax administration and collection, taxpayers",0.9516129032258065
+tax auditing,0.5
 tax consultants,1.0
-tax courts,0.5
-tax credits,0.4444444444444444
-tax deductions,0.5625
-tax evasion,0.45454545454545453
-tax exclusion,0.42857142857142855
-tax exemption,0.3
-tax incentives,0.0
-tax liens,0.0
-tax penalties,0.4
+tax courts,0.5714285714285714
+tax credits,0.7368421052631579
+tax deductions,0.7894736842105263
+tax deferral,1.0
+tax evasion,0.8
+tax exclusion,0.7222222222222222
+tax exemption,0.7647058823529411
+tax liens,0.5
+tax penalties,0.6428571428571429
 tax planning,1.0
-tax preparers,0.4
-tax rates,0.4
-tax reform and tax simplification,0.0
-tax refunds,0.0
-tax returns,0.55
-tax shelters,0.75
-tax simplification,0.0
+tax preparers,0.6
+tax rates,0.8333333333333334
+tax reform and tax simplification,0.6666666666666666
+tax refunds,0.5714285714285714
+tax returns,0.782608695652174
+tax shelters,0.8333333333333334
+tax simplification,1.0
 tax treaties,1.0
-tax treatment of families,0.5
-tax-deferred compensation plans,0.5454545454545454
-tax-exempt organizations,0.47058823529411764
+tax treatment of families,0.8461538461538461
+tax-deferred compensation plans,0.8235294117647058
+tax-exempt organizations,0.8536585365853658
 tax-exempt securities,1.0
-taxation,0.5970149253731343
-taxation of foreign income,0.2222222222222222
+taxation,0.8888888888888888
+taxation of foreign income,0.9
 taxicabs,1.0
-taxpayer compliance,0.0
-taxpayers,0.3333333333333333
-teacher education,0.7777777777777778
+taxpayer compliance,0.5
+taxpayers,0.6
+teacher education,1.0
 teacher salaries,0.3333333333333333
 teacher supply and demand,1.0
 teacher-student relationships,1.0
-teachers,0.5
+teachers,0.875
 teaching,1.0
-teaching materials,0.6
-"teaching, teachers, curricula",0.631578947368421
-technical assistance,0.7777777777777778
-technical education,0.8333333333333334
-technological innovations,0.76
-technology assessment,0.9583333333333334
-technology transfer,0.6842105263157895
-technology transfer and commercialization,0.6086956521739131
+teaching materials,0.8888888888888888
+"teaching, teachers, curricula",0.9516129032258065
+technical assistance,0.92
+technical education,1.0
+technological innovations,0.8913043478260869
+technology assessment,0.9827586206896551
+technology transfer,0.8571428571428571
+technology transfer and commercialization,0.9622641509433962
 teenage pregnancy,1.0
-telecommunication industry,0.6
+telecommunication industry,0.9166666666666666
 telecommunication rates,1.0
-telecommunication rates and fees,0.16666666666666666
+telecommunication rates and fees,0.7777777777777778
 telecommunication systems,1.0
-telecommuting,0.0
+telecommuting,0.5
 teleconferencing,0.3333333333333333
 telemarketing,1.0
-telemedicine,0.8333333333333334
-telephone,0.7272727272727273
-telephone and wireless communication,0.7241379310344828
+telemedicine,1.0
+telephone,0.9024390243902439
+telephone and wireless communication,0.9545454545454546
+telephone rates,1.0
 telescopes,1.0
 television,1.0
-television advertising,0.0
+television advertising,1.0
 television and children,1.0
-television and film,0.625
+television and film,0.9090909090909091
 television broadcasting,1.0
 television broadcasting of sports,1.0
-television industry,0.0
+television frequency allocation,1.0
+television industry,0.5
 television programs,1.0
-television stations,0.75
-temporary and part-time employment,0.5
-temporary employment,0.5
-tennessee,0.5882352941176471
+television relay systems,1.0
+television stations,0.8571428571428571
+temporary and part-time employment,0.9166666666666666
+temporary employment,0.8571428571428571
+tennessee,0.9148936170212766
+term limits,1.0
 terminal care,1.0
-terminals (transportation),0.5
+terminally ill,1.0
+terminals (transportation),0.7777777777777778
 territorial waters,1.0
 territories (u.s.),1.0
-terrorism,0.7053571428571429
-texas,0.7567567567567568
+terrorism,0.9291338582677166
+test facilities,1.0
+texas,0.9637681159420289
 textbooks,1.0
 textile fabrics,1.0
 textile industry,1.0
-thailand,0.5
+thailand,0.8888888888888888
 theater,1.0
 thyroid diseases,1.0
-tibet,0.0
+tibet,0.9166666666666666
 tigers,1.0
-timber sales,0.3333333333333333
-tipping,0.0
+timber sales,1.0
 tissue banks,1.0
-tobacco,0.6666666666666666
+tobacco,0.8333333333333334
 tobacco exports,1.0
 tobacco industry,1.0
 tobacco research,1.0
 tobacco tax,1.0
 togo,1.0
 toll roads,0.3333333333333333
-tornadoes,0.6666666666666666
+tomatoes,1.0
+tonga,1.0
+tools,1.0
+tornadoes,0.75
 torpedoes,1.0
-torts,0.3333333333333333
-torture,0.6666666666666666
-tourism,0.8
-toxicology,0.5
-trade adjustment assistance,0.0
-trade agreements,0.8
-trade agreements and negotiations,0.625
-trade and development agency,0.0
-trade associations,0.6666666666666666
-trade negotiations,0.6666666666666666
+torts,0.8
+torture,0.875
+tourism,0.9
+toxicology,0.8333333333333334
+toys,1.0
+trade adjustment assistance,0.8333333333333334
+trade agreements,0.9259259259259259
+trade agreements and negotiations,0.9333333333333333
+trade and development agency,0.8888888888888888
+trade associations,0.75
+trade fairs,1.0
+trade negotiations,0.8333333333333334
 trade regulation,1.0
-trade restrictions,0.8536585365853658
+trade restrictions,0.9545454545454546
 trade secrets,1.0
 trade secrets and economic espionage,1.0
-trademarks,0.9090909090909091
-traffic accidents and safety,0.6428571428571429
-traffic congestion,0.3333333333333333
-traffic engineering,0.3333333333333333
-traffic signs and signals,0.6
-trails,0.8
-transfer of employees,0.8666666666666667
+trademarks,0.9375
+traffic accidents and safety,0.84375
+traffic congestion,0.8
+traffic engineering,0.8333333333333334
+traffic signs and signals,0.75
+trailer camps,1.0
+trails,0.9090909090909091
+transboundary pollution,1.0
+transfer and inheritance taxes,1.0
+transfer of employees,0.9310344827586207
 translating and interpreting,1.0
 "transplantation of organs, tissues, etc.",1.0
 transport aircraft,1.0
-transportation and public works,0.7814569536423841
-transportation and the aged,0.6666666666666666
-transportation and the disabled,0.5
-transportation costs,0.7727272727272727
-transportation employees,0.6666666666666666
-transportation engineering,0.14285714285714285
+transportation and public works,0.9348441926345609
+transportation and the aged,0.875
+transportation and the disabled,0.8
+transportation costs,0.9516129032258065
+transportation employees,0.9622641509433962
+transportation engineering,0.8
 transportation insurance,1.0
-transportation of hazardous substances,0.7692307692307693
-transportation planning,0.8333333333333334
-transportation programs funding,0.65
-transportation research,0.6666666666666666
-transportation safety,0.875
-transportation safety and security,0.875
-transportation workers,0.6666666666666666
+transportation of hazardous substances,0.8823529411764706
+transportation planning,0.9090909090909091
+transportation programs funding,0.9506172839506173
+transportation rates,1.0
+transportation research,0.9
+transportation safety,0.9444444444444444
+transportation safety and security,0.9776119402985075
+transportation workers,0.9
 trapping,1.0
-trauma care,0.6666666666666666
-travel,0.75
-travel agents,0.0
+trauma care,0.9
+travel,0.875
+travel agents,0.6666666666666666
 travel and tourism,1.0
-travel costs,0.42105263157894735
+travel costs,0.8048780487804879
 treason,1.0
-treaties,0.8181818181818182
+treaties,0.95
+treaty-making power,1.0
 tree diseases,1.0
 trees,1.0
+trials,1.0
 tritium,1.0
-tropical forests,0.6666666666666666
-truck drivers,0.3333333333333333
-trucking,0.4
-trucks,0.2
+tropical forests,0.8
+truck drivers,0.7777777777777778
+trucking,0.8333333333333334
+trucks,0.7857142857142857
 truman administration,1.0
-trusts and trustees,0.7
+trusts and trustees,0.9354838709677419
 tsunamis,1.0
-tuberculosis,0.0
+tuberculosis,0.75
+tugboats,1.0
 tuition tax credits,1.0
 tuna,1.0
 tungsten,1.0
-tunisia,0.0
-tunnels,0.75
-turkey,0.5
+tunisia,1.0
+tunnels,0.8461538461538461
+turkey,1.0
 turkmenistan,1.0
-turtles,0.75
-u.s. agency for global media,0.0
-u.s. agency for international development,0.8
-u.s. agency for international development (usaid),0.5
-u.s. and foreign investments,0.3333333333333333
-u.s. capitol,0.8333333333333334
-u.s. history,0.9090909090909091
-u.s. holocaust memorial council,0.0
-u.s. institute of peace,0.5
-u.s. international trade commission,0.6666666666666666
-u.s. postal service,0.3333333333333333
-u.s. sentencing commission,0.8333333333333334
-u.s. territories and protectorates,0.7272727272727273
+turtles,0.8333333333333334
+tuvalu,1.0
+u.s. agency for global media,1.0
+u.s. agency for international development,0.9090909090909091
+u.s. agency for international development (usaid),1.0
+u.s. and foreign investments,1.0
+u.s. capitol,0.9666666666666667
+u.s. commission on international religious freedom,1.0
+u.s. history,1.0
+u.s. holocaust memorial council,0.5
+u.s. institute of peace,0.75
+u.s. international trade commission,0.9473684210526315
+u.s. postal service,0.8
+u.s. sentencing commission,0.9583333333333334
+u.s. territories and protectorates,0.9558823529411765
 u.s.s.r.,1.0
 uganda,1.0
-ukraine,0.6
+ukraine,0.9393939393939394
+ulcers,1.0
 unconventional warfare,1.0
-undercover operations,0.3333333333333333
+undercover operations,0.8
 underground movements,1.0
-underground storage,0.0
-unemployment,0.4117647058823529
-unemployment insurance,0.4444444444444444
-unfair labor practices,0.5
+underground storage,0.75
+unemployment,0.92
+unemployment insurance,0.7058823529411765
+unfair labor practices,1.0
 united arab emirates,0.9333333333333333
-united kingdom,0.92
-united nations,0.8214285714285714
-united nations finances,0.5
+united kingdom,1.0
+united nations,0.9516129032258065
+united nations delegations,1.0
+united nations finances,0.75
 united nations membership,1.0
 united nations officials,1.0
 united nations structure,1.0
-united states postal service,0.3333333333333333
-unmarried couples,0.0
-unrelated business income tax,0.6666666666666666
-uranium enrichment,0.8
-urban affairs,0.68
-urban and suburban affairs and development,0.4
+united states postal service,0.8666666666666667
+unmarried couples,0.5
+unrelated business income tax,0.8
+uranium,1.0
+uranium enrichment,0.9
+urban affairs,0.8867924528301887
+urban and suburban affairs and development,0.8888888888888888
 urban areas,1.0
-urban economic development,0.4444444444444444
+urban economic development,0.7692307692307693
 urban education,1.0
-urban transportation,0.0
-user charges,0.6666666666666666
-user charges and fees,0.6046511627906976
-utah,0.8518518518518519
-uzbekistan,0.8333333333333334
-vaccination,0.42857142857142855
-vaccines,0.4166666666666667
-valuation,0.5454545454545454
+urban growth,1.0
+urban planning,1.0
+urban renewal,1.0
+urban transportation,0.7
+user charges,0.88
+user charges and fees,0.9295774647887324
+utah,0.9615384615384616
+uzbekistan,1.0
+vaccination,0.9090909090909091
+vaccines,0.8947368421052632
+valuation,0.9
+vanadium,1.0
+vandalism,1.0
+vanuatu,1.0
+variable rate mortgage loans,1.0
+vatican,1.0
+vegetables,1.0
 vending machines,1.0
-venezuela,0.0
+venezuela,1.0
 venture capital,1.0
-vermont,0.7
-veterans' benefits,0.3
-veterans' disability compensation,0.5
-veterans' education,0.75
-"veterans' education, employment, rehabilitation",0.64
-veterans' employment,0.8571428571428571
-veterans' hospitals,0.6666666666666666
-veterans' loans,0.3333333333333333
-"veterans' loans, housing, homeless programs",0.7
-veterans' medical care,0.7843137254901961
-veterans' organizations,0.8888888888888888
-veterans' organizations and recognition,0.875
-veterans' pensions,0.3333333333333333
-veterans' pensions and compensation,0.7333333333333333
-veterans' rehabilitation,0.75
-veterinary medicine,0.8333333333333334
-veterinary medicine and animal diseases,0.8333333333333334
+vermont,0.8888888888888888
+veterans' benefits,0.7333333333333333
+veterans' disability compensation,0.8666666666666667
+veterans' education,0.8888888888888888
+"veterans' education, employment, rehabilitation",0.9714285714285714
+veterans' employment,0.9411764705882353
+veterans' hospitals,0.8571428571428571
+veterans' loans,0.7142857142857143
+"veterans' loans, housing, homeless programs",0.9642857142857143
+veterans' medical care,0.9601990049751243
+veterans' organizations,0.9090909090909091
+veterans' organizations and recognition,0.9893617021276596
+veterans' pensions,0.7777777777777778
+veterans' pensions and compensation,0.9661016949152542
+veterans' rehabilitation,0.8571428571428571
+veterinary medicine,0.9230769230769231
+veterinary medicine and animal diseases,0.9444444444444444
 vice presidents,0.0
 victims,1.0
-victims of crimes,0.8421052631578947
+victims of crimes,0.9166666666666666
 victims of terrorism,1.0
+video display terminals,1.0
 video games,1.0
 video tape recording,1.0
-vietnam,0.4
-vietnam veterans,0.6
+vietnam,1.0
+vietnam veterans,0.7142857142857143
 vietnamese conflict,1.0
-violence,0.5454545454545454
-violent crime,0.8181818181818182
-virgin islands,0.6875
-virginia,0.8292682926829268
-virus diseases,0.0
-visas,0.9375
-visas and passports,0.7619047619047619
-vocational and technical education,0.7368421052631579
-vocational guidance,0.5
-vocational rehabilitation,0.16666666666666666
+violence,0.8571428571428571
+violent crime,1.0
+virgin islands,0.9607843137254902
+virginia,0.9682539682539683
+virus diseases,1.0
+visas,0.9761904761904762
+visas and passports,0.9558823529411765
+vital statistics,1.0
+vocational and technical education,0.8936170212765957
+vocational guidance,0.8333333333333334
+vocational rehabilitation,0.5
 volcanoes,1.0
 volunteer forces,1.0
-volunteer workers,0.8
+volunteer workers,0.9318181818181818
 voter registration,1.0
 voting,1.0
-voting machines,0.5
+voting machines,1.0
 voting of the disabled,0.0
-voting rights,0.6666666666666666
-wage restitution,0.3333333333333333
-wages,0.46153846153846156
-wages and earnings,0.43478260869565216
+voting rights,0.8666666666666667
+wage restitution,1.0
+wages,0.8235294117647058
+wages and earnings,0.9464285714285714
 walking,0.5
 war,1.0
-war and emergency powers,0.6666666666666666
-war casualties,0.95
-war crimes,0.8
-"war crimes, genocide, crimes against humanity",0.8571428571428571
-war relief,0.6923076923076923
+war and emergency powers,0.9428571428571428
+war casualties,0.9714285714285714
+war crimes,0.8888888888888888
+"war crimes, genocide, crimes against humanity",1.0
+war relief,0.9166666666666666
 war risk insurance,1.0
 warning labels,1.0
 warranties,1.0
-warrants (law),0.6666666666666666
+warrants (law),0.7777777777777778
 warships,1.0
-washington state,0.8301886792452831
+washington state,0.972972972972973
 "waste disposal in rivers, lakes, etc.",1.0
 waste disposal in the ocean,1.0
 waste disposal sites,1.0
 waste in government spending,1.0
-waste reduction,0.0
-waste water treatment,0.6666666666666666
+waste reduction,0.5
+waste water treatment,0.8823529411764706
 water allocation (policy),1.0
 water conservation,1.0
 water districts,1.0
-water pollution control,0.8571428571428571
-water quality,0.717948717948718
-water resources development,0.8877551020408163
-water resources funding,0.6666666666666666
-water rights,0.75
-water storage,0.8571428571428571
-water supply,0.8846153846153846
-water treatment plants,0.8333333333333334
+water pollution control,0.9444444444444444
+water purification,1.0
+water quality,0.956140350877193
+water rates,1.0
+water resources development,0.9590909090909091
+water resources funding,0.94
+water rights,0.9166666666666666
+water storage,0.9772727272727273
+water supply,0.9464285714285714
+water treatment plants,1.0
 water use,1.0
-water use and supply,0.65625
-waterfronts,0.0
-watersheds,0.84
-waterways,0.6
+water use and supply,0.9693877551020408
+waterfronts,0.7142857142857143
+watersheds,0.9565217391304348
+waterways,0.9
+wealth,1.0
 weapons,0.6666666666666666
-weapons of mass destruction,0.9333333333333333
+weapons of mass destruction,0.9666666666666667
 weather,1.0
-weather forecasting,0.8
-web sites,0.8260869565217391
+weather forecasting,0.9
+web sites,0.926829268292683
+weeds,1.0
 weight loss,1.0
-weights and measures,0.0
+weights and measures,0.5
 welfare eligibility,1.0
 welfare fraud,1.0
-welfare recipients,0.0
+welfare recipients,0.6666666666666666
 welfare waivers,1.0
 welfare work participation,1.0
 wells,1.0
 west (u.s.),1.0
-west bank,0.25
-west virginia,0.8
-western hemisphere,0.8888888888888888
-wetlands,0.64
-whales,0.0
+west bank,0.8666666666666667
+west virginia,1.0
+western hemisphere,0.9285714285714286
+wetlands,0.8983050847457628
+whales,0.5
 whaling,1.0
-whistle blowing,0.5
+wheat,1.0
+whistle blowing,0.8
 white collar crime,0.0
-"white house (washington, d.c.)",0.5
-wholesale trade,0.0
-wic program,0.0
+"white house (washington, d.c.)",0.6666666666666666
+wholesale trade,1.0
+wic program,0.8888888888888888
 widowers,1.0
 widows,1.0
 wife abuse,1.0
-wild animal trade,0.8333333333333334
-wild rivers,0.75
-"wilderness and natural areas, wildlife refuges, wild rivers, habitats",0.7894736842105263
-wilderness areas,0.7
+wild animal trade,0.8888888888888888
+wild rivers,0.875
+"wilderness and natural areas, wildlife refuges, wild rivers, habitats",0.98
+wilderness areas,0.9333333333333333
 wildlife,1.0
-wildlife conservation,0.75
-wildlife conservation and habitat protection,0.6666666666666666
+wildlife conservation,0.8913043478260869
+wildlife conservation and habitat protection,0.9594594594594594
 wildlife management,1.0
-wildlife refuges,0.6666666666666666
-wildlife reintroduction,0.0
-wind power,0.0
-wireless communication,0.7777777777777778
+wildlife refuges,0.92
+wildlife reintroduction,0.5
+wills,1.0
+wind power,1.0
+wine,1.0
+wireless communication,0.9047619047619048
 wiretapping,1.0
-wisconsin,0.6
-withholding tax,0.5
-witnesses,0.7857142857142857
-women,0.7555555555555555
-women in business,0.6428571428571429
-women in government,0.0
-women soldiers,0.8571428571428571
+wisconsin,0.9
+withholding tax,0.875
+witnesses,0.8695652173913043
+women,0.9484536082474226
+women in business,0.9210526315789473
+women in government,0.75
+women officials,1.0
+women soldiers,1.0
 women veterans,1.0
 women's education,1.0
-women's employment,0.7272727272727273
-women's health,0.4838709677419355
+women's employment,1.0
+women's health,0.9512195121951219
 women's movement,1.0
-women's rights,0.8461538461538461
+women's rights,1.0
+women's shelters,1.0
 wood,1.0
-wool,0.6666666666666666
-worker safety and health,0.782608695652174
-workers' compensation,0.23076923076923078
+wool,1.0
+worker safety and health,0.9852941176470589
+workers' compensation,0.8125
 working poor,1.0
 workplace literacy,0.0
-world health,0.6363636363636364
+world health,0.925
 world history,1.0
 world war i,1.0
 world war ii,1.0
-wrongful death,0.0
-wyoming,0.8421052631578947
-x-rays,0.5
-yemen,0.7142857142857143
+worms,1.0
+wyoming,0.9459459459459459
+x-rays,1.0
+yemen,1.0
 youth,1.0
-youth employment,0.25
-youth employment and child labor,0.3333333333333333
-youth services,0.6153846153846154
-youth violence,0.0
+youth employment,0.6666666666666666
+youth employment and child labor,0.9444444444444444
+youth services,0.84
+youth violence,0.6666666666666666
 yugoslavia,0.0
-zimbabwe,0.0
-zoning and zoning law,0.3333333333333333
-zoos,0.5
+zambia,1.0
+zimbabwe,0.8888888888888888
+zip code,1.0
+zoning and zoning law,0.6
+zoos,0.8571428571428571

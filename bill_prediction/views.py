@@ -48,8 +48,8 @@ class BillViewset(viewsets.ReadOnlyModelViewSet):
 
         x_house = feature_extractor.get_features(bill, chamber='house', get_x=True)
         x_senate = feature_extractor.get_features(bill, chamber='senate', get_x=True)
-        house_probability = house_model.predict_proba([x_house])
-        senate_probability = senate_model.predict_proba([x_senate])
+        house_probability = house_model.predict_proba([x_house])[0][1]
+        senate_probability = senate_model.predict_proba([x_senate])[0][1]
 
         return Response({'House': house_probability,
                          "Senate": senate_probability},

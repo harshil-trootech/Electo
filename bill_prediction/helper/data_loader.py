@@ -186,8 +186,8 @@ class DataLoader:
         current_votes = Vote.objects.filter(legislator__bioguide__in=current_house_members + current_senate_members)
         print("...Generating legislator-policy_area statistics...")
         cls.__generate_legislator_policy_relation(current_votes)
-        print("...Generating legislator-subjects statistics...")
-        cls.__generate_legislator_subject_relation(current_votes)
+        # print("...Generating legislator-subjects statistics...")
+        # cls.__generate_legislator_subject_relation(current_votes)
         print("...Generating House of Representatives policy area and subjects statistics...")
         cls.__generate_house_policy_subjects_relation()
         print("...Generating Senate policy area and subjects statistics...")
@@ -339,7 +339,7 @@ class FeatureExtractor:
                 sponsor_minority = True
 
         # 7: Number of cosponsors count
-        co_sponsor_count = co_sponsors.count()
+        co_sponsor_count = co_sponsors.count()/535
 
         # 8: Whether the bill is originated from the same chamber
         if bill_id[0] == chamber[0]:
@@ -354,8 +354,9 @@ class FeatureExtractor:
             label = 0
 
         if get_x:
-            return [chamber_policy_prob, chamber_subject_prob, legis_policy_prob, legis_subject_prob, sponsor_minority,
-                    co_sponsor_count, amendment_count, origin_chamber]
+            # return [chamber_policy_prob, chamber_subject_prob, legis_policy_prob, legis_subject_prob, sponsor_minority,
+            #         co_sponsor_count, amendment_count, origin_chamber]
+            return [chamber_policy_prob, legis_policy_prob, sponsor_minority, co_sponsor_count, amendment_count, origin_chamber]
         if get_X_dict:
             return {'independent policy': chamber_policy_prob,
                     'independent subject': chamber_subject_prob,
@@ -367,9 +368,9 @@ class FeatureExtractor:
                     'Bill origin': origin_chamber}
 
         return {'independent policy': chamber_policy_prob,
-                'independent subject': chamber_subject_prob,
+                # 'independent subject': chamber_subject_prob,
                 'legislator dependent policy': legis_policy_prob,
-                'legislator dependent subject': legis_subject_prob,
+                # 'legislator dependent subject': legis_subject_prob,
                 'sponsor minority': sponsor_minority,
                 'number of co sponsors': co_sponsor_count,
                 'bill amendment count': amendment_count,

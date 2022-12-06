@@ -1,34 +1,35 @@
 policy_area,ratio
-agriculture and food,0.9230769230769231
-animals,0.8571428571428571
-armed forces and national security,0.8596491228070176
+agriculture and food,1.0
+animals,0.9333333333333333
+armed forces and national security,0.9824561403508771
 "arts, culture, religion",1.0
-"civil rights and liberties, minority issues",0.6428571428571429
-commemorations,0.9727272727272728
-commerce,0.9090909090909091
-congress,0.6341463414634146
-crime and law enforcement,0.897196261682243
-economics and public finance,0.17142857142857143
-education,0.65
-emergency management,0.9090909090909091
-energy,0.6333333333333333
-environmental protection,0.5862068965517241
-families,0.6
-finance and financial sector,0.6521739130434783
-foreign trade and international finance,0.875
-government operations and politics,0.8636363636363636
-health,0.7916666666666666
-housing and community development,0.8
-immigration,0.64
-international affairs,0.896
-labor and employment,0.36363636363636365
-law,0.5769230769230769
-native americans,0.961038961038961
+"civil rights and liberties, minority issues",0.9523809523809523
+commemorations,0.993421052631579
+commerce,0.9903846153846154
+congress,0.8428571428571429
+crime and law enforcement,0.9866666666666667
+economics and public finance,0.8660714285714286
+education,0.9318181818181818
+emergency management,0.9864864864864865
+energy,0.9636363636363636
+environmental protection,0.9019607843137255
+families,1.0
+finance and financial sector,0.967391304347826
+foreign trade and international finance,0.975
+government operations and politics,0.9968152866242038
+health,0.9720930232558139
+housing and community development,1.0
+immigration,0.9583333333333334
+international affairs,0.972
+labor and employment,0.8787878787878788
+law,0.92
+native americans,1.0
 private legislation,1.0
-public lands and natural resources,0.9182389937106918
-"science, technology, communications",0.9038461538461539
-social welfare,0.75
+public lands and natural resources,0.9950124688279302
+"science, technology, communications",0.9905660377358491
+social sciences and history,1.0
+social welfare,1.0
 sports and recreation,1.0
-taxation,0.5384615384615384
-transportation and public works,0.8604651162790697
-water resources development,0.9428571428571428
+taxation,0.9
+transportation and public works,0.9793103448275862
+water resources development,0.9743589743589743

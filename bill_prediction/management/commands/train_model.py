@@ -48,7 +48,7 @@ class Command(BaseCommand):
             feature_extractor = FeatureExtractor()
             # Process to collect features and train model for the house
             print("...Collecting features of the house related bills...")
-            house_related_bills = Bill.objects.filter(status__in=HOUSE_PASS_STATUS_LIST+HOUSE_FAIL_STATUS_LIST)
+            house_related_bills = Bill.objects.filter(status__in=HOUSE_PASS_STATUS_LIST+HOUSE_FAIL_STATUS_LIST, introduced_at__year__gte=2017)
             house_amendments = Bill.objects.filter(status__in=['pass', 'fail'], bill_id__startswith='h')
             house_bills = house_related_bills | house_amendments
             print("Total bills: ", house_bills.count())
@@ -73,7 +73,7 @@ class Command(BaseCommand):
 
             # Process to collect features and train model for the senate
             print("...Collecting features of the senate related bills...")
-            senate_related_bills = Bill.objects.filter(status__in=SENATE_PASS_STATUS_LIST + SENATE_FAIL_STATUS_LIST)
+            senate_related_bills = Bill.objects.filter(status__in=SENATE_PASS_STATUS_LIST + SENATE_FAIL_STATUS_LIST, introduced_at__year__gte=2017)
             senate_amendments = Bill.objects.filter(status__in=['pass', 'fail'], bill_id__startswith='s')
             senate_bills = senate_related_bills | senate_amendments
             print("Total bills: ", senate_bills.count())
