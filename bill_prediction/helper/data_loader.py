@@ -355,8 +355,8 @@ class FeatureExtractor:
 
         if get_x:
             # return [chamber_policy_prob, chamber_subject_prob, legis_policy_prob, legis_subject_prob, sponsor_minority,
-            #         co_sponsor_count, amendment_count, origin_chamber]
-            return [chamber_policy_prob, legis_policy_prob, sponsor_minority, co_sponsor_count, amendment_count, origin_chamber]
+            #         co_sponsor_count, origin_chamber]
+            return [chamber_policy_prob, legis_policy_prob, sponsor_minority, co_sponsor_count, origin_chamber]
         if get_X_dict:
             return {'independent policy': chamber_policy_prob,
                     # 'independent subject': chamber_subject_prob,
@@ -364,7 +364,7 @@ class FeatureExtractor:
                     # 'legislator dependent subject': legis_subject_prob,
                     'sponsor minority': sponsor_minority,
                     'number of co sponsors': co_sponsor_count,
-                    'bill amendment count': amendment_count,
+                    # 'bill amendment count': amendment_count,
                     'Bill origin': origin_chamber}
 
         return {'independent policy': chamber_policy_prob,
@@ -373,6 +373,6 @@ class FeatureExtractor:
                 # 'legislator dependent subject': legis_subject_prob,
                 'sponsor minority': sponsor_minority,
                 'number of co sponsors': co_sponsor_count,
-                'bill amendment count': amendment_count,
+                # 'bill amendment count': amendment_count,
                 'Bill origin': origin_chamber,
                 'label': label}

@@ -1,3 +1,5 @@
+import os
+
 from django.core.management.base import BaseCommand, CommandError
 from bill_prediction.helper.data_loader import DataLoader, FeatureExtractor
 from bill.models import Bill
@@ -11,32 +13,45 @@ from tqdm import tqdm
 class Command(BaseCommand):
     def handle(self, *args, **options):
         feature_extractor = FeatureExtractor()
-        house_model = xgb.XGBClassifier()
-        senate_model = xgb.XGBClassifier()
-        house_model.load_model(HOUSE_XGB_MODEL_PATH)
-        senate_model.load_model(SENATE_XGB_MODEL_PATH)
-        lr_model = joblib.load(PICKLE_MODEL_PATH)
+        house_model_names = os.listdir(HOUSE_MODEL_PATH)
+        senate_model_names = os.listdir(SENATE_MODEL_PATH)
+        house_model_list = []
+        senate_model_list = []
 
-        bills = Bill.objects.filter(status__in=['ENACTED:SIGNED', 'PASS_OVER:HOUSE', 'PASS_BACK:SENATE',
-                                                'PASS_OVER:SENATE', 'PASS_BACK:HOUSE', 'PASS_BACK:HOUSE',
-                                                'FAIL:ORIGINATING:HOUSE', 'FAIL:SECOND:HOUSE', 'PASS_BACK:SENATE',
-                                                'FAIL:ORIGINATING:SENATE', 'FAIL:SECOND:SENATE'],
-                                    bill_id__endswith='117')
+        print("...Loading house models...")
+        for model_name in house_model_names:
+            house_model_list.append(joblib.load(HOUSE_MODEL_PATH + model_name))
+        print("...Loading senate models...")
+        for model_name in senate_model_names:
+            senate_model_list.append(joblib.load(SENATE_MODEL_PATH + model_name))
+
+        # status__in = ['ENACTED:SIGNED', 'PASS_OVER:HOUSE', 'PASS_OVER:SENATE',
+        #               'PASS_BACK:HOUSE', 'PASS_BACK:SENATE', 'FAIL:ORIGINATING:HOUSE',
+        #               'FAIL:ORIGINATING:SENATE', 'FAIL:SECOND:HOUSE',
+        #               'FAIL:SECOND:SENATE'],
+        bills = Bill.objects.filter(bill_id__endswith='117')
 
         result = []
+        print("...Generating result...")
         for bill in tqdm(bills):
+            house_probs, senate_probs = [], []
             x_house = feature_extractor.get_features(bill, chamber='house', get_x=True)
             x_senate = feature_extractor.get_features(bill, chamber='senate', get_x=True)
-            house_probability = house_model.predict_proba([x_house])[0][1]
-            house_probability_lr = lr_model.predict_proba([x_house])[0][1]
-            senate_probability = senate_model.predict_proba([x_senate])[0][1]
+            for model in house_model_list:
+                house_probs.append(model.predict_proba([x_house])[0][1])
+            house_probability = sum(house_probs)/len(house_probs)
+            for model in senate_model_list:
+                senate_probs.append(model.predict_proba([x_senate])[0][1])
+            senate_probability = sum(senate_probs)/len(senate_probs)
+
             result.append({'id': bill.id,
                            'bill_id': bill.bill_id,
                            'status': bill.status,
                            'House': house_probability,
-                           'House Logistic': house_probability_lr,
-                           'Senate': senate_probability})
+                           'Senate': senate_probability,
+                           'Overall': (house_probability+senate_probability)/2
+                           })
 
         df = pd.DataFrame(result)
-        print("saving file at bill_prediction/outputs/results/result.csv")
-        df.to_csv('bill_prediction/outputs/results/result.csv')
+        print("saving file at bill_prediction/outputs/results/predictions.csv")
+        df.to_csv('bill_prediction/outputs/results/result.csv', index=False)
