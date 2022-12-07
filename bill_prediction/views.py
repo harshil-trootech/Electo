@@ -44,14 +44,16 @@ class BillViewset(viewsets.ReadOnlyModelViewSet):
             # senate_model = joblib.load(SENATE_RF_MODEL_PATH)
         except xgb.core.XGBoostError:
             return Response("Failed to load prediction model. Make sure to run python manage.py train_model before using this API endpoint", status=400)
-        # pickle_model = pkl.load(open(PICKLE_MODEL_PATH, 'rb'))
+        lr_model = joblib.load(PICKLE_MODEL_PATH)
 
         x_house = feature_extractor.get_features(bill, chamber='house', get_x=True)
         x_senate = feature_extractor.get_features(bill, chamber='senate', get_x=True)
         house_probability = house_model.predict_proba([x_house])[0][1]
+        house_probability_lr = lr_model.predict_proba([x_house])[0][1]
         senate_probability = senate_model.predict_proba([x_senate])[0][1]
 
         return Response({'House': house_probability,
+                         'House Logistic': house_probability_lr,
                          "Senate": senate_probability},
                          # "Overall": (house_probability+senate_probability)/2},
                         status=200)
