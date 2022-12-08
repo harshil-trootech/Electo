@@ -7,6 +7,7 @@ import json
 import numpy as np
 import pandas as pd
 import os
+from sklearn.preprocessing import LabelBinarizer
 
 
 class DataLoader:
@@ -220,6 +221,8 @@ class FeatureExtractor:
                 '116': 'Republican',
                 '117': 'Democrat',
             }
+            self.bill_type_encoder = LabelBinarizer().fit(['amendment', 'concurrent resolution',
+                                                           'joint resolution', 'resolution', 'bill'])
 
         except FileNotFoundError:
             raise Exception("""At least one of the statistics file is missing. Run python manage.py train_model command without --use_cache argument""")
@@ -279,7 +282,7 @@ class FeatureExtractor:
         # policy = bill.policy_area
         # subjects = bill.subjects
         status = bill.status
-        bill_id = bill.bill_id
+        bill_id = bill.bill_id.lower()
         sponsors = bill.sponsors.all()
         co_sponsors = bill.co_sponsors.all()
 
@@ -339,13 +342,26 @@ class FeatureExtractor:
                 sponsor_minority = True
 
         # 7: Number of cosponsors count
-        co_sponsor_count = co_sponsors.count()/535
+        supporter_count = (sponsors.count() + co_sponsors.count())/268
 
         # 8: Whether the bill is originated from the same chamber
         if bill_id[0] == chamber[0]:
             origin_chamber = 1
         else:
             origin_chamber = 0
+
+        # 8: Bill type
+        if 'amdt' in bill_id:
+            bill_type = 'amendment'
+        elif 'conres' in bill_id:
+            bill_type = 'concurrent resolution'
+        elif 'jres' in bill_id:
+            bill_type = 'joint resolution'
+        elif 'res' in bill_id:
+            bill_type = 'resolution'
+        else:
+            bill_type = 'bill'
+        bill_type_encoded = self.bill_type_encoder.transform([bill_type])[0].tolist()
 
         # Label
         if status in PASS_STATUS_LIST or status == 'pass':
@@ -354,25 +370,24 @@ class FeatureExtractor:
             label = 0
 
         if get_x:
-            # return [chamber_policy_prob, chamber_subject_prob, legis_policy_prob, legis_subject_prob, sponsor_minority,
-            #         co_sponsor_count, origin_chamber]
-            return [chamber_policy_prob, legis_policy_prob, sponsor_minority, co_sponsor_count, origin_chamber]
+            if chamber == 'house':
+                return [chamber_policy_prob, chamber_subject_prob, legis_policy_prob, legis_subject_prob, sponsor_minority,
+                        supporter_count, origin_chamber, *bill_type_encoded]
+            return [chamber_policy_prob, legis_policy_prob, sponsor_minority, supporter_count,
+                    origin_chamber, *bill_type_encoded]
         if get_X_dict:
             return {'independent policy': chamber_policy_prob,
-                    # 'independent subject': chamber_subject_prob,
+                    'independent subject': chamber_subject_prob,
                     'legislator dependent policy': legis_policy_prob,
-                    # 'legislator dependent subject': legis_subject_prob,
+                    'legislator dependent subject': legis_subject_prob,
                     'sponsor minority': sponsor_minority,
-                    'number of co sponsors': co_sponsor_count,
+                    'number of co sponsors': supporter_count,
                     # 'bill amendment count': amendment_count,
-                    'Bill origin': origin_chamber}
+                    'Bill origin': origin_chamber,
+                    'Bill type': bill_type}
 
-        return {'independent policy': chamber_policy_prob,
-                # 'independent subject': chamber_subject_prob,
-                'legislator dependent policy': legis_policy_prob,
-                # 'legislator dependent subject': legis_subject_prob,
-                'sponsor minority': sponsor_minority,
-                'number of co sponsors': co_sponsor_count,
-                # 'bill amendment count': amendment_count,
-                'Bill origin': origin_chamber,
-                'label': label}
+        if chamber == 'house':
+            return [chamber_policy_prob, chamber_subject_prob, legis_policy_prob, legis_subject_prob,
+                    sponsor_minority, supporter_count, origin_chamber, *bill_type_encoded, label]
+        return [chamber_policy_prob, legis_policy_prob, sponsor_minority, supporter_count,
+                origin_chamber, *bill_type_encoded, label]

@@ -25,11 +25,10 @@ class Command(BaseCommand):
         for model_name in senate_model_names:
             senate_model_list.append(joblib.load(SENATE_MODEL_PATH + model_name))
 
-        # status__in = ['ENACTED:SIGNED', 'PASS_OVER:HOUSE', 'PASS_OVER:SENATE',
-        #               'PASS_BACK:HOUSE', 'PASS_BACK:SENATE', 'FAIL:ORIGINATING:HOUSE',
-        #               'FAIL:ORIGINATING:SENATE', 'FAIL:SECOND:HOUSE',
-        #               'FAIL:SECOND:SENATE'],
-        bills = Bill.objects.filter(bill_id__endswith='117')
+        bills = Bill.objects.filter(status__in=['ENACTED:SIGNED', 'PASS_OVER:HOUSE', 'PASS_OVER:SENATE',
+                                                'PASS_BACK:HOUSE', 'PASS_BACK:SENATE', 'FAIL:ORIGINATING:HOUSE',
+                                                'FAIL:ORIGINATING:SENATE', 'FAIL:SECOND:HOUSE', 'FAIL:SECOND:SENATE'],
+                                    bill_id__endswith='117')
 
         result = []
         print("...Generating result...")
@@ -47,6 +46,7 @@ class Command(BaseCommand):
             result.append({'id': bill.id,
                            'bill_id': bill.bill_id,
                            'status': bill.status,
+                           'policy': bill.policy_area,
                            'House': house_probability,
                            'Senate': senate_probability,
                            'Overall': (house_probability+senate_probability)/2
@@ -54,4 +54,4 @@ class Command(BaseCommand):
 
         df = pd.DataFrame(result)
         print("saving file at bill_prediction/outputs/results/predictions.csv")
-        df.to_csv('bill_prediction/outputs/results/result.csv', index=False)
+        df.to_csv('bill_prediction/outputs/results/predictions.csv', index=False)

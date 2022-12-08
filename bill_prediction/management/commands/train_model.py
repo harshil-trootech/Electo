@@ -5,7 +5,7 @@ from bill_prediction.constants import *
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, KFold, GridSearchCV
-from sklearn.svm import SVC
+from sklearn.svm import SVC, LinearSVC, NuSVC
 from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier, GradientBoostingClassifier
@@ -24,17 +24,22 @@ class Command(BaseCommand):
 
     def train_ml_model(self, x_train, y_train, x_test, y_test, save_path, count, chamber):
         if chamber == 'house':
-            dt_model = DecisionTreeClassifier(max_depth=8, min_samples_split=5, max_features=2)
+            # model = DecisionTreeClassifier(max_depth=8, min_samples_split=5, max_features=4)
+            # model = RandomForestClassifier(n_estimators=25)
+            # model = NuSVC(max_iter=2000, probability=True)
+            model = LogisticRegression(max_iter=500, fit_intercept=True)
         else:
-            dt_model = DecisionTreeClassifier(min_samples_split=2, random_state=2)
-        dt_model.fit(x_train, y_train)
-        score = dt_model.score(x_test, y_test)
-        print(f"Model {count} => {score}    Saved at {save_path}house_model{count}.joblib")
-        joblib.dump(dt_model, f"{save_path}model{count}.joblib")
+            # model = DecisionTreeClassifier(min_samples_split=2, random_state=4)
+            # model = RandomForestClassifier(n_estimators=25, min_samples_split=2)
+            # model = NuSVC(max_iter=2000, probability=True)
+            model = LogisticRegression(max_iter=500, fit_intercept=True)
+        model.fit(x_train, y_train)
+        score = model.score(x_test, y_test)
+        print(f"Model {count} => {score}    Saved at {save_path}model{count}.joblib")
+        joblib.dump(model, f"{save_path}model{count}.joblib")
         return score
 
     def handle(self, *args, **options):
-
         if options['use_stats_cache']:
             self.stdout.write(self.style.SUCCESS("...Using cached file..."))
         else:
@@ -47,17 +52,17 @@ class Command(BaseCommand):
         else:
             feature_extractor = FeatureExtractor()
             # Process to collect features and train model for the house
-            print("...Collecting features of the house related bills...")
-            house_bills = Bill.objects.filter(status__in=HOUSE_PASS_STATUS_LIST+HOUSE_FAIL_STATUS_LIST,
-                                              introduced_at__year__gte=2014).exclude(bill_id__endswith='117')
-            house_amendments = Bill.objects.filter(status__in=['pass', 'fail'], bill_id__startswith='h')
-            # house_bills = house_related_bills | house_amendments
-            house_bill_features = []
-            for bill in tqdm(house_bills):
-                house_bill_features.append(feature_extractor.get_features(bill, chamber='house'))
-
-            house_features_df = pd.DataFrame(house_bill_features)
-            house_features_df.to_csv('bill_prediction/outputs/house_features.csv', index=False)
+            # print("...Collecting features of the house related bills...")
+            # house_bills = Bill.objects.filter(status__in=HOUSE_PASS_STATUS_LIST+HOUSE_FAIL_STATUS_LIST,
+            #                                   introduced_at__year__gte=2014).exclude(bill_id__endswith='117')
+            # house_amendments = Bill.objects.filter(status__in=['pass', 'fail'], bill_id__startswith='h')
+            # # house_bills = house_related_bills | house_amendments
+            # house_bill_features = []
+            # for bill in tqdm(house_bills):
+            #     house_bill_features.append(feature_extractor.get_features(bill, chamber='house'))
+            #
+            # house_features_df = pd.DataFrame(house_bill_features)
+            # house_features_df.to_csv('bill_prediction/outputs/house_features.csv', index=False)
 
             # Process to collect features and train model for the senate
             print("...Collecting features of the senate related bills...")
@@ -79,8 +84,8 @@ class Command(BaseCommand):
         # x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y)
         # x_test, y_test = x_test.values, y_test.values
         # combined_df = pd.concat([x_train, y_train], axis=1)
-        # house_failed_bills = combined_df[combined_df['label'] == 0]
-        # house_passed_bills = combined_df[combined_df['label'] == 1].sample(frac=1)
+        # house_failed_bills = combined_df[combined_df.iloc[:, -1] == 0]
+        # house_passed_bills = combined_df[combined_df.iloc[:, -1] == 1].sample(frac=1)
         # split_size = house_passed_bills.shape[0] // house_failed_bills.shape[0]
         # passed_bills_bins = np.array_split(house_passed_bills, split_size)
         # shutil.rmtree(HOUSE_MODEL_PATH, ignore_errors=True)
@@ -97,11 +102,12 @@ class Command(BaseCommand):
         print("...Training models for senate related bills...")
         X = senate_features_df.iloc[:, :-1]
         y = senate_features_df.iloc[:, -1]
+        print(X.shape)
         x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y)
         x_test, y_test = x_test.values, y_test.values
         combined_df = pd.concat([x_train, y_train], axis=1)
-        senate_failed_bills = combined_df[combined_df['label'] == 0]
-        senate_passed_bills = combined_df[combined_df['label'] == 1].sample(frac=1)
+        senate_failed_bills = combined_df[combined_df.iloc[:, -1] == 0]
+        senate_passed_bills = combined_df[combined_df.iloc[:, -1] == 1].sample(frac=1)
         split_size = senate_passed_bills.shape[0] // senate_failed_bills.shape[0]
         passed_bills_bins = np.array_split(senate_passed_bills, split_size)
         shutil.rmtree(SENATE_MODEL_PATH, ignore_errors=True)
@@ -113,5 +119,3 @@ class Command(BaseCommand):
             y_train = data.iloc[:, -1].values
             scores.append(self.train_ml_model(x_train, y_train, x_test, y_test, SENATE_MODEL_PATH, count, 'senate'))
         print("Overall:", np.mean(scores))
-
-
