@@ -1,13 +1,13 @@
 policy_area,ratio
 agriculture and food,0.9795918367346939
 animals,1.0
-armed forces and national security,0.988673139158576
+armed forces and national security,0.9887640449438202
 "arts, culture, religion",1.0
 "civil rights and liberties, minority issues",1.0
 commemorations,0.9976905311778291
-commerce,0.9955156950672646
+commerce,0.9955555555555555
 congress,0.643312101910828
-crime and law enforcement,0.9945054945054945
+crime and law enforcement,0.994535519125683
 economics and public finance,0.9800995024875622
 education,1.0
 emergency management,1.0
@@ -15,12 +15,12 @@ energy,0.9941860465116279
 environmental protection,1.0
 families,0.9583333333333334
 finance and financial sector,0.9973544973544973
-foreign trade and international finance,0.9827586206896551
-government operations and politics,0.9954853273137697
+foreign trade and international finance,0.9830508474576272
+government operations and politics,0.9954954954954955
 health,0.9978213507625272
 housing and community development,1.0
 immigration,0.9807692307692307
-international affairs,0.9796334012219959
+international affairs,0.9797160243407708
 labor and employment,1.0
 law,1.0
 native americans,0.9878787878787879
@@ -31,5 +31,5 @@ social sciences and history,1.0
 social welfare,1.0
 sports and recreation,0.9375
 taxation,1.0
-transportation and public works,0.9925925925925926
+transportation and public works,0.992619926199262
 water resources development,0.9945054945054945

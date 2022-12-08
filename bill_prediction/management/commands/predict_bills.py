@@ -40,7 +40,7 @@ class Command(BaseCommand):
                 house_probs.append(model.predict_proba([x_house])[0][1])
             house_probability = sum(house_probs)/len(house_probs)
             for model in senate_model_list:
-                senate_probs.append(model.predict_proba([x_senate])[0][1])
+                senate_probs.append(model.predict([x_senate])[0])
             senate_probability = sum(senate_probs)/len(senate_probs)
 
             result.append({'id': bill.id,

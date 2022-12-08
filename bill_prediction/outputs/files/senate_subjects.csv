@@ -28,7 +28,7 @@ adoption and foster care,0.967741935483871
 adult day care,0.875
 adult education,0.625
 adult education and literacy,0.9166666666666666
-advanced technology and technological innovations,0.9464285714285714
+advanced technology and technological innovations,0.9636363636363636
 advanced weapons,0.875
 advertising,1.0
 advice and consent of the senate,0.9
@@ -265,7 +265,7 @@ automobiles,0.6666666666666666
 autopsy,1.0
 avalanches,1.0
 aviation agreements,1.0
-aviation and airports,0.9662162162162162
+aviation and airports,0.9664429530201343
 aviation fuels,1.0
 aviation insurance,1.0
 aviation safety,0.9166666666666666
@@ -419,7 +419,7 @@ carbon cycle,1.0
 carbon dioxide,0.5
 carbon monoxide,0.6666666666666666
 carcinogens,1.0
-cardiovascular and respiratory health,0.9607843137254902
+cardiovascular and respiratory health,0.98
 cardiovascular diseases,1.0
 career education,1.0
 caregivers,1.0
@@ -1480,7 +1480,7 @@ genetics,0.9736842105263158
 genocide,0.9285714285714286
 geodesy,1.0
 geographic information systems,0.9230769230769231
-geography and mapping,0.95
+geography and mapping,0.9523809523809523
 geology,1.0
 geophysical prediction,1.0
 georgia,0.9682539682539683
@@ -1514,7 +1514,7 @@ government employees' life insurance,0.6666666666666666
 government employees' political activities,1.0
 government ethics,0.75
 "government ethics and transparency, public corruption",0.9859154929577465
-government information and archives,0.9829683698296837
+government information and archives,0.9853658536585366
 government insurance,0.5714285714285714
 government internships,0.8888888888888888
 government lending,0.8852459016393442
@@ -1587,7 +1587,7 @@ hawaiians,0.7777777777777778
 hazardous wastes,0.8717948717948718
 hazardous wastes and toxic substances,0.967741935483871
 head injuries,0.6666666666666666
-health,0.9473684210526315
+health,0.9496567505720824
 health care costs and insurance,0.927710843373494
 health care coverage and access,0.946236559139785
 health care fraud,1.0
@@ -1596,19 +1596,19 @@ health counseling,0.9333333333333333
 health education,0.975609756097561
 health facilities,1.0
 health facilities and institutions,0.9797297297297297
-health information and medical records,0.9827586206896551
+health information and medical records,0.9913793103448276
 health information systems,0.896551724137931
 health insurance,0.8809523809523809
 health insurance continuation,1.0
 health maintenance organizations,0.6666666666666666
 health personnel,0.9907407407407407
 health planning,0.9166666666666666
-health programs administration and funding,0.9545454545454546
+health programs administration and funding,0.9618320610687023
 health promotion,1.0
-health promotion and preventive care,0.9809523809523809
+health promotion and preventive care,0.9903846153846154
 health services administration,1.0
 health surveys,0.9583333333333334
-"health technology, devices, supplies",0.9482758620689655
+"health technology, devices, supplies",0.9649122807017544
 health warnings,1.0
 hearing disorders,1.0
 "hearing, speech, and vision care",1.0
@@ -1825,7 +1825,7 @@ interest,0.8518518518518519
 interest rates,0.8666666666666667
 "interest, dividends, interest rates",0.9
 intergovernmental fiscal relations,0.9354838709677419
-intergovernmental relations,0.9680851063829787
+intergovernmental relations,0.968421052631579
 intermodal transportation,0.9285714285714286
 internal revenue law,1.0
 internal revenue service (irs),0.7586206896551724
@@ -2150,7 +2150,7 @@ medical libraries,0.6666666666666666
 medical malpractice,0.8333333333333334
 medical personnel,0.9354838709677419
 medical records,0.896551724137931
-medical research,0.9388888888888889
+medical research,0.9441340782122905
 medical residents,1.0
 medical savings accounts,1.0
 medical screening,1.0
@@ -2158,7 +2158,7 @@ medical statistics,0.9411764705882353
 medical supplies,0.9655172413793104
 medical technology,0.9
 medical tests,1.0
-medical tests and diagnostic methods,0.9772727272727273
+medical tests and diagnostic methods,0.9885057471264368
 medical wastes,1.0
 medically uninsured,0.9444444444444444
 medicare,0.9655172413793104
@@ -2805,7 +2805,7 @@ psychology,1.0
 psychotherapy,1.0
 psychotropic drugs,1.0
 public broadcasting,0.75
-public contracts and procurement,0.9695431472081218
+public contracts and procurement,0.9696969696969697
 public corruption,1.0
 public debt,0.75
 public defenders,0.8571428571428571
@@ -2939,7 +2939,7 @@ republican party,1.0
 rescission of appropriated funds,0.7727272727272727
 rescue work,0.9047619047619048
 research,1.0
-research administration and funding,0.9620253164556962
+research administration and funding,0.9681528662420382
 research and development,0.9516129032258065
 research and development facilities,0.9642857142857143
 research and development tax credit,0.8
@@ -3484,7 +3484,7 @@ transfer of employees,0.9310344827586207
 translating and interpreting,1.0
 "transplantation of organs, tissues, etc.",1.0
 transport aircraft,1.0
-transportation and public works,0.9348441926345609
+transportation and public works,0.9350282485875706
 transportation and the aged,0.875
 transportation and the disabled,0.8
 transportation costs,0.9516129032258065
@@ -3493,7 +3493,7 @@ transportation engineering,0.8
 transportation insurance,1.0
 transportation of hazardous substances,0.8823529411764706
 transportation planning,0.9090909090909091
-transportation programs funding,0.9506172839506173
+transportation programs funding,0.9512195121951219
 transportation rates,1.0
 transportation research,0.9
 transportation safety,0.9444444444444444
@@ -3735,7 +3735,7 @@ women soldiers,1.0
 women veterans,1.0
 women's education,1.0
 women's employment,1.0
-women's health,0.9512195121951219
+women's health,0.9518072289156626
 women's movement,1.0
 women's rights,1.0
 women's shelters,1.0

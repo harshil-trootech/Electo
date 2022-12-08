@@ -221,8 +221,8 @@ class FeatureExtractor:
                 '116': 'Republican',
                 '117': 'Democrat',
             }
-            self.bill_type_encoder = LabelBinarizer().fit(['amendment', 'concurrent resolution',
-                                                           'joint resolution', 'resolution', 'bill'])
+            self.bill_type_encoder = LabelBinarizer().fit(['concurrent resolution', 'joint resolution',
+                                                           'resolution', 'bill'])
 
         except FileNotFoundError:
             raise Exception("""At least one of the statistics file is missing. Run python manage.py train_model command without --use_cache argument""")
@@ -342,7 +342,7 @@ class FeatureExtractor:
                 sponsor_minority = True
 
         # 7: Number of cosponsors count
-        supporter_count = (sponsors.count() + co_sponsors.count())/268
+        supporter_count = float(sponsors.count() + co_sponsors.count())/268
 
         # 8: Whether the bill is originated from the same chamber
         if bill_id[0] == chamber[0]:
@@ -371,9 +371,10 @@ class FeatureExtractor:
 
         if get_x:
             if chamber == 'house':
-                return [chamber_policy_prob, chamber_subject_prob, legis_policy_prob, legis_subject_prob, sponsor_minority,
+                # , legis_policy_prob, legis_subject_prob
+                return [chamber_policy_prob, legis_policy_prob, sponsor_minority,
                         supporter_count, origin_chamber, *bill_type_encoded]
-            return [chamber_policy_prob, legis_policy_prob, sponsor_minority, supporter_count,
+            return [chamber_policy_prob, chamber_subject_prob, sponsor_minority, supporter_count,
                     origin_chamber, *bill_type_encoded]
         if get_X_dict:
             return {'independent policy': chamber_policy_prob,
@@ -387,7 +388,7 @@ class FeatureExtractor:
                     'Bill type': bill_type}
 
         if chamber == 'house':
-            return [chamber_policy_prob, chamber_subject_prob, legis_policy_prob, legis_subject_prob,
+            return [chamber_policy_prob, legis_policy_prob,
                     sponsor_minority, supporter_count, origin_chamber, *bill_type_encoded, label]
-        return [chamber_policy_prob, legis_policy_prob, sponsor_minority, supporter_count,
+        return [chamber_policy_prob, chamber_subject_prob, sponsor_minority, supporter_count,
                 origin_chamber, *bill_type_encoded, label]
