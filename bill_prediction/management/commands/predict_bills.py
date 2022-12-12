@@ -59,30 +59,32 @@ class Command(BaseCommand):
         df = pd.read_csv('bill_prediction/outputs/results/predictions.csv')
 
         print("...Analysis on current congress bills...")
-        df['house_passed'] = df['House'].apply(lambda x: 1 if x > 0.5 else 0)
-        df['senate_passed'] = df['Senate'].apply(lambda x: 1 if x > 0.5 else 0)
+
+        df['house_passed'] = df['House'].apply(lambda x: 1 if x > 0.65 else 0)
+        df['senate_passed'] = df['Senate'].apply(lambda x: 1 if x > 0.65 else 0)
 
         result = {'house': {'pass': [], 'fail': []}, 'senate': {'pass': [], 'fail': []}}
 
-        house_passed_df = df[df['status'].isin(HOUSE_PASS_STATUS_LIST)]
+        house_passed_df = df[df['status'].isin(HOUSE_PASS_STATUS_LIST)].copy()
         result['house']['pass'].append(house_passed_df[house_passed_df['house_passed'] == 0]['house_passed'].count())
         result['house']['pass'].append(house_passed_df[house_passed_df['house_passed'] == 1]['house_passed'].count())
 
-        house_failed_df = df[df['status'].isin(HOUSE_FAIL_STATUS_LIST)]
+        house_failed_df = df[df['status'].isin(HOUSE_FAIL_STATUS_LIST)].copy()
         result['house']['fail'].append(house_failed_df[house_failed_df['house_passed'] == 0]['house_passed'].count())
         result['house']['fail'].append(house_failed_df[house_failed_df['house_passed'] == 1]['house_passed'].count())
 
-        senate_passed_df = df[df['status'].isin(SENATE_PASS_STATUS_LIST)]
+        senate_passed_df = df[df['status'].isin(SENATE_PASS_STATUS_LIST)].copy()
         result['senate']['pass'].append(senate_passed_df[senate_passed_df['senate_passed'] == 0]['house_passed'].count())
         result['senate']['pass'].append(senate_passed_df[senate_passed_df['senate_passed'] == 1]['house_passed'].count())
 
-        senate_failed_df = df[df['status'].isin(SENATE_FAIL_STATUS_LIST)]
+        senate_failed_df = df[df['status'].isin(SENATE_FAIL_STATUS_LIST)].copy()
         result['senate']['fail'].append(senate_failed_df[senate_failed_df['senate_passed'] == 0]['house_passed'].count())
         result['senate']['fail'].append(senate_failed_df[senate_failed_df['senate_passed'] == 1]['house_passed'].count())
 
         print("House confusion matrix:")
         print(f"{result['house']['fail']}\n{result['house']['pass']}")
         print("Accuracy for house:", (result['house']['pass'][1]+result['house']['fail'][0])/(np.sum(result['house']['pass']+result['house']['fail'])))
+
         print("\nSenate confusion matrix:")
         print(f"{result['senate']['fail']}\n{result['senate']['pass']}")
         print("Accuracy for senate:", (result['senate']['pass'][1] + result['senate']['fail'][0]) / (np.sum(result['senate']['pass'] + result['senate']['fail'])))

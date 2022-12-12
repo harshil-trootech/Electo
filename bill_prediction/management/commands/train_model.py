@@ -9,6 +9,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier, GradientBoostingClassifier
 from sklearn.metrics import confusion_matrix
+from sklearn.naive_bayes import GaussianNB, BernoulliNB, ComplementNB, MultinomialNB, CategoricalNB
 from tqdm import tqdm
 from xgboost import XGBClassifier
 import joblib
@@ -24,11 +25,16 @@ class Command(BaseCommand):
     def train_ml_model(self, x_train, y_train, x_test, y_test, save_path, chamber):
         count = len(os.listdir(save_path)) + 1
         if chamber == 'house':
-            model = LogisticRegression(max_iter=500)
+            # model = LogisticRegression(max_iter=500)
+            # model = ()
+            pass
         else:
             # model = DecisionTreeClassifier(min_samples_split=2, random_state=4)
             # model = GradientBoostingClassifier(n_estimators=50, max_features=3)
-            model = LogisticRegression(max_iter=500, fit_intercept=True)
+            # model = LogisticRegression(max_iter=500, fit_intercept=True)
+            # model = GaussianNB()
+            pass
+        model = GaussianNB()
         model.fit(x_train, y_train)
         score = model.score(x_test, y_test)
         joblib.dump(model, f"{save_path}model{count}.joblib")
@@ -76,11 +82,11 @@ class Command(BaseCommand):
         print("...Training models for house related bills...")
         X = house_features_df.iloc[:, :-1]
         y = house_features_df.iloc[:, -1]
-        x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y)
+        x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y, random_state=3)
         x_test, y_test = x_test.values, y_test.values
         combined_df = pd.concat([x_train, y_train], axis=1)
         house_failed_bills = combined_df[combined_df.iloc[:, -1] == 0]
-        house_passed_bills = combined_df[combined_df.iloc[:, -1] == 1].sample(frac=1)
+        house_passed_bills = combined_df[combined_df.iloc[:, -1] == 1].sample(frac=1, random_state=3)
         split_size = house_passed_bills.shape[0] // house_failed_bills.shape[0]
         passed_bills_bins = np.array_split(house_passed_bills, split_size)
         shutil.rmtree(HOUSE_MODEL_PATH, ignore_errors=True)
@@ -97,11 +103,11 @@ class Command(BaseCommand):
         print("\n...Training models for senate related bills...")
         X = senate_features_df.iloc[:, :-1]
         y = senate_features_df.iloc[:, -1]
-        x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y)
+        x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y, random_state=3)
         x_test, y_test = x_test.values, y_test.values
         combined_df = pd.concat([x_train, y_train], axis=1)
         senate_failed_bills = combined_df[combined_df.iloc[:, -1] == 0]
-        senate_passed_bills = combined_df[combined_df.iloc[:, -1] == 1].sample(frac=1)
+        senate_passed_bills = combined_df[combined_df.iloc[:, -1] == 1].sample(frac=1, random_state=3)
         split_size = senate_passed_bills.shape[0] // senate_failed_bills.shape[0]
         passed_bills_bins = np.array_split(senate_passed_bills, split_size)
         shutil.rmtree(SENATE_MODEL_PATH, ignore_errors=True)
