@@ -48,9 +48,9 @@ class Command(BaseCommand):
         for model_name in senate_model_names:
             senate_model_list.append(joblib.load(SENATE_MODEL_PATH + model_name))
 
-        bills = Bill.objects.filter(status__in=['PASS_OVER:HOUSE', 'PASS_OVER:SENATE', 'ENACTED:SIGNED',
-                                                'PASS_BACK:HOUSE', 'PASS_BACK:SENATE', 'INTRODUCED', 'REFERRED'],
-                                    bill_id__endswith='117').exclude(policy_area=None).order_by('-modified')
+        bills = Bill.objects.filter(bill_type='bill', bill_id__endswith='117',
+                                    modified__date__lt=date(year=2022, month=12, day=13))\
+                            .exclude(policy_area=None).order_by('-modified')
 
         result = []
         house_features, senate_features = [], []
@@ -81,8 +81,7 @@ class Command(BaseCommand):
                            })
 
         df = pd.DataFrame(result)
-        # file_path = f"{PREDICTION_FILE_PATH}prediction_{str(datetime.date.today())}.csv"
-        file_path = f"{PREDICTION_FILE_PATH}prediction_2022-12-11.csv"
+        file_path = f"{PREDICTION_FILE_PATH}prediction.csv"
         print("saving file at "+file_path)
         df.to_csv(file_path, index=False)
 
