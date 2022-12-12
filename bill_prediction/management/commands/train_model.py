@@ -21,16 +21,16 @@ class Command(BaseCommand):
         parser.add_argument('--use_stats_cache', action='store_true', help='Use cached statistics file to generate features')
         parser.add_argument('--use_feature_cache', action='store_true', help='Use cached features file to train model')
 
-    def train_ml_model(self, x_train, y_train, x_test, y_test, save_path, count, chamber):
+    def train_ml_model(self, x_train, y_train, x_test, y_test, save_path, chamber):
+        count = len(os.listdir(save_path)) + 1
         if chamber == 'house':
             model = LogisticRegression(max_iter=500)
         else:
             # model = DecisionTreeClassifier(min_samples_split=2, random_state=4)
-            model = GradientBoostingClassifier(n_estimators=75)
-            # model = LogisticRegression(max_iter=250, fit_intercept=True)
+            # model = GradientBoostingClassifier(n_estimators=50, max_features=3)
+            model = LogisticRegression(max_iter=500, fit_intercept=True)
         model.fit(x_train, y_train)
         score = model.score(x_test, y_test)
-        print(f"Model {count} => {score}    Saved at {save_path}model{count}.joblib")
         joblib.dump(model, f"{save_path}model{count}.joblib")
         return score
 
@@ -73,31 +73,30 @@ class Command(BaseCommand):
             senate_features_df.to_csv('bill_prediction/outputs/senate_features.csv', index=False)
 
         # Training models for house related bills
-        # print("...Training models for house related bills...")
-        # X = house_features_df.iloc[:, :-1]
-        # y = house_features_df.iloc[:, -1]
-        # x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y)
-        # x_test, y_test = x_test.values, y_test.values
-        # combined_df = pd.concat([x_train, y_train], axis=1)
-        # house_failed_bills = combined_df[combined_df.iloc[:, -1] == 0]
-        # house_passed_bills = combined_df[combined_df.iloc[:, -1] == 1].sample(frac=1)
-        # split_size = house_passed_bills.shape[0] // house_failed_bills.shape[0]
-        # passed_bills_bins = np.array_split(house_passed_bills, split_size)
-        # shutil.rmtree(HOUSE_MODEL_PATH, ignore_errors=True)
-        # os.makedirs(HOUSE_MODEL_PATH)
-        # scores = []
-        # for count, passed_bill in enumerate(passed_bills_bins, 1):
-        #     data = pd.concat([house_failed_bills, passed_bill]).sample(frac=1)
-        #     x_train = data.iloc[:, :-1].values
-        #     y_train = data.iloc[:, -1].values
-        #     scores.append(self.train_ml_model(x_train, y_train, x_test, y_test, HOUSE_MODEL_PATH, count, 'house'))
-        # print("Overall:", np.mean(scores))
+        print("...Training models for house related bills...")
+        X = house_features_df.iloc[:, :-1]
+        y = house_features_df.iloc[:, -1]
+        x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y)
+        x_test, y_test = x_test.values, y_test.values
+        combined_df = pd.concat([x_train, y_train], axis=1)
+        house_failed_bills = combined_df[combined_df.iloc[:, -1] == 0]
+        house_passed_bills = combined_df[combined_df.iloc[:, -1] == 1].sample(frac=1)
+        split_size = house_passed_bills.shape[0] // house_failed_bills.shape[0]
+        passed_bills_bins = np.array_split(house_passed_bills, split_size)
+        shutil.rmtree(HOUSE_MODEL_PATH, ignore_errors=True)
+        os.makedirs(HOUSE_MODEL_PATH)
+        scores = []
+        for passed_bill in tqdm(passed_bills_bins):
+            data = pd.concat([house_failed_bills, passed_bill]).sample(frac=1)
+            x_train = data.iloc[:, :-1].values
+            y_train = data.iloc[:, -1].values
+            scores.append(self.train_ml_model(x_train, y_train, x_test, y_test, HOUSE_MODEL_PATH, 'house'))
+        print("House score:", np.mean(scores))
 
         # Training models for senate related bills
-        print("...Training models for senate related bills...")
+        print("\n...Training models for senate related bills...")
         X = senate_features_df.iloc[:, :-1]
         y = senate_features_df.iloc[:, -1]
-        print(X.shape)
         x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y)
         x_test, y_test = x_test.values, y_test.values
         combined_df = pd.concat([x_train, y_train], axis=1)
@@ -108,9 +107,9 @@ class Command(BaseCommand):
         shutil.rmtree(SENATE_MODEL_PATH, ignore_errors=True)
         os.makedirs(SENATE_MODEL_PATH)
         scores = []
-        for count, passed_bill in enumerate(passed_bills_bins, 1):
+        for passed_bill in tqdm(passed_bills_bins):
             data = pd.concat([senate_failed_bills, passed_bill]).sample(frac=1)
             x_train = data.iloc[:, :-1].values
             y_train = data.iloc[:, -1].values
-            scores.append(self.train_ml_model(x_train, y_train, x_test, y_test, SENATE_MODEL_PATH, count, 'senate'))
-        print("Overall:", np.mean(scores))
+            scores.append(self.train_ml_model(x_train, y_train, x_test, y_test, SENATE_MODEL_PATH, 'senate'))
+        print("Senate score:", np.mean(scores))

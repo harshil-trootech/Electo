@@ -374,8 +374,8 @@ class FeatureExtractor:
                 # , legis_policy_prob, legis_subject_prob
                 return [chamber_policy_prob, legis_policy_prob, sponsor_minority,
                         supporter_count, origin_chamber, *bill_type_encoded]
-            return [chamber_policy_prob, chamber_subject_prob, sponsor_minority, supporter_count,
-                    origin_chamber, *bill_type_encoded]
+            return [chamber_policy_prob, legis_policy_prob, sponsor_minority,
+                    supporter_count, origin_chamber, *bill_type_encoded]
         if get_X_dict:
             return {'independent policy': chamber_policy_prob,
                     'independent subject': chamber_subject_prob,
@@ -388,7 +388,7 @@ class FeatureExtractor:
                     'Bill type': bill_type}
 
         if chamber == 'house':
-            return [chamber_policy_prob, legis_policy_prob,
-                    sponsor_minority, supporter_count, origin_chamber, *bill_type_encoded, label]
-        return [chamber_policy_prob, chamber_subject_prob, sponsor_minority, supporter_count,
-                origin_chamber, *bill_type_encoded, label]
+            return [chamber_policy_prob, legis_policy_prob, sponsor_minority, supporter_count, origin_chamber,
+                    *bill_type_encoded, label]
+        return [chamber_policy_prob, legis_policy_prob, sponsor_minority,
+                supporter_count, origin_chamber, *bill_type_encoded, label]
