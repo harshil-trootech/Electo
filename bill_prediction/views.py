@@ -6,8 +6,7 @@ from bill.models import *
 from .constants import *
 from .helper.data_loader import FeatureExtractor
 from .serializers import *
-import xgboost as xgb
-import pickle as pkl
+import os
 
 
 class BillViewset(viewsets.ReadOnlyModelViewSet):
@@ -31,29 +30,26 @@ class BillViewset(viewsets.ReadOnlyModelViewSet):
     @action(detail=True, methods=['GET'])
     def prediction(self, request, pk=None):
         bill = self.get_object()
-        try:
-            feature_extractor = FeatureExtractor()
-        except Exception as e:
-            return Response(str(e), status=400)
-        try:
-            house_model = xgb.XGBClassifier()
-            senate_model = xgb.XGBClassifier()
-            house_model.load_model(HOUSE_XGB_MODEL_PATH)
-            senate_model.load_model(SENATE_XGB_MODEL_PATH)
-            # house_model = joblib.load(HOUSE_RF_MODEL_PATH)
-            # senate_model = joblib.load(SENATE_RF_MODEL_PATH)
-        except xgb.core.XGBoostError:
-            return Response("Failed to load prediction model. Make sure to run python manage.py train_model before using this API endpoint", status=400)
-        lr_model = joblib.load(PICKLE_MODEL_PATH)
 
+        feature_extractor = FeatureExtractor()
+        house_model_names = os.listdir(HOUSE_MODEL_PATH)
+        senate_model_names = os.listdir(SENATE_MODEL_PATH)
+        house_model_list = []
+        senate_model_list = []
+
+        for model_name in house_model_names:
+            house_model_list.append(joblib.load(HOUSE_MODEL_PATH + model_name))
+        for model_name in senate_model_names:
+            senate_model_list.append(joblib.load(SENATE_MODEL_PATH + model_name))
+
+        house_probs, senate_probs = [], []
         x_house = feature_extractor.get_features(bill, chamber='house', get_x=True)
         x_senate = feature_extractor.get_features(bill, chamber='senate', get_x=True)
-        house_probability = house_model.predict_proba([x_house])[0][1]
-        house_probability_lr = lr_model.predict_proba([x_house])[0][1]
-        senate_probability = senate_model.predict_proba([x_senate])[0][1]
+        for model in house_model_list:
+            house_probs.append(model.predict_proba([x_house])[0][1])
+        house_probability = sum(house_probs) / len(house_probs)
+        for model in senate_model_list:
+            senate_probs.append(model.predict_proba([x_senate])[0][1])
+        senate_probability = sum(senate_probs) / len(senate_probs)
 
-        return Response({'House': house_probability,
-                         'House Logistic': house_probability_lr,
-                         "Senate": senate_probability},
-                         # "Overall": (house_probability+senate_probability)/2},
-                        status=200)
+        return Response({'house': house_probability, 'senate': senate_probability}, status=200)

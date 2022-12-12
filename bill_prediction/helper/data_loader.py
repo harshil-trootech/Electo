@@ -31,18 +31,18 @@ class DataLoader:
 
     @classmethod
     def __convert_house_bill_status(cls, status):
-        if status in HOUSE_PASS_STATUS_LIST:
+        if status in HOUSE_PASS_STATUS_LIST+['pass']:
             return 1
-        elif status in HOUSE_FAIL_STATUS_LIST:
+        elif status in HOUSE_FAIL_STATUS_LIST+['fail']:
             return 0
         else:
             return np.nan
 
     @classmethod
     def __convert_senate_bill_status(cls, status):
-        if status in SENATE_PASS_STATUS_LIST:
+        if status in SENATE_PASS_STATUS_LIST+['pass']:
             return 1
-        elif status in SENATE_FAIL_STATUS_LIST:
+        elif status in SENATE_FAIL_STATUS_LIST+['fail']:
             return 0
         else:
             return np.nan
@@ -111,6 +111,7 @@ class DataLoader:
     def __generate_house_policy_subjects_relation(cls):
         bills = Bill.objects.filter(status__in=HOUSE_PASS_STATUS_LIST+HOUSE_FAIL_STATUS_LIST)\
                             .values('status', 'policy_area', 'subjects')
+        house_amendments = Bill.objects.filter(status__in=['pass', 'fail'], bill_id__startswith='h')
 
         bills_df = pd.DataFrame(bills)
         bills_df.dropna(inplace=True)
@@ -221,7 +222,7 @@ class FeatureExtractor:
                 '116': 'Republican',
                 '117': 'Democrat',
             }
-            self.bill_type_encoder = LabelBinarizer().fit(['concurrent resolution', 'joint resolution',
+            self.bill_type_encoder = LabelBinarizer().fit(['amendment', 'concurrent resolution', 'joint resolution',
                                                            'resolution', 'bill'])
 
         except FileNotFoundError:
@@ -378,12 +379,9 @@ class FeatureExtractor:
                     supporter_count, origin_chamber, *bill_type_encoded]
         if get_X_dict:
             return {'independent policy': chamber_policy_prob,
-                    'independent subject': chamber_subject_prob,
                     'legislator dependent policy': legis_policy_prob,
-                    'legislator dependent subject': legis_subject_prob,
                     'sponsor minority': sponsor_minority,
                     'number of co sponsors': supporter_count,
-                    # 'bill amendment count': amendment_count,
                     'Bill origin': origin_chamber,
                     'Bill type': bill_type}
 
