@@ -7,6 +7,7 @@ from datetime import date
 import pandas as pd
 import numpy as np
 import joblib
+from sklearn.preprocessing import PolynomialFeatures
 from tqdm import tqdm
 
 
@@ -24,7 +25,7 @@ class Command(BaseCommand):
             return (((num - threshold) * new_range) / old_range) + 0.5
 
     def convert_senate_range(self, num):
-        threshold = 0.55
+        threshold = 0.5
         if num < threshold:
             old_range = threshold
             new_range = 0.5
@@ -49,8 +50,8 @@ class Command(BaseCommand):
             senate_model_list.append(joblib.load(SENATE_MODEL_PATH + model_name))
 
         bills = Bill.objects.filter(bill_type='bill', bill_id__endswith='117',
-                                    modified__date__lt=date(year=2022, month=12, day=13))\
-                            .exclude(policy_area=None).order_by('-modified')
+                                    modified__date__lt=date.today())\
+                            .exclude(status__in=['REFERRED', 'REPORTED']).exclude(policy_area=None).order_by('-modified')
 
         result = []
         house_features, senate_features = [], []
@@ -61,12 +62,14 @@ class Command(BaseCommand):
             house_features.append(x_house)
             x_senate = feature_extractor.get_features(bill, chamber='senate', get_x=True)
             senate_features.append(x_senate)
+            x_house = PolynomialFeatures(degree=3, include_bias=False, interaction_only=True).fit_transform([x_house])
+            x_senate = PolynomialFeatures(degree=3, include_bias=False, interaction_only=True).fit_transform([x_senate])
             for model in house_model_list:
-                house_probs.append(model.predict_proba([x_house])[0][1])
+                house_probs.append(model.predict_proba(x_house)[0][1])
             house_probability = sum(house_probs)/len(house_probs)
             house_probability = self.convert_house_range(house_probability)
             for model in senate_model_list:
-                senate_probs.append(model.predict_proba([x_senate])[0][1])
+                senate_probs.append(model.predict_proba(x_senate)[0][1])
             senate_probability = sum(senate_probs)/len(senate_probs)
             senate_probability = self.convert_senate_range(senate_probability)
 

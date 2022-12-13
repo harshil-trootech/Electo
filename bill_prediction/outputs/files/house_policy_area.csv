@@ -1,35 +1,35 @@
 policy_area,ratio
-agriculture and food,0.9795918367346939
+agriculture and food,0.9919354838709677
 animals,1.0
-armed forces and national security,0.9887640449438202
+armed forces and national security,0.9947643979057592
 "arts, culture, religion",1.0
 "civil rights and liberties, minority issues",1.0
-commemorations,0.9976905311778291
-commerce,0.9955555555555555
-congress,0.6455696202531646
-crime and law enforcement,0.994535519125683
-economics and public finance,0.9800995024875622
+commemorations,1.0
+commerce,1.0
+congress,0.9822064056939501
+crime and law enforcement,1.0
+economics and public finance,0.9827586206896551
 education,1.0
 emergency management,1.0
-energy,0.9941860465116279
+energy,1.0
 environmental protection,1.0
-families,0.9583333333333334
-finance and financial sector,0.9973544973544973
-foreign trade and international finance,0.9830508474576272
-government operations and politics,0.9954954954954955
-health,0.9978213507625272
+families,0.9872611464968153
+finance and financial sector,1.0
+foreign trade and international finance,0.9852941176470589
+government operations and politics,0.9970355731225297
+health,1.0
 housing and community development,1.0
-immigration,0.9807692307692307
-international affairs,0.9797160243407708
+immigration,0.9844961240310077
+international affairs,0.9951523545706371
 labor and employment,1.0
 law,1.0
-native americans,0.9878048780487805
+native americans,0.9951456310679612
 private legislation,1.0
-public lands and natural resources,0.9974391805377721
+public lands and natural resources,1.0
 "science, technology, communications",1.0
 social sciences and history,1.0
 social welfare,1.0
-sports and recreation,0.9375
+sports and recreation,0.9967105263157895
 taxation,1.0
-transportation and public works,0.992619926199262
-water resources development,0.9945054945054945
+transportation and public works,0.9975062344139651
+water resources development,1.0

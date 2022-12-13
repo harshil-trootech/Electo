@@ -222,7 +222,7 @@ class FeatureExtractor:
                 '116': 'Republican',
                 '117': 'Democrat',
             }
-            self.bill_type_encoder = LabelBinarizer().fit(['amendment', 'concurrent resolution', 'joint resolution',
+            self.bill_type_encoder = LabelBinarizer().fit(['concurrent resolution', 'joint resolution',
                                                            'resolution', 'bill'])
 
         except FileNotFoundError:
